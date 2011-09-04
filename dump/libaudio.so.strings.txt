@@ -1,0 +1,1852 @@
+_ZTVN7android22AudioHardwareInterfaceE
+__aeabi_unwind_cpp_pr0
+__aeabi_uidiv
+_Z7getBoolb
+_Z7getBooli
+_ZN7android16AudioHardwareMot9initCheckEv
+_ZNK7android16AudioHardwareMot19isLoudspeakerActiveEv
+_ZN7android16AudioHardwareMot15setMasterVolumeEf
+_ZN7android16AudioHardwareMot10setMicMuteEb
+_ZN7android16AudioHardwareMot10getMicMuteEPb
+_ZN7android16AudioHardwareMot15isCallConnectedEv
+_ZN7android16AudioHardwareMot8isInCallEv
+_ZN7android16AudioHardwareMot13startLoopbackEv
+_ZN7android16AudioHardwareMot12stopLoopbackEv
+_ZN7android16AudioHardwareMot13getOutputNameEi
+_ZN7android16AudioHardwareMot12getInputNameEi
+_ZN7android17AudioStreamOutMot20getScoOutputByteSizeEi
+_ZNK7android12SortedVectorIPNS_16AudioStreamInMotEE12do_constructEPvj
+_ZNK7android12SortedVectorIPNS_16AudioStreamInMotEE10do_destroyEPvj
+_ZNK7android12SortedVectorIPNS_16AudioStreamInMotEE8do_splatEPvPKvj
+_ZNK7android12SortedVectorIPNS_16AudioStreamInMotEE10do_compareEPKvS5_
+_ZN7android11AudioSystem8popCountEj
+_ZN7android16AudioStreamInMot13getParametersERKNS_7String8E
+_ZN7android14AudioParameterC1ERKNS_7String8E
+_ZN7android7String8C1Ev
+_ZN7android7String8C1EPKc
+_ZN7android14AudioParameter3getERKNS_7String8ERS1_
+_ZN7android14AudioParameter6addIntERKNS_7String8Ei
+_ZN7android14AudioParameter8toStringEv
+_ZN7android7String8D1Ev
+_ZN7android14AudioParameterD1Ev
+_ZN7android14AudioParameter10keyRoutingE
+_ZN7android17AudioStreamOutMot13getParametersERKNS_7String8E
+__android_log_print
+_ZN7android16AudioHardwareMot12checkStandbyEv
+_ZN7android16AudioHardwareMot18getInputBufferSizeEjii
+pthread_mutex_lock
+am_mutex
+_ZN7android16AudioHardwareMot17closeOutputStreamEPNS_14AudioStreamOutE
+pthread_mutex_unlock
+_ZNK7android16AudioStreamInMot18getInputFramesLostEv
+ioctl
+_ZN7android16AudioStreamInMot11setChannelsEj
+_ZN7android17AudioStreamOutMot17getRenderPositionEPj
+_ZN7android16AudioHardwareMot12setCodecRateEii
+_ZN7android16AudioHardwareMot12setCodecRateEi
+_ZN7android16AudioHardwareMot7closeFMEv
+_ZN7android16AudioHardwareMot6openFMEv
+_ZNK7android16AudioStreamInMot10bufferSizeEv
+_ZNK7android17AudioStreamOutMot10bufferSizeEv
+_ZN7android17AudioStreamOutMot3setEPNS_16AudioHardwareMotEjPiPjS4_
+_ZN7android16AudioStreamInMot4dumpEiRKNS_6VectorINS_8String16EEE
+snprintf
+_ZN7android7String86appendEPKc
+__stack_chk_fail
+__stack_chk_guard
+_ZN7android17AudioStreamOutMot4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android16AudioHardwareMot13dumpInternalsEiRKNS_6VectorINS_8String16EEE
+_ZN7android16AudioHardwareMot10disableAdcEv
+_ZN7android12sendHDMIMuteEb
+_ZN7android17AudioStreamOutMot10setDevicesEj
+_ZN7android16AudioStreamInMot4readEPvl
+_Z20am_aipcm_read_bufferjPc
+_ZN7android18AudioPostProcessor18getCaptureChannelsEv
+_ZdaPv
+_Znaj
+_ZN7android18AudioPostProcessor22applyCaptureProcessingEPvS1_jjb
+memset
+_ZN7android16AudioStreamInMot7standbyEv
+_Z15am_aipcm_va_reqjj
+_ZdlPv
+_ZN7android16AudioStreamInMotD1Ev
+pthread_mutex_destroy
+_ZN7android13AudioStreamInD2Ev
+_ZTVN7android16AudioStreamInMotE
+_ZN7android16AudioStreamInMotD0Ev
+_ZN7android16AudioStreamInMotD2Ev
+_ZN7android16AudioStreamInMot3setEPNS_16AudioHardwareMotEjPiPjS4_NS_11AudioSystem18audio_in_acousticsE
+_Z21am_aipcm_get_buf_sizev
+_ZN7android16AudioStreamInMotC1Ev
+pthread_mutex_init
+_ZN7android16AudioStreamInMotC2Ev
+_ZN7android17AudioStreamOutMot7standbyEv
+_Z25am_aipcm_playback_mix_reqjj
+release_wake_lock
+_ZNK7android12SortedVectorIPNS_16AudioStreamInMotEE7do_copyEPvPKvj
+memcpy
+_ZN7android17AudioStreamOutMot5writeEPKvj
+rate_convert
+_ZN7android18AudioPostProcessor19applyPostProcessingEPKvPvj
+_Z21am_aipcm_write_bufferjPc
+_ZN7android17AudioStreamOutMot7srcInitEv
+rate_convert_init
+_ZN7android17AudioStreamOutMotD1Ev
+_ZN7android14AudioStreamOutD2Ev
+_ZTVN7android17AudioStreamOutMotE
+_ZN7android17AudioStreamOutMotD0Ev
+_ZN7android17AudioStreamOutMotD2Ev
+_ZN7android16AudioHardwareMot4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android18AudioPostProcessor4dumpEiRKNS_6VectorINS_8String16EEE
+MsgHandlerDump
+_Z13am_aipcm_dumpi
+_ZN7android16AudioHardwareMot13handleNrecMsgEPKc
+strcmp
+_ZN7android16AudioHardwareMot21handleVoiceQualityMsgEPKc
+_Z26am_aipcm_set_accessory_req29AUD_IPC_ACCESSORY_TYPE_ENUM_T
+_ZN7android16AudioHardwareMot19configPostProcessorE29AUD_IPC_ACCESSORY_TYPE_ENUM_T
+_ZN7android18AudioPostProcessor20configPostProcessingE29AUD_IPC_ACCESSORY_TYPE_ENUM_TS1_jb
+_ZN7android16AudioHardwareMot8updateFMEv
+_ZN7android18AudioPostProcessor9getFmGainE29AM_COEFFS_AUDIO_DEVICE_ENUM_T
+g_audioSuspended
+_ZN7android16AudioHardwareMot9setFMPathEi
+_ZN7android16AudioHardwareMot9doRoutingEv
+_ZN7android18AudioPostProcessor13getCaptureMicEv
+_Z12am_aipcm_ttyj
+_Z22am_aipcm_set_ec_ns_reqjj
+_ZN7android18AudioPostProcessor12getInputGainEb29AUD_IPC_ACCESSORY_TYPE_ENUM_T
+_ZN7android18AudioPostProcessor13getOutputGainEbb29AUD_IPC_ACCESSORY_TYPE_ENUM_T
+_ZN7android16AudioStreamInMot13setParametersERKNS_7String8E
+_ZN7android14AudioParameter6getIntERKNS_7String8ERi
+_ZN7android14AudioParameter6removeERKNS_7String8E
+_ZN7android7String85setToERKS0_
+_ZN7android16AudioStreamInMot4wakeEv
+_ZN7android17AudioStreamOutMot13setParametersERKNS_7String8E
+_ZN7android17AudioStreamOutMot4wakeEj
+acquire_wake_lock
+_ZN7android16AudioHardwareMot19handleCallConnectedEj
+_ZN7android16AudioHardwareMot12handleTTYMsgE21AUD_IPC_TTY_SETTING_T
+_ZN7android16AudioHardwareMot12handleHACMsgEPKc
+_ZN7android16AudioHardwareMot10setTtyModeE21AUD_IPC_TTY_SETTING_T
+_ZN7android16AudioHardwareMot13getParametersERKNS_7String8E
+_ZN7android18AudioPostProcessor13getParametersERNS_14AudioParameterE
+_ZN7android14AudioParameter5getAtEjRNS_7String8ES2_
+_ZN7android7String8C1ERKS0_
+_ZN7android16AudioHardwareMot13setParametersERKNS_7String8E
+_ZN7android18AudioPostProcessor13setParametersERNS_14AudioParameterE
+_ZN7android16AudioHardwareMot7setModeEi
+_Z18am_aipcm_codec_reqj
+AUDMGR_stopTone
+_ZN7android16AudioHardwareMot14setVoiceVolumeEf
+ceil
+_Z23am_aipcm_set_volume_reqjj
+__aeabi_unwind_cpp_pr1
+_ZN7android16AudioHardwareMot16closeInputStreamEPNS_13AudioStreamInE
+_ZNK7android16SortedVectorImpl7indexOfEPKv
+_ZN7android10VectorImpl13removeItemsAtEjj
+_ZN7android16AudioHardwareMot16openOutputStreamEjPiPjS2_S1_
+_Znwj
+_ZN7android16AudioHardwareMot15openInputStreamEjPiPjS2_S1_NS_11AudioSystem18audio_in_acousticsE
+_ZN7android11AudioSystem13isInputDeviceENS0_13audio_devicesE
+_ZN7android16SortedVectorImpl3addEPKv
+_ZN7android18AudioPostProcessor15setClientConfigEii
+_ZN7android16AudioHardwareMot9enableAdcEv
+__errno
+strerror
+_ZN7android10VectorImpl13finish_vectorEv
+_ZN7android16SortedVectorImplD2Ev
+_ZTVN7android12SortedVectorIPNS_16AudioStreamInMotEEE
+_ZN7android16AudioHardwareMotD1Ev
+_ZN7android10VectorImpl5clearEv
+_Z13am_aipcm_exitv
+_ZTVN7android16AudioHardwareMotE
+_ZN7android16AudioHardwareMotD0Ev
+_ZN7android16AudioHardwareMotD2Ev
+_ZNK7android12SortedVectorIPNS_16AudioStreamInMotEE16do_move_backwardEPvPKvj
+memmove
+_ZNK7android12SortedVectorIPNS_16AudioStreamInMotEE15do_move_forwardEPvPKvj
+_ZN7android16AudioHardwareMotC1Ev
+_ZN7android17AudioHardwareBaseC2Ev
+_ZN7android16SortedVectorImplC2Ejj
+_Z27am_aipcm_get_call_connectedv
+_Z13am_aipcm_initv
+_ZN7android18AudioPostProcessorC1Ev
+createMsgHandler
+property_get
+createAudioHardware
+_ZN7android11gp_audioDevE
+_ZN7android16AudioHardwareMotC2Ev
+__aeabi_idiv
+_ZN7android14audio_get_timeEv
+gettimeofday
+currentTTYSetting
+_ZTVN7android13AudioStreamInE
+__cxa_pure_virtual
+_ZTVN7android14AudioStreamOutE
+_ZN7android10VectorImpl19reservedVectorImpl1Ev
+_ZN7android10VectorImpl19reservedVectorImpl2Ev
+_ZN7android10VectorImpl19reservedVectorImpl3Ev
+_ZN7android10VectorImpl19reservedVectorImpl4Ev
+_ZN7android10VectorImpl19reservedVectorImpl5Ev
+_ZN7android10VectorImpl19reservedVectorImpl6Ev
+_ZN7android10VectorImpl19reservedVectorImpl7Ev
+_ZN7android10VectorImpl19reservedVectorImpl8Ev
+_ZN7android16SortedVectorImpl25reservedSortedVectorImpl1Ev
+_ZN7android16SortedVectorImpl25reservedSortedVectorImpl2Ev
+_ZN7android16SortedVectorImpl25reservedSortedVectorImpl3Ev
+_ZN7android16SortedVectorImpl25reservedSortedVectorImpl4Ev
+_ZN7android16SortedVectorImpl25reservedSortedVectorImpl5Ev
+_ZN7android16SortedVectorImpl25reservedSortedVectorImpl6Ev
+_ZN7android16SortedVectorImpl25reservedSortedVectorImpl7Ev
+_ZN7android16SortedVectorImpl25reservedSortedVectorImpl8Ev
+_ZN7android17AudioHardwareBase9dumpStateEiRKNS_6VectorINS_8String16EEE
+AUDIO_tcmd_stop_media_file
+gStopMediaFile
+_Z19dump_wave_file_infoR16AUDIOWAVFileInfo
+AUDIO_tcmd_disable_voice_call_path
+gpAudioHardware
+AUDIO_tcmd_play_media_file
+_ZN19AudioWaveFileParser13InitWavParserEPc
+_ZN19AudioWaveFileParser16RetrieveFileInfoER16AUDIOWAVFileInfo
+malloc
+free
+usleep
+_ZN19AudioWaveFileParser10GetPCMDataEPhjjRj
+_ZN19AudioWaveFileParserD1Ev
+AUDIO_tcmd_open_media_file
+AUDIO_tcmd_set_output_gain
+AUDIO_tcmd_set_balance
+AUDIO_tcmd_set_output_path
+AUDIO_tcmd_set_input_gain
+_Z18config_sample_ratei
+_Z15config_channelsj
+_Z13config_outputv
+_Z12config_inputv
+AUDIO_tcmd_enable_voice_call_path
+AUDIO_tcmd_set_input_path
+AUDIO_tcmd_suspend
+_Z14stopAPLoopbackv
+pthread_join
+codec_loopback_args
+AUDIO_tcmd_stop_loopback
+_Z15loopback_threadPv
+pthread_exit
+_Z10open_codeci
+AUDIO_tcmd_aud_sample_req
+_Z15startAPLoopbackv
+pthread_create
+AUDIO_tcmd_start_loopback
+_ZN19AudioWaveFileParser13SeekPCMSampleEj
+fseek
+_ZN19AudioWaveFileParser14CleanupWAVFileEv
+fclose
+_ZN19AudioWaveFileParserD2Ev
+_ZN19AudioWaveFileParser8ReadDataEPhjRj
+fread
+ftell
+fopen
+_ZN7android18AudioPostProcessor17am_coeffs_destroyEv
+_ZN7android18AudioPostProcessor17ul_coeffs_destroyEv
+_ZN7android18AudioPostProcessor15configureLoggerEv
+_ZN7android18AudioPostProcessor27am_coeffs_smpl_freq_to_enumEi
+_ZN7android18AudioPostProcessor14mapCtoAccyTypeE29AUD_IPC_ACCESSORY_TYPE_ENUM_T
+_ZN7android18AudioPostProcessor13mapHwAccyTypeE29AUD_IPC_ACCESSORY_TYPE_ENUM_T
+_ZNK7android18AudioPostProcessor14getConfigForEqE25CTO_AUDIO_MM_AUDIO_CONFIGh
+_ZN7android18AudioPostProcessor14am_coeffs_initEPKc
+fstat
+mmap
+munmap
+_ZN7android18AudioPostProcessor14ul_coeffs_initEPKc
+_ZN7android18AudioPostProcessor19updatePostProcessorEv
+api_cto_audio_mm_param_parser
+api_cto_audio_mm_init
+_ZN7android18AudioPostProcessor17updateUlProcessorEv
+api_cto_audio_mmul_param_parser
+api_cto_audio_mmul_init
+fwrite
+api_cto_audio_mmul_main
+api_cto_audio_mm_main
+_ZN7android18AudioPostProcessorD1Ev
+_ZTVN7android18AudioPostProcessorE
+_ZN7android18AudioPostProcessorD0Ev
+_ZN7android18AudioPostProcessorD2Ev
+strncmp
+_ZN7android18AudioPostProcessorC2Ev
+_ZNK7android18AudioPostProcessor5getEqEPKc
+_ZNK7android18AudioPostProcessor6getAveEPKc
+_ZNK7android18AudioPostProcessor12getOneButtonEPKc
+_ZN7android18AudioPostProcessor13handleMmulCmdEPKc
+_ZN7android14AudioParameter3addERKNS_7String8ES3_
+AUDMGR_getMuteState
+AUDMGR_getVolume
+_Z7sendMsgP10AudMsgTypei
+socketConnect
+socketWrite
+socketRead
+AUDMGR_setTty
+AUDMGR_stopDtmf
+AUDMGR_playTone
+AUDMGR_playDtmf
+AUDMGR_setVolume
+AUDMGR_disableVoicePath
+AUDMGR_enableVoicePath
+AUDMGR_setMuteState
+strlen
+server_fd
+pthread_retval
+socket
+strncpy
+connect
+pthread_attr_init
+pthread_attr_setstacksize
+pthread_detach
+remove
+bind
+chmod
+sigaction
+listen
+select
+accept
+_Z17audTAPIMsgHandleri14AUD_MSG_ENUM_T
+_Z21am_aipcm_mic_mute_req24AUD_IPC_MUTE_TYPE_ENUM_T27AUD_IPC_MUTE_SETTING_ENUM_T
+_Z26am_aipcm_voice_call_enablej
+_Z25am_aipcm_network_tone_reqjjj
+_Z10ipc_activev
+_Z14next_pb_bufferj
+_Z17advance_pb_bufferRj
+_Z15next_cap_bufferj
+_Z18advance_cap_bufferRj
+_Z21playback_buffer_emptyv
+_Z20capture_buffer_emptyv
+_Z20playback_buffer_fullv
+_Z19capture_buffer_fullv
+_Z19dump_playback_queuev
+pthread_attr_destroy
+calloc
+_Z16am_aipcm_set_daij
+pthread_cond_signal
+_Z22am_aipcm_send_playbackj
+current_playing_tone_id
+_Z24am_aipcm_request_msg_ackjjj
+tty_mode_changed
+pthread_cond_wait
+tty_device_detected
+am_sap_cond_var
+interp_filt
+src_copy
+resample_mono
+resample_stereo
+src_copy_interleaved
+rate_conv_init
+rate_conv
+_ZN7android14AudioStreamOutD1Ev
+_ZN7android13AudioStreamInD1Ev
+_ZTVN7android17AudioHardwareBaseE
+_ZN7android17AudioHardwareBaseC1Ev
+_ZN7android17AudioHardwareBase13setParametersERKNS_7String8E
+_ZN7android13AudioStreamInD0Ev
+_ZN7android14AudioStreamOutD0Ev
+_ZN7android17AudioHardwareBase18getInputBufferSizeEjii
+_ZN7android17AudioHardwareBase7setModeEi
+_ZN7android17AudioHardwareBase13getParametersERKNS_7String8E
+_ZN7android22AudioHardwareInterface6createEv
+_ZN7android20AudioHardwareGenericC1Ev
+_ZN7android17AudioHardwareStubC1Ev
+_ZN7android18A2dpAudioInterfaceC1EPNS_22AudioHardwareInterfaceE
+_ZN7android18A2dpAudioInterface9initCheckEv
+_ZN7android18A2dpAudioInterface17closeOutputStreamEPNS_14AudioStreamOutE
+_ZN7android18A2dpAudioInterfaceD1Ev
+_ZTVN7android18A2dpAudioInterfaceE
+_ZN7android18A2dpAudioInterfaceD2Ev
+_ZN7android18A2dpAudioInterface15openInputStreamEjPiPjS2_S1_NS_11AudioSystem18audio_in_acousticsE
+_ZN7android18A2dpAudioInterface16closeInputStreamEPNS_13AudioStreamInE
+_ZN7android18A2dpAudioInterface7setModeEi
+_ZN7android18A2dpAudioInterface10setMicMuteEb
+_ZN7android18A2dpAudioInterface10getMicMuteEPb
+_ZN7android18A2dpAudioInterface18getInputBufferSizeEjii
+_ZN7android18A2dpAudioInterface14setVoiceVolumeEf
+_ZN7android18A2dpAudioInterface15setMasterVolumeEf
+_ZN7android18A2dpAudioInterface4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut12setSuspendedEb
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut17getRenderPositionEPj
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut7close_lEv
+a2dp_cleanup
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut5closeEv
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut19setBluetoothEnabledEb
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut3setEjPiPjS3_
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut10setAddressEPKc
+strcpy
+a2dp_set_sink
+_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE12do_constructEPvj
+_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE10do_destroyEPvj
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut13getParametersERKNS_7String8E
+_ZN7android7String85setToEPKc
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut13setParametersERKNS_7String8E
+_ZN7android11AudioSystem12isA2dpDeviceENS0_13audio_devicesE
+_ZN7android18A2dpAudioInterface13setParametersERKNS_7String8E
+_ZN7android12compare_typeINS_16key_value_pair_tINS_7String8ES2_EEEEiRKT_S6_
+_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE10do_compareEPKvS6_
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut7standbyEv
+a2dp_stop
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut4initEv
+a2dp_init
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOut5writeEPKvj
+a2dp_write
+_ZN7android18A2dpAudioInterfaceD0Ev
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOutD1Ev
+_ZTVN7android18A2dpAudioInterface18A2dpAudioStreamOutE
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOutD0Ev
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOutD2Ev
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOutC1Ev
+_ZN7android18A2dpAudioInterface18A2dpAudioStreamOutC2Ev
+_ZN7android18move_backward_typeINS_16key_value_pair_tINS_7String8ES2_EEEEvPT_PKS4_j
+_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE16do_move_backwardEPvPKvj
+_ZN7android17move_forward_typeINS_16key_value_pair_tINS_7String8ES2_EEEEvPT_PKS4_j
+_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE15do_move_forwardEPvPKvj
+_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE8do_splatEPvPKvj
+_ZNK7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEE7do_copyEPvPKvj
+_ZTVN7android12SortedVectorINS_16key_value_pair_tINS_7String8ES2_EEEE
+_ZN7android18A2dpAudioInterface13getParametersERKNS_7String8E
+_ZN7android7String86appendERKS0_
+_ZTVN7android14AudioParameterE
+_ZN7android18A2dpAudioInterface16openOutputStreamEjPiPjS2_S1_
+_ZN7android18A2dpAudioInterfaceC2EPNS_22AudioHardwareInterfaceE
+_ZN7android20AudioHardwareGeneric17closeOutputStreamEPNS_14AudioStreamOutE
+_ZN7android20AudioHardwareGeneric16closeInputStreamEPNS_13AudioStreamInE
+_ZN7android20AudioHardwareGeneric14setVoiceVolumeEf
+_ZN7android20AudioHardwareGeneric15setMasterVolumeEf
+_ZN7android20AudioHardwareGeneric10setMicMuteEb
+_ZN7android20AudioHardwareGeneric10getMicMuteEPb
+_ZN7android21AudioStreamOutGeneric3setEPNS_20AudioHardwareGenericEijPiPjS4_
+_ZN7android21AudioStreamOutGeneric7standbyEv
+_ZN7android21AudioStreamOutGeneric17getRenderPositionEPj
+_ZN7android20AudioStreamInGeneric13getParametersERKNS_7String8E
+_ZN7android21AudioStreamOutGeneric13getParametersERKNS_7String8E
+_ZN7android20AudioStreamInGeneric13setParametersERKNS_7String8E
+_ZN7android21AudioStreamOutGeneric13setParametersERKNS_7String8E
+_ZN7android20AudioStreamInGeneric4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android21AudioStreamOutGeneric4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android20AudioHardwareGeneric13dumpInternalsEiRKNS_6VectorINS_8String16EEE
+_ZN7android20AudioHardwareGeneric4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android20AudioStreamInGeneric3setEPNS_20AudioHardwareGenericEijPiPjS4_NS_11AudioSystem18audio_in_acousticsE
+_ZN7android20AudioStreamInGeneric4readEPvl
+_ZN7android21AudioStreamOutGeneric5writeEPKvj
+_ZN7android20AudioStreamInGenericD1Ev
+_ZTVN7android20AudioStreamInGenericE
+_ZN7android20AudioStreamInGenericD0Ev
+_ZN7android20AudioStreamInGenericD2Ev
+_ZN7android21AudioStreamOutGenericD1Ev
+_ZTVN7android21AudioStreamOutGenericE
+_ZN7android21AudioStreamOutGenericD0Ev
+_ZN7android21AudioStreamOutGenericD2Ev
+_ZN7android20AudioHardwareGeneric15openInputStreamEjPiPjS2_S1_NS_11AudioSystem18audio_in_acousticsE
+_ZN7android20AudioHardwareGeneric16openOutputStreamEjPiPjS2_S1_
+_ZN7android20AudioHardwareGeneric9initCheckEv
+access
+_ZN7android20AudioHardwareGenericD1Ev
+_ZTVN7android20AudioHardwareGenericE
+_ZN7android20AudioHardwareGenericD0Ev
+_ZN7android20AudioHardwareGenericD2Ev
+_ZN7android20AudioHardwareGenericC2Ev
+_ZN7android17AudioHardwareStubD2Ev
+_ZN7android17AudioHardwareStubD1Ev
+_ZN7android17AudioHardwareStub9initCheckEv
+_ZN7android17AudioHardwareStub17closeOutputStreamEPNS_14AudioStreamOutE
+_ZN7android17AudioHardwareStub16closeInputStreamEPNS_13AudioStreamInE
+_ZN7android17AudioHardwareStub14setVoiceVolumeEf
+_ZN7android17AudioHardwareStub15setMasterVolumeEf
+_ZN7android18AudioStreamOutStub3setEPiPjS2_
+_ZN7android18AudioStreamOutStub7standbyEv
+_ZN7android18AudioStreamOutStub17getRenderPositionEPj
+_ZN7android17AudioStreamInStub3setEPiPjS2_NS_11AudioSystem18audio_in_acousticsE
+_ZN7android17AudioHardwareStubD0Ev
+_ZTVN7android18AudioStreamOutStubE
+_ZTVN7android17AudioStreamInStubE
+_ZN7android17AudioStreamInStub13getParametersERKNS_7String8E
+_ZN7android18AudioStreamOutStub13getParametersERKNS_7String8E
+_ZN7android17AudioStreamInStub4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android18AudioStreamOutStub4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android17AudioHardwareStub13dumpInternalsEiRKNS_6VectorINS_8String16EEE
+_ZN7android17AudioHardwareStub4dumpEiRKNS_6VectorINS_8String16EEE
+_ZN7android18AudioStreamOutStub5writeEPKvj
+_ZN7android17AudioStreamInStub4readEPvl
+_ZN7android17AudioHardwareStub15openInputStreamEjPiPjS2_S1_NS_11AudioSystem18audio_in_acousticsE
+_ZN7android17AudioHardwareStub16openOutputStreamEjPiPjS2_S1_
+_ZTVN7android17AudioHardwareStubE
+_ZN7android17AudioHardwareStubC2Ev
+liblog.so
+libcutils.so
+libutils.so
+libmedia.so
+libhardware_legacy.so
+liba2dp.so
+libc.so
+libstdc++.so
+libm.so
+se_main_control
+as_main_ctrl
+img_exp
+aie_process
+aie_init_state
+aie_chan_activate
+aie_input_demux
+aie_chan_input_gain
+aie_itd
+iir_sos_filter
+aie_chan_output_gain
+aie_create_stereo_output
+aie_er
+aie_lfe
+as_process
+as_init
+As_Compander
+se_get_history_size
+se_get_param_ptr
+se_process
+ANM_fnLog10
+ANM_fnExp10
+ANM_L_divide
+se_apply_4q11_gain
+se_sum_filter_bank
+se_apply_6q9_gain
+ANM_L_mpy_ls
+ANM_L_mpy_ll
+ANM_fnExp2
+ANM_fnLog2
+bf_process
+bf_init_state
+bf_wnd_hard_init
+bf_chan_activate
+bf_wnd_soft_init
+bf_input_demux
+bf_chan_input_gain
+bf_itd
+bf_chan_output_gain
+bf_create_stereo_output
+bf_er
+bf_lfe
+__exidx_start
+__exidx_end
+__data_start
+_edata
+__bss_start
+__bss_start__
+__bss_end__
+__end__
+_stack
+libaudio.so
+`pGD
+ pGpG
+ pGp
+ipG@ipG
+ pGo
+ppGCi +
+ pG@h
+!hKi
+"X0F
+(F1F:F
+(F1F
+ H#X0F
+(F1F:F
+0F)F
+&hh3F
+$4`o
+"h F
+!h F
+9I(Fz
+)F0F
+ F"h
+)F0F
+ F"h
+)F0F
+(Fch
+)F0F
+)F0F
+)F0F
+!h F
+)F0F
+#h F
+GCKO
+)F0F
+<J(F
+)F0F
+)F0F
+)F0F
+)F0F
+zNzK
+)F8F
+)F8F
+)F8F
+)F8F
+#nan
+)F8F
+&H&J!
+ !Ka
+1F:F
+<H/F9I2
+3K`b
+PajI
+-M1Jq
+`haj
+J#Fq
+##w(F
+ F"`
+`j"`
+`j"`
+xHyJ)
+@LkI
+ca!a
+Hs:IB
+h"b2h
+)Fe`
+` F!a
+a#webp
+)Fe`
+` F!a
+a#webp
+*I*J-
+0	H-
+ h)F
+F)F F
+aF:F+F
+8FaF*F
+*FaF
+ g#o;
+ F"`
+ F"`
+)F:F
+)F:F
+H1F 
+JaDbD
+5M`Y
+F'H+F"
+C)F"
+,&3Fi
+ & Ffa
+Fga F
+H5`a3
+4 "ba
+	' F
+ F9F
+pHJK*
+;F j
+ BKi
+CICJ
+`i.I0J
+1F(F
+0F)F
+0F)F
+bhQh
+ 9Ki
+`h40
+ *Ji
+`h40
+`h40
+ MJi
+0F9F
+0F9F
+1F8F
+1F(F
+ 5Ji
+)J.K
+!h F
+nf F
+H9F3F"
+*F#F
+!F0F
+0F9F
+1F8F
+aF0F
+H9F 
+9F0F
+9F0F
+8F1F
+8F1F
+9F0F
+8F1F
+8F1F
+1F8F
+0sJa
+eH1F 
+bO1F
+1F8F
+TH9F 
+PK9F
+(F !
+9F0F
+8F1F
+0=Ja
+8F1F
+9F0F
+8F1F
+8F1F
+"0iHiN!
+khcE
+aF`F
+FKFH
+F0H;X
+'9F'g
+ (Ji
+ j2h
+6J)F
+F,H"
+(K9F:F
+0F)F
+8F)F
+eF0F
+}0(F
+ F"`
+ ` Fp
+ ` Fp
+|M|K
+ #dC
+T`fa
+l``b&s
+-`&c
+VOWJ
+4H8K)
+'.J.
+H#X(F
+|M|K
+ #dC
+T`fa
+l``b&s
+-`&c
+VOWJ
+4H8K)
+'.J.
+ ici
+1F#h
+H)F"
+J#Xa
+6 #h
+0FaF
+yH|J)
+kOpJ
+aIgJi
+ h1F
+XO^H
+SIjX!F
+LIoX!F8h
+3H!F*X
+$01F
+-L.J)
+(K*J
+8FaF
+0 Ji
+,K,Nd
+'H#X
+&H1F"
+ H!NT
+ 1Fb
+ 	Ja
+JIJM
+FKGJ
+X7h/
+ )F 
+!/J%X
+ K*J
+<K<Nd
+7H#X
+i!-6
+!!!55
+5555555555555
+5555$53*K
+VLVK
+QH%X+x3
+PH1F"
+KH1F
+#+p=F
+-Id#
+H)F"
+H9F"
+1Fjh(h
+(h1Fjh
+$ Fp
+F?I+h
+F>Ja
+(J+h
+Fhh1F:F
+0bX1F
+J3Fa
+@I@M
+ `bC
+ F1F:F
+I(Fq
+`j)F*F
+0F+@
+ X*@
+#0E+@
+?`j}
+Cd+A
+"`j)F
+a%b9
+ICXC
+1A`K
+`F1F
+!K!H"JT
+!X H
+!X0F
+HKHH
+>K?H@J
+7K:H;J
+&/I5J#
+nu2K
+&J3F.H
+J%H&K
+J H!K
+F!+<
+FD;JJ;;;;;D;;;9B
+"K#I#J
+ |Ji
+XI;F
+0'J)
+3Y2F4F
+				
+#+e+j
+ (e+c
+bDaD
+)F F
+c Fcc
+'L+Xd
+%H&K!
+!N9F
+ 9Fb
+F'P F
+@XdDk|
+pHqI 
+F0FcF
+8F1F
+3F1F
+RKKJ
+1F;F
++K$N
+F8F3F
++K+J
+F8FcF
+9F2F
+ F"`
+ F"`
+&1F'`&tft
+t&ufu
+!0FJ
+!@"8F
+xR`F
+!0FO
+!8FM
+!`FO
+!`FO
+YHZJ
+WKfP
+QHKK*
+OJ F
+ cFj
+;J1F
+9K F
+.H1F*
++O F
+  Ji
+ FjX
+&1F'`&tft
+t&ufu
+!0FJ
+!@"8F
+xR`F
+!0FO
+!8FM
+!`FO
+!`FO
+YHZJ
+WKfP
+QHKK*
+OJ F
+ cFj
+;J1F
+9K F
+.H1F*
++O F
+  Ji
+ FjX
+AJ!F
+?H!F(
+<K!F
+7J!F
+5H!F(
+2K!F
+-J!F
++H!F(
+(K!F
+$J!F
+"H!F(
+ K!F
+H!F(
+(J!F
+&H!F(
+#K!F
+H!F(
+F/H1F 
+-H1F 
+*J1F
+'K1F
+!H1F 
+H1F 
+(F1F:F
+(F1F:F
+9F0F
+(F1F
+(F1F
+9F0F
+(F1F
+"(F1F
+9F0F
+(F1F
+1F(F
+9F0F
+(F1F
+(F1F
+)F0F
+`F9F
+F v F
+tI~Ji
+UIaJi
+&I+Fb
+5`(F1F
+H1FcF"
+ )F3F
+03Fb
+ )F3F
+03Fb
+!n"0F
+k"8F
+3%X0F+`
+Ph``(h
+!pFn"
+(Fk"1F
+1F8F
+pF9F
+9FcF
+9Fd"0F
+!`2B
+xH1F"
+oN9F+F
+fJ0F9F
+\H1F"
+QJ1F
+BN+F
+=N9F
+H$K!
++F1F
+H)Fsh"
+0H0Je
+ )F/O
+)F;F
+ 1Fb
+ EJa
+ BKe
+>J)F
+;I7Of
+ 3M5Jc
+H9F"
+,rp^
+'F+h
+^ 0FaF
+1M1F
+ "FK]1F
+ K Od
+cD$3
+cD@3
+DKDIO
+0J1F
+W~a>a
+&(h0
+VKVJ
+RHSO!
+ LJa
+BKFJ
+.H9F"
+%J9F
+	H3F
+7'H@
+u&J#
+1F;F
+$"`X
+ O H!I
+FeHT
+]H#X
+$$$$$	$$$$$"	
+ EKa
+ 1*H#
+I&Ja
+H9F"
+!M!J#
+H)F"
+IbXO
+H)F3F"
+'bY0F
+ h9F
+4FfF
+"4FfF
+ekn#
+~9Fe
+RPnrF
+ 1FH
+CcJe
+ QJc
+!IvE
+3O3J%
+)F.M
+1*hC
+<K9J
+8I8J
+)F.M
+,K-H
+I#Jc
+J(FT
+ #Jd
+>H>I2
+)J)H
+eEhMf
+Dfff?
+0 ah`i
+$ ah
+0 ah`i
+HpIh
+aD2F
+!m2F
++iia
+`pGhS
+`pGHS
+`pG(S
+ F"`
+1F F
+I{h0Fj
+1F F
+ #F	
+ F)F
+&L&J
+!H!N!
+)h(FKh
+D@pG
+ PpG
+ pGp
+ F#`
+ F#`p
+ F#`
+ F#`p
+ pGo
+ hGi F
+ hCi F
+!h F
+ hBi F
+G(`&
+#h F
+ cc	
+9F0F
+ I8Fa
+0F9F*F
+0F9F*F
+ F)F
+ F)F
+;I0Fi
+"F8F1F
+9F0F
+8F1F
+bc,F
+3I0Fa
+8F1F
+1F8F
+!F(F
+h F)F
+  r0F
+J+Fq
+=F(F
+zt9F
+ F"`
+ F"`
+`)FO
+`)FO
+(F!F
+(F!F
+ F"`
+AI(Fa
+)F:F
+%p*I
+M0Fa
+ F9F
+G!F0F
+ 3`'
+9F F
+$  ` F
+$  ` F
+D@pG
+ pGo
+ pGo
+ pGo
+ hAi F
+G8`5
+G(`&
+G0`o
+ pGo
+"X0F
+(F1F:F
+(F1F
+"X0F
+(F1F:F
+(F1F
+;X F
+(F!F
+(F1a!F
+;X F
+(F!F
+(F1a!F
+!F0F
+)h(F
+F=H:
+!F0F
+*h(F
+G7Iz
+!F0F
+G0JO
+!F0F
+)h(F
+F'H:
+!F0F
+!F0F
+JkhO
+!F0F
+h Fz
+!F0F
+!F0F
+)h(F
+F=H:
+!F0F
+*h(F
+G7Iz
+!F0F
+G0JO
+!F0F
+)h(F
+F'H:
+!F0F
+!F0F
+JkhO
+!F0F
+h Fz
+!F0F
+h0FC
+I0Fa
+*~ki
+1F(F
+Bi F
+ F"h
+#h FYi
+G0` h
+` F#h
+9F2F
+riDk(F
+k(Fri
+`i#`
+ F!i
+ F#`p
+`i#`
+ F!i
+ F#`p
+!ba#v
+`a Fp
+!ba#v
+`a Fp
+D@pG
+ pGO
+`pGp6
+ pG-
+hCi F
+G(`&
+"h F
+G0`7
+ pGo
+ F"`
+ F"`
+ F)F
+ F)F
+)F0F
+"h F
+G,Iz
+)F0F
+G%JO
+)F0F
+!h F
+)F0F
+#h FZi
+)F0F
+"h F
+G&Ij
+G!JO
+!h F
+#h FZi
+1F8F
+IhFa
+1FhFmF
+H#X(F
+*`\l:F
+ ` Fp
+ ` Fp
+AudioHardwareMot
+setVoiceVolume
+false
+true
+Earpiece
+None
+Loudspeaker
+Mono Headset
+Stereo Headset
+Line Out
+Bluetooth SCO
+Aux I2S (HDMI)
+Unknown / Invalid
+Handset/Mic1
+Aux/Mic2
+Mic3
+Mic4
+Handset Dual
+Full mic array
+Aux PGA (FM Radio)
+Aux I2S
+Unknown/Invalid
+AudioHardwareMot
+get routing %x
+AudioStreamOutMot::getParameters() %s
+checkStandby() called
+Error:getInputBufferSize bad format: %d
+Error:getInputBufferSize bad channel count: %d
+Error:%s
+Failed to lock am_mutex
+AudioHardwareMot::closeOutputStream enter output %p
+mOutput closed
+mMonoOutput closed
+Error:Closing unknown output stream
+Failed to unlock am_mutex
+Error:Error getting number of lost input frames from the kernel, returning 0
+Error:Error switching capture channel configuration
+Error:Error getting DSP buffer usage from kernel
+Setting Codec sampling rate to %d
+Error:Error setting sampling rate in the kernel
+Codec sampling rate already %d
+Error close FM
+Error open FM
+/dev/snd/dsp1
+Error:Error getting buffer size from the kernel, returning 8192
+Input bufSize from kernel = %d
+/dev/snd/dsp
+Output bufSize from kernel = %d
+AudioStreamOutMot::set(%p, %x, %d, %x %u)
+Error:Error getting output buffer size from the kernel, returning 8192
+AudioStreamInMot::dump
+	sample rate: %d, buffer size: %d
+	channels: %#x, format: %#x
+	mAudioHardware: %p, mDevices: %#x
+	mFd: %d, mStandby: %s
+AudioStreamOutMot::dump
+	channels: %x, format: %#x
+	mAudioHardware: %p, mFd: %#x
+	SRC enabled = %s, mStandby = %s
+	mDevices = %#x, mFirstWrite = %s
+	mBpPlaying = %s, mBytesWritten = %d, mHdmiRequested = %s
+AudioHardwareMot::dumpInternals
+	mVoiceFd: %#x, mMicMute: %s, mDisableHandsetMic: %s, mAdcEnabled: %s
+	mFmOn: %s, mFmMute: %s, mFmAttenuate: %s, mFmPath: %s
+	mConfigRequired: %s, mOutputPath: %s, mInputPath: %s
+	mStdacSampleRate: %d, mCodecSampleRate: %d, mIsMute: %s
+	mVoiceQuality: %d, mBpAccy: %#x, mTtySetting: %d, mHAC: %s mNrec: %s
+	mPrevVol %f, mCallConnected %x, mConfig: %x, mAvewidthindex %x
+ADC already disabled.  Exiting.
+/dev/i2c-2
+Error:I2C DRIVER FAILED TO OPEN BUS
+Error:I2C DRIVER FAILED TO OPEN device
+Writing ADC configuration to /dev/i2c-2 for disable adc 
+/data/misc/hdmiMutePipe
+Error:HDMI Mute open pipe failed
+Setting HDMI Mute
+Setting HDMI UnMute
+Error:read failed!! Fd invalid
+Error:I don't know what to do with this capture channel configuration.
+Error:Failed to allocated working buffer for beamformer input.  Exiting
+Input %p entering standby
+AudioStreamInMot::Set: WARNING! Assuming in-call request for capture is a request for call uplink capture (CHANNEL_IN_MONO -> CHANNEL_IN_VOICE_UPLINK
+AudioStreamInMot::Set: Call capture requested outside of call.  Silence will be returned until call starts
+Error:AudioStreamInMot::Set: Hi-fi call recording not supported.
+Error:AudioStreamInMot::Set: Mixed call and environmental recording not supported.
+AudioStreamInMot::Set: Call Recording Session OK.
+Error:AudioStreamInMot::Set: Invalid capture channels requested
+AudioStreamInMot::set(%p, %x, %d, %x, %u)
+Error:Error getting buffer size from the kernel, returning %d
+Error:AudioStreamInMot::set: setCodecRate failed
+Error:Error switching codec to stereo mode
+AudioStreamOutMot::standby called
+Output %p entering standby
+Closing Output device
+Error:bypassing SRC/PP due to memory allocation failure
+Error:discarding data: no memory for SRC
+Error:write failed!! Fd invalid
+Error:Failed to allocate memory for sample rate converter. Die.
+Error:Unrecognized NREC value
+Normal
+Clear
+Crisp
+Bright
+Error:Bad VOICE_QUALITY value passed
+Error:Audio Post Processor not initialized
+Using hard-coded FM gain of 13 for factory test
+Read FM Gain %#x for output path %#x
+Error:No PostProcessor instance available; FM audio will be muted
+Attenuating FM gain to %x
+Muting FM Radio
+Writing %x to SOUND_MIXER_FMPATH
+Error:Error setting FM path & gain
+Phone in suspend mode, skipping doRouting
+Overriding output device %x according to FM radio path setting
+Speakerphone
+Handset
+Headset (with mic)
+TTY FULL / headset with mic
+TTY VCO (headset with mic)
+TTY HCO (headset with mic)
+Headset (no mic)
+TTY FULL / headset without mic
+TTY VCO / headset without mic
+TTY HCO / headset without mic
+Headset (with mic) and Speaker
+Headset (no mic) and Speaker
+HDMI
+HDMI and loudspeaker
+Error:Unrecognized output route %x
+WARNING! Multiple simultaneous input streams aren't handled well!
+Primary mic, dual
+Primary mic, single
+Headset Mic
+Back Mic (Beamformer)
+Back mic, dual
+Back mic, single
+Error:Unsupported input path
+Selecting secondary internal mic for Begonia faulty HW workaround
+Error:Error setting Input path
+Error:Error setting Output path
+HAC MODE: BP accy is AUD_IPC_TELECOIL_HEARING_AID
+TTY HCO/VCO : BP accy is HANDSET
+TTY VCO : using handset mic gain
+Error:Error setting Input gain
+TTY HCO : using handset speaker gain
+Error:Error setting Output gain
+doRouting devs: stereo %#x, mono %#x, input %#x. Chose speaker %s (gain %#x) mic %s (gain %#x)
+AudioStreamInMot::setParameters() %s
+Error:Capture from Bluetooth SCO not supported at sample rate %d with channels %x
+vr_mode
+Error:Invalid call recording mode specified; falling through to non-call
+Error:AudioStreamInMot::read: setCodecRate failed
+Input %p exiting standby
+Error:AudioStreamInMot::wake: Open codec device failed
+AudioStreamOutMot::setParameters() %s
+fm_mute
+fm_attenuate
+AudioStreamOut::wake: initializing SRC
+Output %p exiting standby
+Error:Error allocating memory in write
+in handleCallConnected isConnected = %d
+in HandleTTY - tty_setting = %d
+Error:in HandleTTY - Invalid tty setting %d
+Error:Incorrect HAC value passed
+Error:doRouting returned error inside handleHacMsg()
+Error:doRouting returned error inside setTtyMode()
+MUTE
+MUTE key received with value = %s
+Mute turned on
+HACSetting
+HAC key received with value = %s
+bt_headset_nrec
+NREC key received with value = %s
+motoVoiceQualityConfig
+Voice quality config received with value = %s
+FM_launch
+FMLaunch key received with value = %s
+FM_routing
+FMRouting key received with value = %s
+DEVICE_OUT_WIRED_HEADPHONE
+DEVICE_OUT_SPEAKER
+bt_headset_name
+Bluetooth device name %s
+tty_mode
+TTY key received with value = %s
+Error:Unsupported key = %s
+OUT OF RANGE
+setMode(%s)
+Error:Codec device open for voice call failed
+Hardware setting for voice call done
+Error:am_aipcm_codec_req failed
+Error:am_aipcm_codec_req failed
+Closed the driver for in_call mode
+setMode END
+%s called with vol = %f, converted intVol = %u
+Attempt to close invalid input stream
+AudioHardwareMot::openOutputStream enter
+AudioHardwareMot::openInputStream enter
+Enable ADC -  Enter
+ADC already enabled.  Exiting.
+Error:I2C DRIVER FAILED TO OPEN BUS. error=%s
+Error:I2C DRIVER FAILED TO OPEN device, error=%s
+/system/bin/ti_config_adc.bin
+Error:Open adc bin file failed
+Enable ADC -  read from file
+ADC is enabled successfully!
+/dev/snd/mixer
+mixer fd = %d
+Error:Open mixer device failed, errno = %s
+This appears to be a Begonia; reading ro.audio_disable_primary_mic for HW status
+ro.audio_disable_primary_mic
+ro.audio_disable_primary_mic string = %s, hex = %#x
+Flex indicates to disable primary mic.  Will use mic2 for all usecases
+Flex indicates primary mic is OK
+Error:Unable to read property ro.audio_disable_primary_mic
+TIME = %ld msec
+INVALID
+CURRENT
+NORMAL
+RINGTONE
+IN_CALL
+AUDIO_tcmd_disable_voice_call_path
+AUDIO_tcmd_set_output_gain
+AUDIO_tcmd_set_balance
+AUDIO_tcmd_set_output_path
+AUDIO_tcmd_set_input_gain
+AUDIO_tcmd_enable_voice_call_path
+AUDIO_tcmd_set_input_path
+AUDIO_tcmd_suspend
+AUDIO_tcmd_stop_loopback
+AUDIO_tcmd_start_loopback
+AudioHardwareTcmd
+The wave file information: 
+foramt %d, channels %d, sample rate %d
+byte rate %d, block align %d
+bits per sample %d, bytes per sample %d
+num samples %d, is little endian %d
+%s called
+No valid AudioHardwareInterface instance!
+Closed the driver for in_call mode
+Can not init wav file parser!
+Can not retrieve wav file info!
+Not supported format!
+Can not open output stream (first try)!
+Out of memory!
+Write silence to output stream failed!
+Can not open output stream (second try)!
+Error while reading pcm data! Return code is %d
+Can not open output stream!
+%s called with gain = %d
+Error setting output gain
+Error setting balance
+%s called with output_path = %d
+Unsupported Output path
+Error setting input gain
+config_output, output_path = %d, gain = %d.
+Error setting SOUND_MIXER_VOLUME in the kernel
+Codec device already in use
+Hardware setting for voice call done
+%s called with input_path = %d
+Unsupported Input path
+Close FM
+Audio Manager already suspended.  return
+Creating AudioHardware interface instance
+Successfully created AudioHardware instance with mixer
+New AudioHardware instance has no mixer
+Failed to allocate AudioHardware instance
+retry in %dmS
+%d retries failed; aborting
+AudioHardware instance already exists
+AUDIO_tcmd_suspend: failed to create AudioHardware instance!
+AUDIO_tcmd_suspend: AudioHardware exists, but has no mixer!
+Waiting for codec thread to exit
+Closing /dev/snd/dsp1
+%s called with loopback type = %d
+In loopback thread
+Error allocating buffer
+Loopback thread is exiting
+Open Codec failed, error = %s
+AUDIO_tcmd_aud_sample_req enter: rate = %d, rsp_len = %d
+Read from dsp1.
+sample data0 = %0x, data1 = %0x, data2 = %0x, data3 = %0x
+Disable ADC
+Start AP loopback.
+About to start McBSP3 loopback with a buffer size of %u bytes
+Start AP loopback return ret = %d.
+Error setting loopback mode
+mapCtoAccyType
+mapHwAccyType
+getInputGain
+getOutputGain
+getConfigForEq
+configPostProcessing
+AudioPostProcessor
+setParameters
+AudioPostProcessor::dump
+	Log streams enabled: %d
+	Coeffs Size: %d, Format: %d, Content: %d
+	DL accy: %#x, config: %#x, output format: %#x, status: %#x
+	UL accy: %#x, config: %#x, bf_status: %#x, channels: %d, status: %#x
+ro.audio_capture_logging
+AudioPostProcessor
+ro.audio_capture_logging string = %s, hex = %#x
+Enabling capture pcm logging to %s
+/data/raw_mic_in.pcm
+Enabling processed pcm logging to %s
+/data/capture_processed.pcm
+Enabling SuperAPI uplink debug logging to %s
+/data/superAPI_ul_log_buffers
+ro.audio_playback_logging
+ro.audio_playback_logging string = %s, hex = %#x
+Enabling raw playback PCM logging to %s
+/data/raw_playback.pcm
+Enabling processed output pcm logging to %s
+/data/playback_processed.pcm
+Enabling SuperAPI downlink debug logging to %s
+/data/superAPI_dl_log_buffers
+Error:Invalid sampling frequency %d in am_coeffs_smpl_freq_to_enum
+Error:%s() Invalid accessory %d
+in %s() handset slider closed case
+in %s() speaker phone slider closed case
+Error:Invalid accessory %d in am_config2coeffs_audio_device
+%s(): unsupported device, set to SPEAKERPHONE!
+Reading input gains %x from audio scene table
+Error:Invalid EQ setting %d
+%s ave=%d, eq=%u
+Error:Invalid NULL filename for gains file
+Error:Failed to stat %s
+%s file size is %d
+Error:%s is zero size
+Error:Failed to read contents of %s
+Error:Unsupported format for gains file, %d
+Read format version %#04x, content version %#04x from %s
+/system/bin/ap_gain_mmul.bin
+Error:Failed to allocate memory for beamformer parameter table
+Scene %u: gains %u, %u
+Error:api_cto_audio_mm_param_parser() returned error %d; disabling post-processing
+Error:api_cto_audio_mm_init() returned error %d, disabling post-processing
+%s() called, inputAccy= %d, outputAccy= %d, sampleRate= %u, ringtoneMode= %d
+Disabling beamformer due to unsupported sample rate
+Calling mmul_param_parser()
+Error:api_cto_audio_mmul_param_parser() returned error %d
+Calling mmul_init()
+Error:Beamformer request ignored: missing parameters
+Done updating beamformer library
+Error:Unsupported capture channels %x supported
+Error:Capture buffer size mismatch despite uplink processing disabled
+bf_status changed to %#x; sending WIND_NOISE true
+bf_status changed to %#x; sending WIND_NOISE false
+Error:CTO_AUDIO_MMUL_MAIN returned error %d
+%s()
+Could not load beamformer parameters. Feature Disabled.
+/data/ap_gain.bin
+Successfully parsed parameters from %s
+No debug parameters in /data; checking ro.product.brand
+ro.product.brand
+ro.product.brand value = %s
+MOTO_FR
+Product requires France gains be used
+/system/bin/ap_gain_france.bin
+Error:Error %x initializing %s
+Error:Error %x reading ro.product.brand, using regular parameters
+/system/bin/ap_gain.bin
+Error:Parameter table failed to initialize; audio will be muted
+OffHS
+OffMONO
+OffSP
+ExtremeBassHS
+ExtremeBassMONO
+ExtremeBassSP
+BassPunchHS
+BassPunchMONO
+BassPunchSP
+BalancedHS
+BalancedMONO
+BalancedSP
+BrilliantTrebleHS
+BrilliantTrebleMONO
+BrilliantTrebleSP
+VocalizerHS
+VocalizerMONO
+VocalizerSP
+Error:Unrecognized EQ value %s; disabling
+LiveHS
+WideHS
+AmbientHS
+Error:Unrecognized Custom AVE setting %s; disabling
+3DStereoHS
+3DStereoSP
+HomeTheaterHS
+HomeTheaterSP
+LiveStageHS
+LiveStageSP
+CustomHS
+CustomSP
+Received custom FX command; disable until EQ and/or AVE are set
+Error:Received unrecognized OneButton FX setting %s; disabling
+Subject
+Narrative
+Concert
+Outdoor
+MicZoomON
+MicZoomOFF
+MicZoom1
+MicZoom2
+MicZoom3
+MicZoom4
+motoVideoRecAudioSceneSupported
+SubjectChannels
+NarrativeChannels
+OutdoorChannels
+ConcertChannels
+AudioPostProcessor returning params %s
+No parameters to handle in %s
+motoAudioEffectConfigHS
+key %s, value %s; setting headsetConfig to %d
+motoAudioEffectConfigSP
+key %s, value %s; setting speakerConfig to %d
+motoEqualizerConfigMONO
+key %s, value %s; setting speakerEq to %d, speakerConfig to %d
+motoEqualizerConfigSP
+key %s, value %s discarded; no support for stereo loudspeaker
+motoEqualizerConfigHS
+key %s, value %s; setting headsetEq to %d, headsetConfig to %d
+motoSurroundConfigHS
+key %s, value %s, headsetEq %d, setting headsetConfig to %d
+motoSurroundConfigSP
+motoVideoRecAudioSceneConfig
+Warning: discarding meaningless capture scene command %s
+Audio capture scene key received with value = %s
+Updated mmul_env_var config=%#x, width_index=%#x
+AUDMGR_getVolume
+AUDMGR_setTty
+AUDMGR_stopTone
+AUDMGR_playTone
+AUDMGR_setVolume
+AUDMGR_disableVoicePath
+AUDMGR_enableVoicePath
+AUDMGR_setMuteState
+AudioMgrTAPI
+%s() called return  volume=%d 
+Error when initializing the socket connection
+Client fd %d sending message ID %d
+Error %d when calling socketWrite
+Error %d when calling socketRead
+Client fd %d received reply for message ID %d
+Wrong command type returned from the socket server
+%s() called
+Invalid TTY mode %x received from RIL
+%s() failed
+%s() called for tone %d 
+Found tone %u for DTMF digit %c
+%s() called with vol_lvl=%d 
+Incorrect volume level passed in
+%s() called with mic_spkr=%d and mute_setting=%d
+Incorrect mic_spkr setting
+Incorrect mute_setting
+MsgHandlerDump:
+	pthread_retval = %#x, server_fd = %#x
+AudioMsgHandler
+Error:In socketWrite: socket write failed with return value = %d, written bytes = %d, errno = %s
+errno = EINTR in socketWrite
+Error:In socketRead: socket read failed with return value = %d, readed bytes = %d, errno = %s
+errno = EINTR in socketRead
+Error when opening the socket
+/tmp/sockpath
+Error:Connection failed: %s
+The new thread spawned successfully
+Error when detaching the new thread
+Error when spawning the listening thread
+Error:In deleteClientFromList: No match of the node
+Error:Error when initializing the socket
+server_fd = %d
+Error:Error when removing the existing socket path!
+Error:Fail to bind the socket to a file!
+Error:Fail to change the file's access mode!
+Error:Error when calling the function - listen!
+Error %s when calling accept(); Number of socket clients is %d; curNode = %#x, next = %#x
+Error:Failed to find message handler for given message.
+Error:Error when adding a unit to the socket list chain!
+Received AUD_MSG_TAPI_SET_MUTE from socket client fd %d
+Error:Error reading AUD_MSG_TAPI_SET_MUTE msg data
+Error when calling socketWrite
+Received AUD_MSG_TAPI_ENABLE_VOICEPATH from socket client fd %d
+Received AUD_MSG_TAPI_DISABLE_VOICEPATH from socket client fd %d
+Received AUD_MSG_TAPI_SET_VOLUME from socket client fd %d
+Error:Error reading AUD_MSG_TAPI_SET_VOLUME msg data
+Received AUD_MSG_TAPI_START_TONE from socket client fd %d
+Stopping current tone %u due to new request
+Error:Error reading AUD_MSG_TAPI_START_TONE msg data
+Received AUD_MSG_TAPI_STOP_TONE from socket client fd %d
+Stopping current tone %u by request
+No tone to stop
+Received AUD_MSG_TAPI_SET_TTY from socket client fd %d
+Error:Unknown message ID in audTAPIMsgHandler
+am_aipcm_exit
+am_aipcm_codec_req
+am_aipcm_voice_call_enable
+am_aipcm_tty
+am_aipcm_set_dai
+am_aipcm_playback_mix_req
+am_aipcm_va_req
+am_aipcm_network_tone_req
+am_aipcm_set_ec_ns_req
+am_aipcm_request_msg_ack
+am_aipcm_mic_mute_req
+am_aipcm_set_accessory_req
+am_aipcm_set_volume_req
+am_aipcm_amr_freq_change
+am_aipcm_read_func
+AudioMgrIPC
+=========QUEUE STATE=============
+aipcm queue working buf  : %d
+aipcm queue next free buf: %d
+aipcm queue FULL
+aipcm queue EMPTY
+aipcm queue PARTIAL
+=================================
+%s called
+Closing %s
+/dev/netmux/audio
+Error:Unable to close %s (errno %s)
+%s already closed
+Read thread (ID %#x) still running.  Wait for exit.
+Read thread appears to be stuck.  Starting over anyway.
+Read thread stopped
+Discarding redundant call to am_aipcm_init()
+Inside am_aipcm_init
+Somehow we have a read thread without a file handle. maybe aipcm_exit() will help clean up.
+AUDIO netmux channel not available, waiting for 1 sec 
+AUDIO netmux retry failed; will try again on next message write
+am_aipcm_init: mux_txrx_fd = %x
+Error:Read thread creation failed
+Read thread spawned
+Input array is empty, function returning
+Error:Unable to allocate memory for send buffer
+Error:Invalid TLV data length
+IPC is not active.  Re-Initializing
+IPC: Message length is = %d bytes 
+and following is the header and TLV's in hex
+Error:Write to the Audio Mux for message id %u was unsuccessful: %s
+Message sent for message id %d
+Error:Failed to re-initialize IPC module. Message id %d discarded
+%s() called with enable_disable = %u
+Not sending message from am_aipcm_codec_req 
+mux_txrx_fd == -1,can't sent am_aipcm_codec_req
+%s() called with tty_mode = %u
+%s() called with dai_mode = %u
+%s() called with command = %u, mode = %u
+Starting playback
+Stopping playback
+Nothing to do for command %d
+Error:send_playback: The number of frames requested by BP <= 0
+send_playback: no data to send.  stopping playback.
+send_playback: Discarding request received after session end.
+Error:send_playback: Failed to allocate memory for playback mixing data
+send_playback: padding %d bytes of silence
+%s() called with ul_dl = %u, req_type = %u
+Starting VA Recording
+Stopping VA Recording
+Nothing to do for req_type %d
+"%s" is called with "tone_type"=%d; "req_type"=%d; "volume_level"=%d                   (%s:%d)
+motorola/hal/audio/libaudio/AudioMgrIPC.cpp
+%s() called with tone_type = %u, req_type = %u; volume = %d
+%s() called with attr_type = %u, attr_setting = %u
+%s() called with msg_id = %u, value0 = %u, value1 = %u
+%s() called with mic_spkr = %u, mute_unmute = %u
+This mute is the same as the one sent earlier. So,not sending again
+%s() called with accy_type = %u
+Selecting mic slot 2 for Begonia P1 HW Workaround
+Error:IPC: accessory profile not be supported %s
+READy to send accy message. data[0].value = %u
+This accy type is the same as the one sent earlier. So,not sending again
+%s() called with vol_level = %u, vol_type = %u
+%s() called with freq = %u
+AMR - codec rate change to 8K
+Error:IPC: AMR - couldn't set rate to 8000
+AMR - codec rate change to 16K
+Error:AMR - couldn't set rate to 16000
+Error:Invalid value for AUD_IPC_TAG_AMR_CHANGE = %u
+Error:Read from Audio Mux was unsuccessful: %s
+Error:%s line%d current_ptr == NULL
+Error:Read from the Audio Mux for msg id %u was unsuccessful:%s
+Error:can't process length_byte_num bigger than 2
+ID %#x, Tag %#x: Received PCM data from BP
+VA stopped or not started, discard data.
+ID %#x, Tag %#x: Request for VA playback mix data received
+ID %#x, Tag %#x: DAI activation indication received
+ID %#x, Tag %#x: AUD_IPC_TAG_MUTE_UNMUTE_ATLAS received
+IPC: Mute ATLAS 
+Error:Mute ATLAS failed, Audio Manager killed!!
+Unmute ATLAS 
+Error:Unmute ATLAS failed, Audio Manager killed!!
+Error:Invalid value for AUD_IPC_TAG_MUTE_UNMUTE_ATLAS 
+ID %#x, Tag %#x: CONFIG_ATLAS_CLOCK_IND received
+TAG0:  %#x, TAG1: %#x, Value0: %#x, Value1: %#x
+Error:Invalid tags for message = %u
+after sendmsg to audio, will unlock.
+after unlock.
+ID %#x, Tag %#x: Ack received for message with id = %u
+Error:IPC: Error returned for message id = %u
+Error:Playback session aborted due to BP error
+Error:Capture session aborted due to BP error
+Error:Incorrect tag received with ack for message id = %u
+ID %#x: Network tone completed message received from BP
+ID %#x: Codec Confirmation message received from BP
+Error:Unknown tag or msg_id or both from BP: tag = %#x, msg_id = %x, length = %x 
+ID %#x: TTY device detected message received from BP
+Error:Unable to parse message from BP: header.data_length = %hu, msg_id = %x
+am_aipcm_read_thread called
+Setting Select ipc_fd
+Error:read thread: select failed on ipc_fd %d. exiting!
+Error:read thread: select failed return value=0. exiting!
+am_aipcm_dump:
+	capture running: %s, playback running: %s
+	rx_thread_running: %s, mux_txrx_fd: #%x, ipc_thread_handle: %#x
+	netmux error counts open: %u, write: %u, read: %u
+	current_tone: %#x
+Error:Playback has failed: sleeping through playback buffer
+Error:Capture has failed or not started: sleeping through capture buffer
+Capture has been stopped: recording silence
+AudioHardwareBase::dumpState
+	mMode: %d
+AudioHardwareInterface
+getInputBufferSize bad sampling rate: %d
+setMode(%s)
+ro.kernel.qemu
+Running in emulation - using generic audio driver
+Using stubbed audio hardware. No sound will be produced.
+A2dpAudioInterface
+setBluetoothEnabled %d
+A2dpAudioStreamOut::set %x, %d, %d, %d
+a2dp_sink_address
+closing
+bluetooth_enabled
+A2dpSuspended
+a2dp_init failed err: %d
+a2dp_write failed err: %d
+00:00:00:00:00:00
+AudioStreamInGeneric::dump
+	sample rate: %d
+	buffer size: %d
+	channels: %d
+	format: %d
+	device: %d
+	mAudioHardware: %p
+	mFd: %d
+AudioStreamOutGeneric::dump
+AudioHardwareGeneric::dumpInternals
+	mFd: %d mMicMute: %s
+AudioHardware
+Error opening input channel
+Attempt to read from unopened device
+/dev/eac
+AudioStreamInStub::dump
+AudioStreamOutStub::dump
+AudioHardwareStub::dumpInternals
+	mMicMute: %s
+	{	q	f	[	Q	F	<	1	'	

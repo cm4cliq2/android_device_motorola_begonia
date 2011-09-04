@@ -1,0 +1,226 @@
+0000804c D AUTO_OFF_TIMEOUT_DEV
+00008040 D NEW_PATHS
+00008034 D OLD_PATHS
+0000421c T agps_get_interface()
+         U gps_get_agps_hardware_interface()
+         U android::IInterface::IInterface()
+         U android::IInterface::~IInterface()
+         U android::IInterface::~IInterface()
+         U android::IInterface::~IInterface()
+00008c80 B android::ITelephonyService::descriptor
+00004610 T android::ITelephonyService::asInterface(android::sp<android::IBinder> const&)
+000042cc T android::ITelephonyService::ITelephonyService()
+0000430c T android::ITelephonyService::ITelephonyService()
+000042b8 T android::ITelephonyService::~ITelephonyService()
+00004274 T android::ITelephonyService::~ITelephonyService()
+00004258 T android::ITelephonyService::~ITelephonyService()
+00008c84 B android::IWindowManagerService::descriptor
+00004ad4 T android::IWindowManagerService::asInterface(android::sp<android::IBinder> const&)
+0000472c T android::IWindowManagerService::IWindowManagerService()
+0000476c T android::IWindowManagerService::IWindowManagerService()
+00004718 T android::IWindowManagerService::~IWindowManagerService()
+000046d4 T android::IWindowManagerService::~IWindowManagerService()
+000046b8 T android::IWindowManagerService::~IWindowManagerService()
+00004328 W android::sp<android::ITelephonyService>::operator=(android::ITelephonyService*)
+00004358 W android::sp<android::ITelephonyService>& android::sp<android::ITelephonyService>::operator=<android::BpTelephonyService>(android::BpTelephonyService*)
+00004788 W android::sp<android::IWindowManagerService>::operator=(android::IWindowManagerService*)
+000047b8 W android::sp<android::IWindowManagerService>& android::sp<android::IWindowManagerService>::operator=<android::BpWindowManagerService>(android::BpWindowManagerService*)
+         U android::Parcel::writeInt32(int)
+         U android::Parcel::writeInterfaceToken(android::String16 const&)
+         U android::Parcel::Parcel()
+         U android::Parcel::~Parcel()
+         U android::RefBase::onFirstRef()
+         U android::RefBase::onLastWeakRef(void const*)
+         U android::RefBase::onLastStrongRef(void const*)
+         U android::RefBase::onIncStrongAttempted(unsigned int, void const*)
+         U android::RefBase::RefBase()
+         U android::RefBase::~RefBase()
+         U android::String16::String16(char const*)
+         U android::String16::~String16()
+         U android::BpRefBase::onFirstRef()
+         U android::BpRefBase::onLastStrongRef(void const*)
+         U android::BpRefBase::onIncStrongAttempted(unsigned int, void const*)
+         U android::BpRefBase::BpRefBase(android::sp<android::IBinder> const&)
+         U android::BpRefBase::~BpRefBase()
+         U android::BpRefBase::~BpRefBase()
+         U android::BpRefBase::~BpRefBase()
+0000423c T android::ITelephonyService::getInterfaceDescriptor() const
+0000469c T android::IWindowManagerService::getInterfaceDescriptor() const
+         U android::Parcel::readInt32() const
+         U android::RefBase::decStrong(void const*) const
+         U android::RefBase::incStrong(void const*) const
+00008368 V construction vtable for android::IInterface-in-android::BpInterface<android::ITelephonyService>
+00008310 V construction vtable for android::ITelephonyService-in-android::BpInterface<android::ITelephonyService>
+000083b8 V construction vtable for android::BpRefBase-in-android::BpInterface<android::ITelephonyService>
+000087e0 V construction vtable for android::IInterface-in-android::BpInterface<android::IWindowManagerService>
+00008788 V construction vtable for android::IWindowManagerService-in-android::BpInterface<android::IWindowManagerService>
+00008830 V construction vtable for android::BpRefBase-in-android::BpInterface<android::IWindowManagerService>
+00008478 D construction vtable for android::IInterface-in-android::ITelephonyService
+000081c8 V construction vtable for android::IInterface-in-android::BpTelephonyService
+000080f8 V construction vtable for android::BpInterface<android::ITelephonyService>-in-android::BpTelephonyService
+00008170 V construction vtable for android::ITelephonyService-in-android::BpTelephonyService
+00008218 V construction vtable for android::BpRefBase-in-android::BpTelephonyService
+000088f0 D construction vtable for android::IInterface-in-android::IWindowManagerService
+00008640 V construction vtable for android::IInterface-in-android::BpWindowManagerService
+00008570 V construction vtable for android::BpInterface<android::IWindowManagerService>-in-android::BpWindowManagerService
+000085e8 V construction vtable for android::IWindowManagerService-in-android::BpWindowManagerService
+00008690 V construction vtable for android::BpRefBase-in-android::BpWindowManagerService
+000082e8 V VTT for android::BpInterface<android::ITelephonyService>
+00008760 V VTT for android::BpInterface<android::IWindowManagerService>
+00008468 D VTT for android::ITelephonyService
+00008050 V VTT for android::BpTelephonyService
+000088e0 D VTT for android::IWindowManagerService
+000084c8 V VTT for android::BpWindowManagerService
+00008270 V vtable for android::BpInterface<android::ITelephonyService>
+000086e8 V vtable for android::BpInterface<android::IWindowManagerService>
+00008410 D vtable for android::ITelephonyService
+00008080 V vtable for android::BpTelephonyService
+00008888 D vtable for android::IWindowManagerService
+000084f8 V vtable for android::BpWindowManagerService
+         U virtual thunk to android::IInterface::~IInterface()
+         U virtual thunk to android::IInterface::~IInterface()
+00004414 W virtual thunk to android::BpInterface<android::ITelephonyService>::~BpInterface()
+000043e8 W virtual thunk to android::BpInterface<android::ITelephonyService>::~BpInterface()
+00004874 W virtual thunk to android::BpInterface<android::IWindowManagerService>::~BpInterface()
+00004848 W virtual thunk to android::BpInterface<android::IWindowManagerService>::~BpInterface()
+0000467c T virtual thunk to android::ITelephonyService::~ITelephonyService()
+0000468c T virtual thunk to android::ITelephonyService::~ITelephonyService()
+0000457c W virtual thunk to android::BpTelephonyService::~BpTelephonyService()
+00004550 W virtual thunk to android::BpTelephonyService::~BpTelephonyService()
+00004b40 T virtual thunk to android::IWindowManagerService::~IWindowManagerService()
+00004b50 T virtual thunk to android::IWindowManagerService::~IWindowManagerService()
+00004a40 W virtual thunk to android::BpWindowManagerService::~BpWindowManagerService()
+00004a14 W virtual thunk to android::BpWindowManagerService::~BpWindowManagerService()
+         U virtual thunk to android::BpRefBase::~BpRefBase()
+         U virtual thunk to android::BpRefBase::~BpRefBase()
+         U virtual thunk to android::BpRefBase::onFirstRef()
+         U virtual thunk to android::BpRefBase::onLastStrongRef(void const*)
+         U virtual thunk to android::BpRefBase::onIncStrongAttempted(unsigned int, void const*)
+         U operator delete(void*)
+         U operator new(unsigned int)
+         U __aeabi_atexit
+         U __aeabi_unwind_cpp_pr0
+         U __aeabi_unwind_cpp_pr1
+         U __android_log_print
+00008d78 A __bss_end__
+00008c78 A __bss_start
+00008c78 A __bss_start__
+         U __cxa_pure_virtual
+00008c64 D __data_start
+         U __dso_handle
+00008d78 A __end__
+         U __errno
+00007988 A __exidx_end
+00007558 A __exidx_start
+         U __sF
+         U __stack_chk_fail
+         U __stack_chk_guard
+         U __system_property_find
+         U __system_property_read
+00008d78 A _bss_end__
+00008c78 A _edata
+00008d78 A _end
+00080000 A _stack
+         U access
+000059dc T acquire_wake_lock
+         U bind
+         U chown
+         U close
+         U delete_module
+         U dhcp_lasterror
+         U do_dhcp
+00006acc T do_dhcp_request
+         U dup
+00006664 T ensure_config_file_exists
+         U epoll_create
+         U epoll_ctl
+         U epoll_wait
+         U fclose
+         U fcntl
+         U fgets
+         U floor
+         U fopen
+         U fprintf
+         U free
+00006ac4 T get_dhcp_error_string
+         U get_dhcp_info
+         U getpid
+         U gettimeofday
+         U gmtime_r
+         U gps_get_hardware_interface
+000041c8 T gps_get_interface
+00004b74 T gps_get_qemu_interface
+         U ifc_close
+         U ifc_init
+         U init_module
+         U ioctl
+         U load_file
+         U localtime_r
+         U memchr
+         U memcmp
+         U memcpy
+         U memmove
+         U memset
+         U mktime
+         U open
+         U poll
+         U property_get
+         U property_set
+         U pthread_create
+         U pthread_join
+00005fd8 T qemu_add_mapping
+00005c18 T qemu_channel_open
+00005e20 T qemu_check
+00005aa4 T qemu_command_format
+00005ed8 T qemu_control_command
+00005d08 T qemu_control_query
+00005f44 T qemu_remove_mapping
+00005a1c T qemu_set_screen_state
+000060b4 T qemu_start_tracing
+00006078 T qemu_stop_tracing
+         U read
+         U recv
+0000599c T release_wake_lock
+         U sched_yield
+000057cc T set_deepsleep_state
+00005928 T set_last_user_activity_timeout
+00005870 T set_screen_state
+         U setsockopt
+         U snprintf
+         U socket
+         U socket_local_client
+         U socketpair
+         U sprintf
+         U strchr
+         U strcmp
+         U strerror
+         U strlcpy
+         U strlen
+         U strncmp
+         U strncpy
+         U strtod
+         U strtol
+         U time
+0000614c T uevent_init
+000060f0 T uevent_next_event
+         U unlink
+         U usleep
+00006264 T vibrator_off
+00006270 T vibrator_on
+         U vsnprintf
+00006278 T wifi_close_supplicant_connection
+00006440 T wifi_command
+00006468 T wifi_connect_to_supplicant
+00006c2c T wifi_load_driver
+0000639c T wifi_send_command
+00006800 T wifi_start_supplicant
+00006598 T wifi_stop_supplicant
+00006bbc T wifi_unload_driver
+000062a8 T wifi_wait_for_event
+         U wpa_ctrl_attach
+         U wpa_ctrl_cleanup
+         U wpa_ctrl_close
+         U wpa_ctrl_open
+         U wpa_ctrl_recv
+         U wpa_ctrl_request
+         U write

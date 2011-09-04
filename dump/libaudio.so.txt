@@ -1,0 +1,538 @@
+0001d004 T ANM_L_divide
+0001ccb4 T ANM_L_mpy_ll
+0001cc84 T ANM_L_mpy_ls
+0001cdf4 T ANM_fnExp10
+0001cd1c T ANM_fnExp2
+0001cfe4 T ANM_fnLog10
+0001ce38 T ANM_fnLog2
+0000e230 T AUDIO_tcmd_aud_sample_req
+0000d3d8 T AUDIO_tcmd_disable_voice_call_path
+0000dc14 T AUDIO_tcmd_enable_voice_call_path
+0000d6fc T AUDIO_tcmd_open_media_file
+0000d458 T AUDIO_tcmd_play_media_file
+0000d890 T AUDIO_tcmd_set_balance
+0000d9d4 T AUDIO_tcmd_set_input_gain
+0000dd84 T AUDIO_tcmd_set_input_path
+0000d80c T AUDIO_tcmd_set_output_gain
+0000d900 T AUDIO_tcmd_set_output_path
+0000e428 T AUDIO_tcmd_start_loopback
+0000e0c0 T AUDIO_tcmd_stop_loopback
+0000d334 T AUDIO_tcmd_stop_media_file
+0000dea0 T AUDIO_tcmd_suspend
+00010eb4 T AUDMGR_disableVoicePath
+00010f10 T AUDMGR_enableVoicePath
+00010b08 T AUDMGR_getMuteState
+00010b20 T AUDMGR_getVolume
+00010dc8 T AUDMGR_playDtmf
+00010d50 T AUDMGR_playTone
+00010f6c T AUDMGR_setMuteState
+00010c34 T AUDMGR_setTty
+00010e24 T AUDMGR_setVolume
+00010d48 T AUDMGR_stopDtmf
+00010cd4 T AUDMGR_stopTone
+00019388 T As_Compander
+00011010 T MsgHandlerDump
+000119dc T ipc_active()
+0000e1c8 T open_codec(int)
+00012290 T am_aipcm_tty(unsigned int)
+0000db94 T config_input()
+00013710 T am_aipcm_dump(int)
+00011bc8 T am_aipcm_exit()
+00011cc0 T am_aipcm_init()
+0000daf0 T config_output()
+00011a0c T next_pb_buffer(unsigned int)
+0000e040 T stopAPLoopback()
+00012678 T am_aipcm_va_req(unsigned int, unsigned int)
+0000daa4 T config_channels(unsigned int)
+0000e140 T loopback_thread(void*)
+00011a28 T next_cap_buffer(unsigned int)
+0000e360 T startAPLoopback()
+000122f4 T am_aipcm_set_dai(unsigned int)
+00011a18 T advance_pb_buffer(unsigned int&)
+0001174c T audTAPIMsgHandler(int, AUD_MSG_ENUM_T)
+00011a34 T advance_cap_buffer(unsigned int&)
+00012184 T am_aipcm_codec_req(unsigned int)
+0000da58 T config_sample_rate(int)
+00011afc T capture_buffer_full()
+00011b3c T dump_playback_queue()
+0000d350 T dump_wave_file_info(AUDIOWAVFileInfo&)
+00013908 T am_aipcm_read_buffer(unsigned int, char*)
+00011a7c T capture_buffer_empty()
+00011ac4 T playback_buffer_full()
+00011b34 T am_aipcm_get_buf_size()
+000129b8 T am_aipcm_mic_mute_req(AUD_IPC_MUTE_TYPE_ENUM_T, AUD_IPC_MUTE_SETTING_ENUM_T)
+00013844 T am_aipcm_write_buffer(unsigned int, char*)
+00011a44 T playback_buffer_empty()
+000124dc T am_aipcm_send_playback(unsigned int)
+00012898 T am_aipcm_set_ec_ns_req(unsigned int, unsigned int)
+00012c4c T am_aipcm_set_volume_req(unsigned int, unsigned int)
+00012918 T am_aipcm_request_msg_ack(unsigned int, unsigned int, unsigned int)
+000127c0 T am_aipcm_network_tone_req(unsigned int, unsigned int, unsigned int)
+00012364 T am_aipcm_playback_mix_req(unsigned int, unsigned int)
+00012a74 T am_aipcm_set_accessory_req(AUD_IPC_ACCESSORY_TYPE_ENUM_T)
+0001222c T am_aipcm_voice_call_enable(unsigned int)
+00011a08 T am_aipcm_get_call_connected()
+00009624 T getBool(bool)
+00009644 T getBool(int)
+00010b58 T sendMsg(AudMsgType*, int)
+0000e644 T AudioWaveFileParser::GetPCMData(unsigned char*, unsigned int, unsigned int, unsigned int&)
+0000e6cc T AudioWaveFileParser::InitWavParser(char*)
+0000e598 T AudioWaveFileParser::SeekPCMSample(unsigned int)
+0000e5d4 T AudioWaveFileParser::CleanupWAVFile()
+0000e55c T AudioWaveFileParser::RetrieveFileInfo(AUDIOWAVFileInfo&)
+0000e618 T AudioWaveFileParser::ReadData(unsigned char*, unsigned int, unsigned int&)
+0000e600 T AudioWaveFileParser::~AudioWaveFileParser()
+0000e60c T AudioWaveFileParser::~AudioWaveFileParser()
+         U android::VectorImpl::finish_vector()
+         U android::VectorImpl::removeItemsAt(unsigned int, unsigned int)
+         U android::VectorImpl::reservedVectorImpl1()
+         U android::VectorImpl::reservedVectorImpl2()
+         U android::VectorImpl::reservedVectorImpl3()
+         U android::VectorImpl::reservedVectorImpl4()
+         U android::VectorImpl::reservedVectorImpl5()
+         U android::VectorImpl::reservedVectorImpl6()
+         U android::VectorImpl::reservedVectorImpl7()
+         U android::VectorImpl::reservedVectorImpl8()
+         U android::VectorImpl::clear()
+         U android::AudioSystem::isA2dpDevice(android::AudioSystem::audio_devices)
+         U android::AudioSystem::isInputDevice(android::AudioSystem::audio_devices)
+         U android::AudioSystem::popCount(unsigned int)
+0002c190 B android::gp_audioDev
+00014d48 W int android::compare_type<android::key_value_pair_t<android::String8, android::String8> >(android::key_value_pair_t<android::String8, android::String8> const&, android::key_value_pair_t<android::String8, android::String8> const&)
+0000a5ec T android::sendHDMIMute(bool)
+00014414 T android::AudioStreamIn::~AudioStreamIn()
+00014380 T android::AudioStreamIn::~AudioStreamIn()
+00014360 T android::AudioStreamIn::~AudioStreamIn()
+         U android::AudioParameter::keyRouting
+         U android::AudioParameter::add(android::String8 const&, android::String8 const&)
+         U android::AudioParameter::get(android::String8 const&, android::String8&)
+         U android::AudioParameter::getAt(unsigned int, android::String8&, android::String8&)
+         U android::AudioParameter::addInt(android::String8 const&, int)
+         U android::AudioParameter::getInt(android::String8 const&, int&)
+         U android::AudioParameter::remove(android::String8 const&)
+         U android::AudioParameter::toString()
+         U android::AudioParameter::AudioParameter(android::String8 const&)
+         U android::AudioParameter::~AudioParameter()
+00014428 T android::AudioStreamOut::~AudioStreamOut()
+00014340 T android::AudioStreamOut::~AudioStreamOut()
+00014320 T android::AudioStreamOut::~AudioStreamOut()
+0000d2cc T android::audio_get_time()
+0000a524 T android::AudioHardwareMot::disableAdc()
+00009694 T android::AudioHardwareMot::getMicMute(bool*)
+0000968c T android::AudioHardwareMot::setMicMute(bool)
+0000c1ac T android::AudioHardwareMot::setTtyMode(AUD_IPC_TTY_SETTING_T)
+00009998 T android::AudioHardwareMot::checkStandby()
+0000973c T android::AudioHardwareMot::getInputName(int)
+0000c134 T android::AudioHardwareMot::handleHACMsg(char const*)
+0000c0c8 T android::AudioHardwareMot::handleTTYMsg(AUD_IPC_TTY_SETTING_T)
+00009ce8 T android::AudioHardwareMot::setCodecRate(int)
+00009c74 T android::AudioHardwareMot::setCodecRate(int, int)
+000096bc T android::AudioHardwareMot::stopLoopback()
+0000a314 T android::AudioHardwareMot::dumpInternals(int, android::Vector<android::String16> const&)
+000096c0 T android::AudioHardwareMot::getOutputName(int)
+0000c1dc T android::AudioHardwareMot::getParameters(android::String8 const&)
+0000b09c T android::AudioHardwareMot::handleNrecMsg(char const*)
+0000c248 T android::AudioHardwareMot::setParameters(android::String8 const&)
+000096b8 T android::AudioHardwareMot::startLoopback()
+0000c814 T android::AudioHardwareMot::setVoiceVolume(float)
+000096a0 T android::AudioHardwareMot::isCallConnected()
+0000ca7c T android::AudioHardwareMot::openInputStream(unsigned int, int*, unsigned int*, unsigned int*, int*, android::AudioSystem::audio_in_acoustics)
+00009684 T android::AudioHardwareMot::setMasterVolume(float)
+0000c8b4 T android::AudioHardwareMot::closeInputStream(android::AudioStreamIn*)
+0000c918 T android::AudioHardwareMot::openOutputStream(unsigned int, int*, unsigned int*, unsigned int*, int*)
+00009a48 T android::AudioHardwareMot::closeOutputStream(android::AudioStreamOut*)
+000099c0 T android::AudioHardwareMot::getInputBufferSize(unsigned int, int, int)
+0000b17c T android::AudioHardwareMot::configPostProcessor(AUD_IPC_ACCESSORY_TYPE_ENUM_T)
+0000c05c T android::AudioHardwareMot::handleCallConnected(unsigned int)
+0000b0f0 T android::AudioHardwareMot::handleVoiceQualityMsg(char const*)
+0000b034 T android::AudioHardwareMot::dump(int, android::Vector<android::String16> const&)
+00009d34 T android::AudioHardwareMot::openFM()
+00009cf4 T android::AudioHardwareMot::closeFM()
+0000c624 T android::AudioHardwareMot::setMode(int)
+000096ac T android::AudioHardwareMot::isInCall()
+0000b1e8 T android::AudioHardwareMot::updateFM()
+0000b318 T android::AudioHardwareMot::doRouting()
+0000cb50 T android::AudioHardwareMot::enableAdc()
+00009654 T android::AudioHardwareMot::initCheck()
+0000b304 T android::AudioHardwareMot::setFMPath(int)
+0000ce2c T android::AudioHardwareMot::AudioHardwareMot()
+0000d090 T android::AudioHardwareMot::AudioHardwareMot()
+0000cd54 T android::AudioHardwareMot::~AudioHardwareMot()
+0000ccc4 T android::AudioHardwareMot::~AudioHardwareMot()
+0000cd7c T android::AudioHardwareMot::~AudioHardwareMot()
+00009bb0 T android::AudioStreamInMot::setChannels(unsigned int)
+0000986c T android::AudioStreamInMot::getParameters(android::String8 const&)
+0000ba98 T android::AudioStreamInMot::setParameters(android::String8 const&)
+0000a98c T android::AudioStreamInMot::set(android::AudioHardwareMot*, unsigned int, int*, unsigned int*, unsigned int*, android::AudioSystem::audio_in_acoustics)
+0000a050 T android::AudioStreamInMot::dump(int, android::Vector<android::String16> const&)
+0000a6e0 T android::AudioStreamInMot::read(void*, long)
+0000bbe8 T android::AudioStreamInMot::wake()
+0000a868 T android::AudioStreamInMot::standby()
+0000ac28 T android::AudioStreamInMot::AudioStreamInMot()
+0000ac74 T android::AudioStreamInMot::AudioStreamInMot()
+0000a938 T android::AudioStreamInMot::~AudioStreamInMot()
+0000a8f8 T android::AudioStreamInMot::~AudioStreamInMot()
+0000a94c T android::AudioStreamInMot::~AudioStreamInMot()
+         U android::SortedVectorImpl::reservedSortedVectorImpl1()
+         U android::SortedVectorImpl::reservedSortedVectorImpl2()
+         U android::SortedVectorImpl::reservedSortedVectorImpl3()
+         U android::SortedVectorImpl::reservedSortedVectorImpl4()
+         U android::SortedVectorImpl::reservedSortedVectorImpl5()
+         U android::SortedVectorImpl::reservedSortedVectorImpl6()
+         U android::SortedVectorImpl::reservedSortedVectorImpl7()
+         U android::SortedVectorImpl::reservedSortedVectorImpl8()
+         U android::SortedVectorImpl::add(void const*)
+         U android::SortedVectorImpl::SortedVectorImpl(unsigned int, unsigned int)
+         U android::SortedVectorImpl::~SortedVectorImpl()
+000145a8 T android::AudioHardwareBase::getParameters(android::String8 const&)
+000143e8 T android::AudioHardwareBase::setParameters(android::String8 const&)
+000144dc T android::AudioHardwareBase::getInputBufferSize(unsigned int, int, int)
+00014544 T android::AudioHardwareBase::setMode(int)
+0001443c T android::AudioHardwareBase::dumpState(int, android::Vector<android::String16> const&)
+000143c4 T android::AudioHardwareBase::AudioHardwareBase()
+000143a0 T android::AudioHardwareBase::AudioHardwareBase()
+000163b4 T android::AudioHardwareStub::dumpInternals(int, android::Vector<android::String16> const&)
+0001609c T android::AudioHardwareStub::setVoiceVolume(float)
+000164e0 T android::AudioHardwareStub::openInputStream(unsigned int, int*, unsigned int*, unsigned int*, int*, android::AudioSystem::audio_in_acoustics)
+000160a0 T android::AudioHardwareStub::setMasterVolume(float)
+0001608c T android::AudioHardwareStub::closeInputStream(android::AudioStreamIn*)
+0001653c T android::AudioHardwareStub::openOutputStream(unsigned int, int*, unsigned int*, unsigned int*, int*)
+0001607c T android::AudioHardwareStub::closeOutputStream(android::AudioStreamOut*)
+00016444 T android::AudioHardwareStub::dump(int, android::Vector<android::String16> const&)
+00016078 T android::AudioHardwareStub::initCheck()
+00016590 T android::AudioHardwareStub::AudioHardwareStub()
+000165b8 T android::AudioHardwareStub::AudioHardwareStub()
+000160f0 T android::AudioHardwareStub::~AudioHardwareStub()
+00016058 T android::AudioHardwareStub::~AudioHardwareStub()
+00016038 T android::AudioHardwareStub::~AudioHardwareStub()
+0001617c T android::AudioStreamInStub::getParameters(android::String8 const&)
+000160ec T android::AudioStreamInStub::set(int*, unsigned int*, unsigned int*, android::AudioSystem::audio_in_acoustics)
+000161c4 T android::AudioStreamInStub::dump(int, android::Vector<android::String16> const&)
+00016490 T android::AudioStreamInStub::read(void*, long)
+0000a670 T android::AudioStreamOutMot::setDevices(unsigned int)
+000098e0 T android::AudioStreamOutMot::getParameters(android::String8 const&)
+0000bd40 T android::AudioStreamOutMot::setParameters(android::String8 const&)
+00009bf0 T android::AudioStreamOutMot::getRenderPosition(unsigned int*)
+000097ec T android::AudioStreamOutMot::getScoOutputByteSize(int)
+00009edc T android::AudioStreamOutMot::set(android::AudioHardwareMot*, unsigned int, int*, unsigned int*, unsigned int*)
+0000a170 T android::AudioStreamOutMot::dump(int, android::Vector<android::String16> const&)
+0000beb4 T android::AudioStreamOutMot::wake(unsigned int)
+0000ad94 T android::AudioStreamOutMot::write(void const*, unsigned int)
+0000af30 T android::AudioStreamOutMot::srcInit()
+0000acc0 T android::AudioStreamOutMot::standby()
+0000afe0 T android::AudioStreamOutMot::~AudioStreamOutMot()
+0000afa0 T android::AudioStreamOutMot::~AudioStreamOutMot()
+0000aff4 T android::AudioStreamOutMot::~AudioStreamOutMot()
+000150a4 W void android::move_forward_type<android::key_value_pair_t<android::String8, android::String8> >(android::key_value_pair_t<android::String8, android::String8>*, android::key_value_pair_t<android::String8, android::String8> const*, unsigned int)
+000147ec T android::A2dpAudioInterface::getMicMute(bool*)
+000147e0 T android::A2dpAudioInterface::setMicMute(bool)
+00015160 T android::A2dpAudioInterface::getParameters(android::String8 const&)
+00014c48 T android::A2dpAudioInterface::setParameters(android::String8 const&)
+00014808 T android::A2dpAudioInterface::setVoiceVolume(float)
+000147a0 T android::A2dpAudioInterface::openInputStream(unsigned int, int*, unsigned int*, unsigned int*, int*, android::AudioSystem::audio_in_acoustics)
+00014814 T android::A2dpAudioInterface::setMasterVolume(float)
+000147c8 T android::A2dpAudioInterface::closeInputStream(android::AudioStreamIn*)
+000152d8 T android::A2dpAudioInterface::openOutputStream(unsigned int, int*, unsigned int*, unsigned int*, int*)
+000146f0 T android::A2dpAudioInterface::closeOutputStream(android::AudioStreamOut*)
+000149e8 T android::A2dpAudioInterface::A2dpAudioStreamOut::setAddress(char const*)
+00014830 T android::A2dpAudioInterface::A2dpAudioStreamOut::setSuspended(bool)
+00014a80 T android::A2dpAudioInterface::A2dpAudioStreamOut::getParameters(android::String8 const&)
+00014b2c T android::A2dpAudioInterface::A2dpAudioStreamOut::setParameters(android::String8 const&)
+00014844 T android::A2dpAudioInterface::A2dpAudioStreamOut::getRenderPosition(unsigned int*)
+00014880 T android::A2dpAudioInterface::A2dpAudioStreamOut::setBluetoothEnabled(bool)
+000148d0 T android::A2dpAudioInterface::A2dpAudioStreamOut::set(unsigned int, int*, unsigned int*, unsigned int*)
+00014840 T android::A2dpAudioInterface::A2dpAudioStreamOut::dump(int, android::Vector<android::String16> const&)
+00014da8 T android::A2dpAudioInterface::A2dpAudioStreamOut::init()
+00014860 T android::A2dpAudioInterface::A2dpAudioStreamOut::close()
+00014e04 T android::A2dpAudioInterface::A2dpAudioStreamOut::write(void const*, unsigned int)
+0001484c T android::A2dpAudioInterface::A2dpAudioStreamOut::close_l()
+00014d74 T android::A2dpAudioInterface::A2dpAudioStreamOut::standby()
+00014f80 T android::A2dpAudioInterface::A2dpAudioStreamOut::A2dpAudioStreamOut()
+00014fe8 T android::A2dpAudioInterface::A2dpAudioStreamOut::A2dpAudioStreamOut()
+00014f30 T android::A2dpAudioInterface::A2dpAudioStreamOut::~A2dpAudioStreamOut()
+00014ef4 T android::A2dpAudioInterface::A2dpAudioStreamOut::~A2dpAudioStreamOut()
+00014f44 T android::A2dpAudioInterface::A2dpAudioStreamOut::~A2dpAudioStreamOut()
+000147f8 T android::A2dpAudioInterface::getInputBufferSize(unsigned int, int, int)
+00014820 T android::A2dpAudioInterface::dump(int, android::Vector<android::String16> const&)
+000147d4 T android::A2dpAudioInterface::setMode(int)
+000146dc T android::A2dpAudioInterface::initCheck()
+0001536c T android::A2dpAudioInterface::A2dpAudioInterface(android::AudioHardwareInterface*)
+000153a8 T android::A2dpAudioInterface::A2dpAudioInterface(android::AudioHardwareInterface*)
+00014ee0 T android::A2dpAudioInterface::~A2dpAudioInterface()
+00014718 T android::A2dpAudioInterface::~A2dpAudioInterface()
+0001475c T android::A2dpAudioInterface::~A2dpAudioInterface()
+0000ef44 T android::AudioPostProcessor::getInputGain(bool, AUD_IPC_ACCESSORY_TYPE_ENUM_T)
+0000ea08 T android::AudioPostProcessor::getCaptureMic()
+0000f008 T android::AudioPostProcessor::getOutputGain(bool, bool, AUD_IPC_ACCESSORY_TYPE_ENUM_T)
+000104e4 T android::AudioPostProcessor::getParameters(android::AudioParameter&)
+000103d4 T android::AudioPostProcessor::handleMmulCmd(char const*)
+0000ee80 T android::AudioPostProcessor::mapHwAccyType(AUD_IPC_ACCESSORY_TYPE_ENUM_T)
+00010698 T android::AudioPostProcessor::setParameters(android::AudioParameter&)
+0000f140 T android::AudioPostProcessor::am_coeffs_init(char const*)
+0000ee0c T android::AudioPostProcessor::mapCtoAccyType(AUD_IPC_ACCESSORY_TYPE_ENUM_T)
+0000f364 T android::AudioPostProcessor::ul_coeffs_init(char const*)
+0000ebe4 T android::AudioPostProcessor::configureLogger()
+0000f618 T android::AudioPostProcessor::setClientConfig(int, int)
+0000ea64 T android::AudioPostProcessor::am_coeffs_destroy()
+0000ebd0 T android::AudioPostProcessor::ul_coeffs_destroy()
+0000f544 T android::AudioPostProcessor::updateUlProcessor()
+0000e9d8 T android::AudioPostProcessor::getCaptureChannels()
+0000f898 T android::AudioPostProcessor::applyPostProcessing(void const*, void*, unsigned int)
+0000f440 T android::AudioPostProcessor::updatePostProcessor()
+0000f4d8 T android::AudioPostProcessor::configPostProcessing(AUD_IPC_ACCESSORY_TYPE_ENUM_T, AUD_IPC_ACCESSORY_TYPE_ENUM_T, unsigned int, bool)
+0000f678 T android::AudioPostProcessor::applyCaptureProcessing(void*, void*, unsigned int, unsigned int, bool)
+0000ed6c T android::AudioPostProcessor::am_coeffs_smpl_freq_to_enum(int)
+0000ea74 T android::AudioPostProcessor::dump(int, android::Vector<android::String16> const&)
+0000ea54 T android::AudioPostProcessor::getFmGain(AM_COEFFS_AUDIO_DEVICE_ENUM_T)
+0000f9e8 T android::AudioPostProcessor::AudioPostProcessor()
+0000fd70 T android::AudioPostProcessor::AudioPostProcessor()
+0000f9a4 T android::AudioPostProcessor::~AudioPostProcessor()
+0000f974 T android::AudioPostProcessor::~AudioPostProcessor()
+0000f9b8 T android::AudioPostProcessor::~AudioPostProcessor()
+000161a0 T android::AudioStreamOutStub::getParameters(android::String8 const&)
+000160e4 T android::AudioStreamOutStub::getRenderPosition(unsigned int*)
+000160a4 T android::AudioStreamOutStub::set(int*, unsigned int*, unsigned int*)
+000162cc T android::AudioStreamOutStub::dump(int, android::Vector<android::String16> const&)
+00016450 T android::AudioStreamOutStub::write(void const*, unsigned int)
+000160e0 T android::AudioStreamOutStub::standby()
+00015068 W void android::move_backward_type<android::key_value_pair_t<android::String8, android::String8> >(android::key_value_pair_t<android::String8, android::String8>*, android::key_value_pair_t<android::String8, android::String8> const*, unsigned int)
+0001547c T android::AudioHardwareGeneric::getMicMute(bool*)
+00015474 T android::AudioHardwareGeneric::setMicMute(bool)
+000159e4 T android::AudioHardwareGeneric::dumpInternals(int, android::Vector<android::String16> const&)
+00015468 T android::AudioHardwareGeneric::setVoiceVolume(float)
+00015cf4 T android::AudioHardwareGeneric::openInputStream(unsigned int, int*, unsigned int*, unsigned int*, int*, android::AudioSystem::audio_in_acoustics)
+0001546c T android::AudioHardwareGeneric::setMasterVolume(float)
+0001544c T android::AudioHardwareGeneric::closeInputStream(android::AudioStreamIn*)
+00015db0 T android::AudioHardwareGeneric::openOutputStream(unsigned int, int*, unsigned int*, unsigned int*, int*)
+00015430 T android::AudioHardwareGeneric::closeOutputStream(android::AudioStreamOut*)
+00015a80 T android::AudioHardwareGeneric::dump(int, android::Vector<android::String16> const&)
+00015e54 T android::AudioHardwareGeneric::initCheck()
+00015f3c T android::AudioHardwareGeneric::AudioHardwareGeneric()
+00015f8c T android::AudioHardwareGeneric::AudioHardwareGeneric()
+00015ed4 T android::AudioHardwareGeneric::~AudioHardwareGeneric()
+00015e80 T android::AudioHardwareGeneric::~AudioHardwareGeneric()
+00015ee8 T android::AudioHardwareGeneric::~AudioHardwareGeneric()
+00015584 T android::AudioStreamInGeneric::getParameters(android::String8 const&)
+0001566c T android::AudioStreamInGeneric::setParameters(android::String8 const&)
+00015ab0 T android::AudioStreamInGeneric::set(android::AudioHardwareGeneric*, int, unsigned int, int*, unsigned int*, unsigned int*, android::AudioSystem::audio_in_acoustics)
+0001572c T android::AudioStreamInGeneric::dump(int, android::Vector<android::String16> const&)
+00015b8c T android::AudioStreamInGeneric::read(void*, long)
+00015c3c T android::AudioStreamInGeneric::~AudioStreamInGeneric()
+00015c0c T android::AudioStreamInGeneric::~AudioStreamInGeneric()
+00015c50 T android::AudioStreamInGeneric::~AudioStreamInGeneric()
+000155f8 T android::AudioStreamOutGeneric::getParameters(android::String8 const&)
+000156cc T android::AudioStreamOutGeneric::setParameters(android::String8 const&)
+0001557c T android::AudioStreamOutGeneric::getRenderPosition(unsigned int*)
+00015484 T android::AudioStreamOutGeneric::set(android::AudioHardwareGeneric*, int, unsigned int, int*, unsigned int*, unsigned int*)
+00015888 T android::AudioStreamOutGeneric::dump(int, android::Vector<android::String16> const&)
+00015be0 T android::AudioStreamOutGeneric::write(void const*, unsigned int)
+00015578 T android::AudioStreamOutGeneric::standby()
+00015cb0 T android::AudioStreamOutGeneric::~AudioStreamOutGeneric()
+00015c80 T android::AudioStreamOutGeneric::~AudioStreamOutGeneric()
+00015cc4 T android::AudioStreamOutGeneric::~AudioStreamOutGeneric()
+000145cc T android::AudioHardwareInterface::create()
+         U android::String8::setTo(char const*)
+         U android::String8::setTo(android::String8 const&)
+         U android::String8::append(char const*)
+         U android::String8::append(android::String8 const&)
+         U android::String8::String8(char const*)
+         U android::String8::String8(android::String8 const&)
+         U android::String8::String8()
+         U android::String8::~String8()
+00014d68 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_compare(void const*, void const*) const
+00014a68 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_destroy(void*, unsigned int) const
+00014a30 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_construct(void*, unsigned int) const
+000150d0 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_move_forward(void*, void const*, unsigned int) const
+00015094 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_move_backward(void*, void const*, unsigned int) const
+000150fc W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_copy(void*, void const*, unsigned int) const
+000150e0 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_splat(void*, void const*, unsigned int) const
+0000982c W android::SortedVector<android::AudioStreamInMot*>::do_compare(void const*, void const*) const
+00009810 W android::SortedVector<android::AudioStreamInMot*>::do_destroy(void*, unsigned int) const
+0000980c W android::SortedVector<android::AudioStreamInMot*>::do_construct(void*, unsigned int) const
+0000ce1c W android::SortedVector<android::AudioStreamInMot*>::do_move_forward(void*, void const*, unsigned int) const
+0000ce0c W android::SortedVector<android::AudioStreamInMot*>::do_move_backward(void*, void const*, unsigned int) const
+0000ad84 W android::SortedVector<android::AudioStreamInMot*>::do_copy(void*, void const*, unsigned int) const
+00009814 W android::SortedVector<android::AudioStreamInMot*>::do_splat(void*, void const*, unsigned int) const
+0000965c T android::AudioHardwareMot::isLoudspeakerActive() const
+00009d74 T android::AudioStreamInMot::bufferSize() const
+00009b18 T android::AudioStreamInMot::getInputFramesLost() const
+         U android::SortedVectorImpl::indexOf(void const*) const
+00009e14 T android::AudioStreamOutMot::bufferSize() const
+000102e0 T android::AudioPostProcessor::getOneButton(char const*) const
+0000f06c T android::AudioPostProcessor::getConfigForEq(CTO_AUDIO_MM_AUDIO_CONFIG, unsigned char) const
+000100f8 T android::AudioPostProcessor::getEq(char const*) const
+0001026c T android::AudioPostProcessor::getAve(char const*) const
+00029318 V vtable for android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >
+000290b8 V vtable for android::SortedVector<android::AudioStreamInMot*>
+00029030 V vtable for android::AudioStreamIn
+         U vtable for android::AudioParameter
+00029070 V vtable for android::AudioStreamOut
+00029180 D vtable for android::AudioHardwareMot
+000291d8 D vtable for android::AudioStreamInMot
+000292c0 D vtable for android::AudioHardwareBase
+00029508 D vtable for android::AudioHardwareStub
+00029560 D vtable for android::AudioStreamInStub
+00029220 D vtable for android::AudioStreamOutMot
+000293e0 D vtable for android::A2dpAudioInterface::A2dpAudioStreamOut
+00029388 D vtable for android::A2dpAudioInterface
+00029270 D vtable for android::AudioPostProcessor
+000295a0 D vtable for android::AudioStreamOutStub
+00029428 D vtable for android::AudioHardwareGeneric
+00029480 D vtable for android::AudioStreamInGeneric
+000294c0 D vtable for android::AudioStreamOutGeneric
+00029128 V vtable for android::AudioHardwareInterface
+         U operator delete[](void*)
+         U operator delete(void*)
+         U operator new[](unsigned int)
+         U operator new(unsigned int)
+         U __aeabi_idiv
+         U __aeabi_uidiv
+         U __aeabi_unwind_cpp_pr0
+         U __aeabi_unwind_cpp_pr1
+         U __android_log_print
+0002c2ec A __bss_end__
+0002c16c A __bss_start
+0002c16c A __bss_start__
+         U __cxa_pure_virtual
+00029934 D __data_start
+0002c2ec A __end__
+         U __errno
+00028324 A __exidx_end
+00027594 A __exidx_start
+         U __stack_chk_fail
+         U __stack_chk_guard
+0002c2ec A _bss_end__
+0002c16c A _edata
+0002c2ec A _end
+00080000 A _stack
+         U a2dp_cleanup
+         U a2dp_init
+         U a2dp_set_sink
+         U a2dp_stop
+         U a2dp_write
+         U accept
+         U access
+         U acquire_wake_lock
+00018434 T aie_chan_activate
+000189b4 T aie_chan_input_gain
+00018ad8 T aie_chan_output_gain
+00018950 T aie_create_stereo_output
+00018cc4 T aie_er
+00017dd0 T aie_init_state
+000183e8 T aie_input_demux
+00018c14 T aie_itd
+00018e18 T aie_lfe
+00018084 T aie_process
+0002c184 B am_mutex
+0002c2e4 B am_sap_cond_var
+00016774 T api_cto_audio_mm_init
+0001736c T api_cto_audio_mm_main
+00017720 T api_cto_audio_mm_param_parser
+0001d78c T api_cto_audio_mmul_init
+0001e0a4 T api_cto_audio_mmul_main
+0001e208 T api_cto_audio_mmul_param_parser
+00019334 T as_init
+00019098 T as_main_ctrl
+00019110 T as_process
+0001ea0c T bf
+000204e4 T bf_chan_activate
+0002146c T bf_chan_input_gain
+00021590 T bf_chan_output_gain
+00020480 T bf_create_stereo_output
+00021780 T bf_er
+0001fb98 T bf_init_state
+000203d4 T bf_input_demux
+000216d0 T bf_itd
+000218d4 T bf_lfe
+00020080 T bf_process
+0001fe50 T bf_wnd_hard_init
+0001fb70 T bf_wnd_soft_init
+         U bind
+         U calloc
+         U ceil
+         U chmod
+         U close
+0002c1a4 B codec_loopback_args
+         U connect
+0000d068 T createAudioHardware
+00011278 T createMsgHandler
+0002c18c B currentTTYSetting
+0002c2dc B current_playing_tone_id
+         U exit
+         U fclose
+         U fopen
+         U fread
+         U free
+         U fseek
+         U fstat
+         U ftell
+         U fwrite
+0002c1a0 B gStopMediaFile
+0002c188 B g_audioSuspended
+         U gettimeofday
+0002c19c B gpAudioHardware
+00018fe4 T iir_sos_filter
+00017ac4 T img_exp
+00029968 D interp_filt
+         U ioctl
+         U listen
+         U malloc
+         U memcpy
+         U memmove
+         U memset
+         U mmap
+         U munmap
+         U open
+         U property_get
+         U pthread_attr_destroy
+         U pthread_attr_init
+         U pthread_attr_setstacksize
+         U pthread_cond_signal
+         U pthread_cond_wait
+         U pthread_create
+         U pthread_detach
+         U pthread_exit
+         U pthread_join
+         U pthread_mutex_destroy
+         U pthread_mutex_init
+         U pthread_mutex_lock
+         U pthread_mutex_unlock
+0002994c D pthread_retval
+00014078 T rate_conv
+00013ed8 T rate_conv_init
+0001415c T rate_convert
+00013e34 T rate_convert_init
+         U read
+         U release_wake_lock
+         U remove
+00013a60 T resample_mono
+00013c04 T resample_stereo
+0001d348 T se_apply_4q11_gain
+0001d418 T se_apply_6q9_gain
+00019764 T se_get_history_size
+00019808 T se_get_param_ptr
+00019858 T se_main_control
+0001b590 T se_process
+0001d4e8 T se_sum_filter_bank
+         U select
+00029948 D server_fd
+         U sigaction
+         U sleep
+         U snprintf
+         U socket
+000111bc T socketConnect
+00011120 T socketRead
+00011084 T socketWrite
+00013a40 T src_copy
+00013eac T src_copy_interleaved
+         U stat
+         U strcmp
+         U strcpy
+         U strerror
+         U strlen
+         U strncmp
+         U strncpy
+0002c2e0 B tty_device_detected
+0002c2e8 B tty_mode_changed
+         U usleep
+         U write

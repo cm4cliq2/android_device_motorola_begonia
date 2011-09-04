@@ -1,0 +1,8 @@
+# mount point   fstype      device                  [device2]
+
+/boot           yaffs2        /dev/block/mtdblock4
+/cache          yaffs2        /dev/block/mtdblock8
+/data           yaffs2        /dev/block/mtdblock9
+/system         yaffs2        /dev/block/mtdblock7
+/sdcard         vfat          /dev/block/mmcblk0p1    /dev/block/mmcblk0
+

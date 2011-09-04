@@ -1,0 +1,451 @@
+0000eb60 T CameraSettings::copyString(char const*, char*, int)
+0000ec94 T CameraSettings::parseFloat(char const*, float*)
+0000ea64 T CameraSettings::parseOnOff(char const*, bool*)
+0000e620 T CameraSettings::getSettings()
+0000ee74 T CameraSettings::parseDegrees(char const*, int*, bool*)
+0000f7b4 T CameraSettings::setSdmStatus()
+0000ec64 T CameraSettings::parseAltitude(char const*, float*, bool*)
+0000ea00 T CameraSettings::parseFlipMode(char const*, bool*, bool*)
+0000f8a4 T CameraSettings::extractChanges(android::CameraParameters const&, CameraSettings::Changes_T*, int*, android::CameraParameters*)
+0000ec34 T CameraSettings::parseZoomValue(char const*, float*)
+0000f5e8 T CameraSettings::defaultSettings()
+0000f040 T CameraSettings::buildNewSettings(CameraSettings::Changes_T const*, int, CameraSettings::Settings_T*)
+0000eb6c T CameraSettings::parseFocusWindows(char const*, CameraSettings::Window_T*, int)
+0000ffb0 T CameraSettings::processParameters(android::CameraParameters const&)
+0000e9ac T CameraSettings::parsePictureFormat(char const*, int*, int*, bool*)
+0000ea90 T CameraSettings::setParseTableEntry(CameraSettings::ParamParseTable_T*)
+0000efb4 T CameraSettings::defaultCapabilities()
+0000e978 T CameraSettings::parseConversionTable(char const*, CameraSettings::ConversionTable_T const*, int, int*)
+0000ef5c T CameraSettings::readOnlyParamsChanged(android::CameraParameters const&)
+0000ed80 T CameraSettings::parsePictureResolution(char const*, int*, int*, int*)
+0000ecf0 T CameraSettings::parsePreviewResolution(char const*, int*, int*)
+0000e624 T CameraSettings::matchThumbnailResolution(int, int, int*, int*)
+0000f710 T CameraSettings::init(CameraSettingsInterface*)
+0000e6b0 T CameraSettings::execute(CameraSettings::Changes_T const*, int, CameraSettings::Settings_T const&)
+0000efa8 T CameraSettings::getParam(char const*)
+0000ecb0 T CameraSettings::parseInt(char const*, int*)
+0000f730 T CameraSettings::setParam(char const*, char const*)
+0000f850 T CameraSettings::setParam(char const*, int)
+0000ecc4 T CameraSettings::parseSize(char const*, int*, int*)
+0000ee08 T CameraSettings::parseTime(char const*, CameraSettings::Time_T*)
+0000fed8 T CameraSettings::CameraSettings()
+0000ff44 T CameraSettings::CameraSettings()
+000100e8 T CameraSettings::~CameraSettings()
+0001011c T CameraSettings::~CameraSettings()
+         U android::MemoryBase::MemoryBase(android::sp<android::IMemoryHeap> const&, long, unsigned int)
+         U android::VectorImpl::finish_vector()
+         U android::VectorImpl::reservedVectorImpl1()
+         U android::VectorImpl::reservedVectorImpl2()
+         U android::VectorImpl::reservedVectorImpl3()
+         U android::VectorImpl::reservedVectorImpl4()
+         U android::VectorImpl::reservedVectorImpl5()
+         U android::VectorImpl::reservedVectorImpl6()
+         U android::VectorImpl::reservedVectorImpl7()
+         U android::VectorImpl::reservedVectorImpl8()
+         U android::VectorImpl::VectorImpl(android::VectorImpl const&)
+000179f8 B android::mFrameCount
+000179fc B android::mNumSamples
+0000eb34 W int android::compare_type<android::key_value_pair_t<android::String8, android::String8> >(android::key_value_pair_t<android::String8, android::String8> const&, android::key_value_pair_t<android::String8, android::String8> const&)
+         U android::DurationTimer::stop()
+         U android::DurationTimer::start()
+00017838 D android::hpPlatformMap
+         U android::MemoryHeapBase::MemoryHeapBase(int, unsigned int, unsigned int, unsigned int)
+         U android::MemoryHeapBase::MemoryHeapBase(unsigned int, unsigned int, char const*)
+0000a6f8 W android::printFrameInfo()
+00010924 T android::CameraCompFlash::setCapabilities(CameraSettings&)
+00010840 T android::CameraCompFlash::checkFlashVoltageReserve()
+000104d4 T android::CameraCompModule::getFlipType()
+00010450 T android::CameraCompModule::getHwPlatform()
+00010560 T android::CameraCompModule::tcPerformTest(CameraTCInterface::CameraTest, CameraTCInterface::CameraTestInputs*, CameraTCInterface::CameraTestOutputs*)
+00010368 T android::CameraCompModule::useVariableFrameRate()
+000103cc T android::CameraCompModule::getCalibrationInPhone()
+00010734 T android::CameraCompModule::getMaxVideoCaptureSupport(int*, int*)
+0001033c T android::CameraCompModule::getCameraModuleQueryString(char*, unsigned char)
+         U android::CameraParameters::setPictureSize(int, int)
+         U android::CameraParameters::setPreviewSize(int, int)
+         U android::CameraParameters::set(char const*, char const*)
+         U android::CameraParameters::CameraParameters()
+         U android::CameraParameters::~CameraParameters()
+         U android::SortedVectorImpl::reservedSortedVectorImpl1()
+         U android::SortedVectorImpl::reservedSortedVectorImpl2()
+         U android::SortedVectorImpl::reservedSortedVectorImpl3()
+         U android::SortedVectorImpl::reservedSortedVectorImpl4()
+         U android::SortedVectorImpl::reservedSortedVectorImpl5()
+         U android::SortedVectorImpl::reservedSortedVectorImpl6()
+         U android::SortedVectorImpl::reservedSortedVectorImpl7()
+         U android::SortedVectorImpl::reservedSortedVectorImpl8()
+         U android::SortedVectorImpl::~SortedVectorImpl()
+         U android::SortedVectorImpl::operator=(android::SortedVectorImpl const&)
+00010170 T android::CameraCompFactory::createFlash()
+00010160 T android::CameraCompFactory::deleteFlash(android::CameraCompFlash*)
+00010244 T android::CameraCompFactory::createModule()
+00010150 T android::CameraCompFactory::deleteModule(android::CameraCompModule*)
+0000fd64 W void android::move_forward_type<android::key_value_pair_t<android::String8, android::String8> >(android::key_value_pair_t<android::String8, android::String8>*, android::key_value_pair_t<android::String8, android::String8> const*, unsigned int)
+00010e54 T android::CameraCompFlashLed::initDevice()
+00010e74 T android::CameraCompFlashLed::tcPerformTest(CameraTCInterface::CameraTest, CameraTCInterface::CameraTestInputs*, CameraTCInterface::CameraTestOutputs*)
+00010f50 T android::CameraCompFlashLed::getStrobeStatus()
+00010e58 T android::CameraCompFlashLed::tcGetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long, unsigned long*)
+00010e68 T android::CameraCompFlashLed::tcSetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long)
+00010ea0 T android::CameraCompFlashLed::getTorchIntensity()
+00010fe8 T android::CameraCompFlashLed::setTorchParameters(bool, unsigned char)
+00011118 T android::CameraCompFlashLed::setStrobeParameters(unsigned char, unsigned char, int)
+0000fd28 W void android::move_backward_type<android::key_value_pair_t<android::String8, android::String8> >(android::key_value_pair_t<android::String8, android::String8>*, android::key_value_pair_t<android::String8, android::String8> const*, unsigned int)
+0001159c T android::CameraCompFlashXenon::initDevice()
+000112b8 T android::CameraCompFlashXenon::tcPerformTest(CameraTCInterface::CameraTest, CameraTCInterface::CameraTestInputs*, CameraTCInterface::CameraTestOutputs*)
+0001152c T android::CameraCompFlashXenon::getStrobeStatus()
+00011494 T android::CameraCompFlashXenon::tcGetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long, unsigned long*)
+000112e4 T android::CameraCompFlashXenon::tcSetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long)
+000112b4 T android::CameraCompFlashXenon::getTorchIntensity()
+00011674 T android::CameraCompFlashXenon::setTorchParameters(bool, unsigned char)
+00011750 T android::CameraCompFlashXenon::setStrobeParameters(unsigned char, unsigned char, int)
+000109e0 T android::CameraCompModuleHp5MP::getAnfThreshold()
+00010cf0 T android::CameraCompModuleHp5MP::setCapabilities(CameraSettings&)
+000109fc T android::CameraCompModuleHp5MP::tcGetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long, unsigned long*)
+00010a00 T android::CameraCompModuleHp5MP::tcSetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long)
+000109e4 T android::CameraCompModuleHp5MP::getDefCalibrationFileName()
+00010a2c T android::CameraCompModuleHp5MP::getCameraModuleQueryString(char*, unsigned char)
+00010d98 T android::CameraCompModuleHpMipi8MP::getAnfThreshold()
+00010de4 T android::CameraCompModuleHpMipi8MP::setCapabilities(CameraSettings&)
+00010db4 T android::CameraCompModuleHpMipi8MP::tcGetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long, unsigned long*)
+00010db8 T android::CameraCompModuleHpMipi8MP::tcSetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long)
+00010d9c T android::CameraCompModuleHpMipi8MP::getDefCalibrationFileName()
+0000a2e0 W android::sp<android::MemoryBase>::sp(android::MemoryBase*)
+0000a0f8 W android::sp<android::MemoryBase>::~sp()
+0000a4f0 W android::sp<android::MemoryBase>::operator=(android::MemoryBase*)
+0000a520 W android::sp<android::MemoryBase>::operator=(android::sp<android::MemoryBase> const&)
+0000a270 W android::sp<android::IMemoryHeap>::sp<android::MemoryHeapBase>(android::sp<android::MemoryHeapBase> const&)
+0000a0c0 W android::sp<android::IMemoryHeap>::~sp()
+0000a114 W android::sp<android::MemoryHeapBase>::clear()
+0000a554 W android::sp<android::MemoryHeapBase>::sp(android::MemoryHeapBase*)
+0000a1f0 W android::sp<android::MemoryHeapBase>::~sp()
+0000a45c W android::sp<android::MemoryHeapBase>::operator=(android::MemoryHeapBase*)
+0000a48c W android::sp<android::MemoryHeapBase>::operator=(android::sp<android::MemoryHeapBase> const&)
+0000a20c W android::sp<android::CameraHardwareInterface>::~sp()
+0000a2fc W android::sp<android::IMemory>::sp<android::MemoryBase>(android::sp<android::MemoryBase> const&)
+0000a0dc W android::sp<android::IMemory>::~sp()
+0000a570 W android::sp<android::Overlay>::operator=(android::sp<android::Overlay> const&)
+0000a4c0 W android::sp<android::CameraHal::PreviewThread>::operator=(android::CameraHal::PreviewThread*)
+0000a42c W android::sp<android::CameraHal::WatchDogThread>::operator=(android::CameraHal::WatchDogThread*)
+0000a0a4 W android::sp<android::CameraHal>::~sp()
+000094ec W android::wp<android::CameraHardwareInterface>::~wp()
+         U android::Thread::readyToRun()
+         U android::Thread::requestExit()
+         U android::Thread::requestExitAndWait()
+         U android::Thread::run(char const*, int, unsigned int)
+         U android::Thread::Thread(bool)
+         U android::Thread::~Thread()
+         U android::Thread::~Thread()
+         U android::Thread::~Thread()
+         U android::Overlay::queueBuffer(void*)
+         U android::Overlay::dequeueBuffer(void**)
+         U android::Overlay::getBufferAddress(void*)
+         U android::Overlay::destroy()
+         U android::Overlay::setCrop(unsigned int, unsigned int, unsigned int, unsigned int)
+         U android::RefBase::onFirstRef()
+         U android::RefBase::weakref_type::attemptIncStrong(void const*)
+         U android::RefBase::weakref_type::decWeak(void const*)
+         U android::RefBase::onLastWeakRef(void const*)
+         U android::RefBase::onLastStrongRef(void const*)
+         U android::RefBase::onIncStrongAttempted(unsigned int, void const*)
+         U android::RefBase::RefBase()
+         U android::RefBase::~RefBase()
+         U android::String8::setTo(android::String8 const&)
+         U android::String8::String8(android::String8 const&)
+         U android::String8::String8()
+         U android::String8::~String8()
+0000dd30 T android::CameraHal::cbFunction(eHpCallbackType, unsigned int, unsigned int, void*)
+0000b858 T android::CameraHal::initPvHeap()
+0000b2d8 T android::CameraHal::runCapture()
+0000df8c T android::CameraHal::setOverlay(android::sp<android::Overlay> const&)
+00008fbc T android::CameraHal::useOverlay()
+0000d1e0 T android::CameraHal::getInstance()
+0000d638 T android::CameraHal::jpgCallback(unsigned char*, unsigned char*, unsigned int, void*)
+0000ab30 T android::CameraHal::processZoom(HpMag, bool)
+00009dd8 T android::CameraHal::sendCommand(int, int, int)
+0000d240 T android::CameraHal::smileDetect(unsigned char, HpBox*)
+0000af7c T android::CameraHal::stopPreview()
+0000df34 T android::CameraHal::takePicture()
+0000a130 T android::CameraHal::deinitPvHeap()
+0000a318 T android::CameraHal::pvHeapThread()
+0000a074 T android::CameraHal::setCallbacks(void (*)(int, int, int, void*), void (*)(int, android::sp<android::IMemory> const&, void*), void (*)(long long, int, android::sp<android::IMemory> const&, void*), void*)
+0000bcb8 T android::CameraHal::startPreview()
+0000b008 T android::CameraHal::stopWatchDog()
+0000ab18 T android::CameraHal::stripNewline(char*)
+0000df08 T android::CameraHal::cancelPicture()
+0000ca34 T android::CameraHal::enableMsgType(int)
+0000c160 T android::CameraHal::initPvOverlay()
+0000c9e8 T android::CameraHal::setParameters(android::CameraParameters const&)
+00017a08 B android::CameraHal::singletonLock
+0000b1e4 T android::CameraHal::startWatchDog()
+0000a5a4 T android::CameraHal::stopRecording()
+000095f0 T android::CameraHal::GetDebugAttrib(CameraTCInterface::DebugAttrib)
+00009580 T android::CameraHal::GetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long, bool*)
+000092cc T android::CameraHal::SetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long)
+0000e4d4 T android::CameraHal::createInstance()
+0000ca24 T android::CameraHal::disableMsgType(int)
+00008fac T android::CameraHal::msgTypeEnabled(int)
+0000a04c T android::CameraHal::previewEnabled()
+0000d798 T android::CameraHal::rawYUVCallback(unsigned char*, unsigned char*, unsigned int, void*)
+0000a674 T android::CameraHal::startRecording()
+0000da50 T android::CameraHal::threeACallback(void*)
+00009f50 T android::CameraHal::cancelAutoFocus()
+0000b2b4 T android::CameraHal::captureComplete()
+0000b200 T android::CameraHal::deinitPvOverlay()
+0000933c T android::CameraHal::getStrobeStatus()
+0000a810 T android::CameraHal::loadCalibration()
+0000adf8 T android::CameraHal::populateModelId()
+0000bd98 T android::CameraHal::pvOverlayThread()
+0000db50 T android::CameraHal::shutterCallback(void*)
+0000dea0 T android::CameraHal::waitIfCapturing()
+0000ad74 T android::CameraHal::getModelIdString(char*, int)
+000096ac T android::CameraHal::handlePictureIso(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000d8c8 T android::CameraHal::postviewCallback(unsigned char*, unsigned char*, unsigned int, void*)
+0000a030 T android::CameraHal::recordingEnabled()
+00009404 T android::CameraHal::skipPreviewFrame()
+0000928c T android::CameraHal::PerformCameraTest(CameraTCInterface::CameraTest, CameraTCInterface::CameraTestInputs*, CameraTCInterface::CameraTestOutputs*)
+00009360 T android::CameraHal::getTorchIntensity()
+0000c4dc T android::CameraHal::handleTestCommand(char const*)
+0000bcf4 T android::CameraHal::overlayQueueFrame(int)
+0000ac60 T android::CameraHal::populateTimestamp()
+0000d48c T android::CameraHal::faceDetectCallback(unsigned char, HpBox*, eHpFrameType, void*)
+00009d7c T android::CameraHal::handlePvRateChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00008ff8 T android::CameraHal::handleTnSizeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000090b8 T android::CameraHal::handleWbModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000ac94 T android::CameraHal::populateSoftwareId()
+00009320 T android::CameraHal::setFlashParameters(unsigned char, unsigned char)
+0000934c T android::CameraHal::setTorchParameters(bool, unsigned char)
+0000bd28 T android::CameraHal::overlayDequeueFrame()
+0000aee8 T android::CameraHal::stopPreviewInternal()
+00009668 T android::CameraHal::handleContrastChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009038 T android::CameraHal::handleFlipModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000099a8 T android::CameraHal::handleZoomStepChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000bb64 T android::CameraHal::startPreviewInternal()
+0000ad28 T android::CameraHal::GetCameraVendorString(char*, unsigned char)
+000090d4 T android::CameraHal::handleExpOffsetChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000097c0 T android::CameraHal::handleFaceDetEnChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000096f0 T android::CameraHal::handleFaceTrkEnChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000905c T android::CameraHal::handleFlashModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000910c T android::CameraHal::handleFocusAreaChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000090f0 T android::CameraHal::handleFocusModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009078 T android::CameraHal::handleSceneModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000098c0 T android::CameraHal::handleZoomSpeedChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009c38 T android::CameraHal::handleZoomStateChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009a90 T android::CameraHal::handleZoomValueChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009f84 T android::CameraHal::releaseRecordingFrame(android::sp<android::IMemory> const&)
+00009878 T android::CameraHal::handleBurstCountChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000c930 T android::CameraHal::handleSmileDetEnChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009b94 T android::CameraHal::roundAndStoreZoomLevel(HpMag*, bool)
+0000909c T android::CameraHal::handleColorEffectChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000091d4 T android::CameraHal::handleGpsAltitudeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009174 T android::CameraHal::handleGpsLatitudeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000926c T android::CameraHal::handleGpsMapDatumChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009148 T android::CameraHal::handleImageStabEnChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00008fd4 T android::CameraHal::handlePicRotationChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000aea8 T android::CameraHal::handleUserCommentChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009b68 T android::CameraHal::handleZoomToLevelChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000953c T android::CameraHal::overlayResetFrameStatus()
+000091a4 T android::CameraHal::handleGpsLongitudeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009200 T android::CameraHal::handleGpsTimestampChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000901c T android::CameraHal::handleImageQualityChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000924c T android::CameraHal::handleGpsProcMethodChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000092b0 T android::CameraHal::GetCameraModuleQueryString(char*, unsigned char)
+00009370 T android::CameraHal::convertPreviewFrameToYUV420SP_VU(unsigned char*, unsigned char*, int, int)
+00009500 T android::CameraHal::shouldEnablePreviewFrameSkipping()
+0000e04c T android::CameraHal::release()
+0000a228 T android::CameraHal::autoFocus()
+000093e0 T android::CameraHal::fillBlack(unsigned char*, int)
+00017a00 B android::CameraHal::singleton
+0000ca44 T android::CameraHal::CameraHal()
+0000ce08 T android::CameraHal::CameraHal()
+0000e2e4 T android::CameraHal::~CameraHal()
+0000e138 T android::CameraHal::~CameraHal()
+0000e2f8 T android::CameraHal::~CameraHal()
+000179f0 B android::mBasetime
+0000fe20 T CameraSettings::getParameters() const
+0000eb54 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_compare(void const*, void const*) const
+0000fda0 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_destroy(void*, unsigned int) const
+0000fdb8 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_construct(void*, unsigned int) const
+0000fd90 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_move_forward(void*, void const*, unsigned int) const
+0000fd54 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_move_backward(void*, void const*, unsigned int) const
+0000fcf4 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_copy(void*, void const*, unsigned int) const
+0000fcd8 W android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >::do_splat(void*, void const*, unsigned int) const
+         U android::DurationTimer::durationUsecs() const
+         U android::CameraParameters::get(char const*) const
+         U android::Overlay::getBufferCount() const
+         U android::RefBase::createWeak(void const*) const
+         U android::RefBase::decStrong(void const*) const
+         U android::RefBase::incStrong(void const*) const
+0000a298 T android::CameraHal::getRawHeap() const
+0000c9c4 T android::CameraHal::getParameters() const
+0000a2bc T android::CameraHal::getPreviewHeap() const
+00008fc8 T android::CameraHal::dump(int, android::Vector<android::String16> const&) const
+00016280 V construction vtable for android::Thread-in-android::CameraHal::PreviewThread
+000161b8 V construction vtable for android::Thread-in-android::CameraHal::WatchDogThread
+00016650 D construction vtable for android::CameraHardwareInterface-in-android::CameraHal
+00016140 V VTT for android::CameraHardwareInterface
+00016210 V VTT for android::CameraHal::PreviewThread
+00016148 V VTT for android::CameraHal::WatchDogThread
+00016640 D VTT for android::CameraHal
+000162d8 V vtable for CameraTCInterface
+00016300 V vtable for CameraSettingsInterface
+000166f8 V vtable for android::SortedVector<android::key_value_pair_t<android::String8, android::String8> >
+000167b0 D vtable for android::CameraCompFlash
+00016768 D vtable for android::CameraCompModule
+00016880 D vtable for android::CameraCompFlashLed
+000168c0 D vtable for android::CameraCompFlashXenon
+000167f0 D vtable for android::CameraCompModuleHp5MP
+00016098 V vtable for android::CameraHardwareInterface
+00016838 D vtable for android::CameraCompModuleHpMipi8MP
+00016220 V vtable for android::CameraHal::PreviewThread
+00016158 V vtable for android::CameraHal::WatchDogThread
+000163d0 D vtable for android::CameraHal
+000096a4 T non-virtual thunk to android::CameraHal::handlePictureIso(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000c4d4 T non-virtual thunk to android::CameraHal::handleTestCommand(char const*)
+00009d74 T non-virtual thunk to android::CameraHal::handlePvRateChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00008ff0 T non-virtual thunk to android::CameraHal::handleTnSizeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000090b0 T non-virtual thunk to android::CameraHal::handleWbModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009660 T non-virtual thunk to android::CameraHal::handleContrastChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009030 T non-virtual thunk to android::CameraHal::handleFlipModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000099a0 T non-virtual thunk to android::CameraHal::handleZoomStepChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000090cc T non-virtual thunk to android::CameraHal::handleExpOffsetChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000097b8 T non-virtual thunk to android::CameraHal::handleFaceDetEnChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000096e8 T non-virtual thunk to android::CameraHal::handleFaceTrkEnChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009054 T non-virtual thunk to android::CameraHal::handleFlashModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009104 T non-virtual thunk to android::CameraHal::handleFocusAreaChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000090e8 T non-virtual thunk to android::CameraHal::handleFocusModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009070 T non-virtual thunk to android::CameraHal::handleSceneModeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000098b8 T non-virtual thunk to android::CameraHal::handleZoomSpeedChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009c2c T non-virtual thunk to android::CameraHal::handleZoomStateChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009a88 T non-virtual thunk to android::CameraHal::handleZoomValueChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009870 T non-virtual thunk to android::CameraHal::handleBurstCountChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000c928 T non-virtual thunk to android::CameraHal::handleSmileDetEnChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009094 T non-virtual thunk to android::CameraHal::handleColorEffectChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000091cc T non-virtual thunk to android::CameraHal::handleGpsAltitudeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000916c T non-virtual thunk to android::CameraHal::handleGpsLatitudeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009264 T non-virtual thunk to android::CameraHal::handleGpsMapDatumChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009140 T non-virtual thunk to android::CameraHal::handleImageStabEnChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00008fcc T non-virtual thunk to android::CameraHal::handlePicRotationChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000aea0 T non-virtual thunk to android::CameraHal::handleUserCommentChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009b60 T non-virtual thunk to android::CameraHal::handleZoomToLevelChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000919c T non-virtual thunk to android::CameraHal::handleGpsLongitudeChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+000091f8 T non-virtual thunk to android::CameraHal::handleGpsTimestampChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009014 T non-virtual thunk to android::CameraHal::handleImageQualityChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+00009244 T non-virtual thunk to android::CameraHal::handleGpsProcMethodChange(CameraSettings::Settings_T const&, CameraSettings::Settings_T const&)
+0000e2dc T non-virtual thunk to android::CameraHal::~CameraHal()
+0000e130 T non-virtual thunk to android::CameraHal::~CameraHal()
+000095e8 T non-virtual thunk to android::CameraHal::GetDebugAttrib(CameraTCInterface::DebugAttrib)
+000092c4 T non-virtual thunk to android::CameraHal::SetDebugAttrib(CameraTCInterface::DebugAttrib, unsigned long)
+00009284 T non-virtual thunk to android::CameraHal::PerformCameraTest(CameraTCInterface::CameraTest, CameraTCInterface::CameraTestInputs*, CameraTCInterface::CameraTestOutputs*)
+0000ad20 T non-virtual thunk to android::CameraHal::GetCameraVendorString(char*, unsigned char)
+0000e2d4 T non-virtual thunk to android::CameraHal::~CameraHal()
+0000e128 T non-virtual thunk to android::CameraHal::~CameraHal()
+000094d0 W virtual thunk to android::CameraHardwareInterface::~CameraHardwareInterface()
+000094ac W virtual thunk to android::CameraHardwareInterface::~CameraHardwareInterface()
+         U virtual thunk to android::Thread::~Thread()
+         U virtual thunk to android::Thread::~Thread()
+0000b0ec W virtual thunk to android::CameraHal::PreviewThread::~PreviewThread()
+0000b0c8 W virtual thunk to android::CameraHal::PreviewThread::~PreviewThread()
+0000b174 W virtual thunk to android::CameraHal::WatchDogThread::~WatchDogThread()
+0000b150 W virtual thunk to android::CameraHal::WatchDogThread::~WatchDogThread()
+0000e600 T virtual thunk to android::CameraHal::~CameraHal()
+0000e610 T virtual thunk to android::CameraHal::~CameraHal()
+00008f68 W virtual thunk to android::CameraHal::PreviewThread::onFirstRef()
+00008f9c W virtual thunk to android::CameraHal::WatchDogThread::onFirstRef()
+         U operator delete[](void*)
+         U operator delete(void*)
+         U operator new[](unsigned int)
+         U operator new(unsigned int)
+         U __aeabi_atexit
+         U __aeabi_idiv
+         U __aeabi_idivmod
+         U __aeabi_ldivmod
+         U __aeabi_unwind_cpp_pr0
+         U __aeabi_unwind_cpp_pr1
+         U __android_log_print
+00017b3c A __bss_end__
+000179e8 A __bss_start
+000179e8 A __bss_start__
+         U __cxa_pure_virtual
+00016cd8 D __data_start
+         U __dso_handle
+00017b3c A __end__
+         U __errno
+000157d8 A __exidx_end
+00014d18 A __exidx_start
+         U __stack_chk_fail
+         U __stack_chk_guard
+00017b3c A _bss_end__
+000179e8 A _edata
+00017b3c A _end
+00080000 A _stack
+         U android_atomic_and
+         U android_atomic_or
+         U atoi
+         U atol
+         U close
+00017688 D colorEffects
+00017810 D contrastModes
+         U createSmileDetectEngine
+         U destroySmileDetectEngine
+         U dlclose
+         U dlopen
+         U dlsym
+         U exit
+000176c8 D exposureModes
+000176f8 D exposureOffsets
+         U fclose
+         U fgets
+000175e8 D flashModes
+         U floor
+00017790 D focusModes
+         U fopen
+         U fread
+         U free
+         U fwrite
+         U gettimeofday
+         U gmtime
+         U gzclose
+         U gzopen
+         U gzread
+00016cd8 D hpResolutionMap
+00016da4 D initialParseTable
+         U ioctl
+000177b0 D lightFreqModes
+         U malloc
+         U memcpy
+         U memset
+         U open
+0000e578 T openCameraHardware
+00017a10 B parseTable
+000177e8 D pictureIso
+000175d8 D previewFormats
+         U property_get
+         U pthread_cond_broadcast
+         U pthread_cond_destroy
+         U pthread_cond_init
+         U pthread_cond_signal
+         U pthread_cond_timedwait_relative_np
+         U pthread_mutex_destroy
+         U pthread_mutex_init
+         U pthread_mutex_lock
+         U pthread_mutex_unlock
+         U read
+00017608 D rotationValues
+         U round
+00016d20 D sceneModeParmTable
+00017628 D sceneModes
+         U snprintf
+         U sprintf
+         U strchr
+         U strcmp
+         U strftime
+         U strlcpy
+         U strlen
+         U strncmp
+         U strncpy
+         U strtod
+         U strtol
+         U time
+         U usleep
+         U write
+000177d0 D zoomStates
