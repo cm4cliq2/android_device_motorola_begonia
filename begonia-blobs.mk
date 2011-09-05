@@ -17,8 +17,12 @@
 # Prebuilt libraries that are needed to build open-source libraries
 # media config xml file
 
+# keyboard
 PRODUCT_COPY_FILES += \
-	device/motorola/begonia/qwerty.kl:system/usr/keylayout/qwerty.kl 
+	device/motorola/begonia/qwerty.kl:system/usr/keylayout/qwerty.kl \
+	device/motorola/begonia/keychars/umts_begonia-keypad.kcm.bin:system/usr/keychars/umts_begonia-keypad.kcm.bin \
+	device/motorola/begonia/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
+	device/motorola/begonia/keylayout/umts_begonia-keypad.kl:system/usr/keylayout/umts_begonia-keypad.kl
 
 #etc
 PRODUCT_COPY_FILES += \
@@ -47,12 +51,6 @@ endif
 #app
 #PRODUCT_COPY_FILES += \
 #	device/motorola/begonia/prebuilt/app/basebandswitcherV4.0.apk:system/app/basebandswitcherV4.0.apk
-
-# key board
-PRODUCT_COPY_FILES += \
-	device/motorola/begonia/keychars/umts_begonia-keypad.kcm.bin:system/usr/keychars/umts_begonia-keypad.kcm.bin \
-	device/motorola/begonia/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
-	device/motorola/begonia/keylayout/umts_begonia-keypad.kl:system/usr/keylayout/umts_begonia-keypad.kl
 
 #Bootmenu
 PRODUCT_COPY_FILES += \

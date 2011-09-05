@@ -97,8 +97,8 @@ TARGET_BOOTLOADER_BOARD_NAME := begonia
 
 # TODO: is this define for disable build the recovery & kernel the rom package file ?
 # This option may be removed in the future
-TARGET_NO_RECOVERY := true
-TARGET_NO_KERNEL := true
+#TARGET_NO_RECOVERY := true
+#TARGET_NO_KERNEL := true
 
 # Keep old variables until system core patch is merged
 #TARGET_RECOVERY_PRE_COMMAND := "/system/bootmenu/script/reboot_command.sh recovery"
