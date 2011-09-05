@@ -43,10 +43,10 @@ loglevel 3
 
     mkdir /system
     mkdir /data 0771 system system
-    mkdir /cache 0770 system cache
+    mkdir /cache 0777 system cache
     mkdir /config 0500 root root
     mkdir /pds 0755 root root
-    mkdir /misc 0770 system misc
+#    mkdir /misc 0770 system misc
 
     # Directory for putting things only root should see.
     mkdir /mnt/secure 0700 root root
@@ -102,7 +102,7 @@ on fs
 
 on post-fs
     # once everything is setup, no need to modify /
-    mount rootfs rootfs / rw remount
+    mount rootfs rootfs / ro remount
 
     # We chown/chmod /data again so because mount is run as root + defaults
     chown system system /data
@@ -129,7 +129,7 @@ on post-fs
 
     # Same reason as /data above
     chown system cache /cache
-    chmod 0770 /cache
+    chmod 0777 /cache
 
     chown system misc /misc
     chmod 0770 /misc
