@@ -66,8 +66,6 @@ BUILD_WITH_TI_AUDIO := 1
 # Graphics
 BOARD_EGL_CFG := device/motorola/begonia/egl.cfg
 BOARD_NO_RGBX_8888 := true
-# can't find the BUILD_PV_VIDEO_ENCODERS define in the source code, 
-# pulled from defy devices, so let's keep it now
 BUILD_PV_VIDEO_ENCODERS := 1	
 BUILD_JPEG_DECODER := 1
 BUILD_JPEG_ENCODER := 1

@@ -21,8 +21,11 @@
 PRODUCT_COPY_FILES += \
 	device/motorola/begonia/qwerty.kl:system/usr/keylayout/qwerty.kl \
 	device/motorola/begonia/keychars/umts_begonia-keypad.kcm.bin:system/usr/keychars/umts_begonia-keypad.kcm.bin \
+	device/motorola/begonia/keychars/sholes-keypad.kcm.bin:system/usr/keychars/sholes-keypad.kcm.bin \
+	device/motorola/begonia/keychars/qtouch-touchscreen.kcm.bin:system/usr/keychars/qtouch-touchscreen.kcm.bin \
 	device/motorola/begonia/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
-	device/motorola/begonia/keylayout/umts_begonia-keypad.kl:system/usr/keylayout/umts_begonia-keypad.kl
+	device/motorola/begonia/keylayout/umts_begonia-keypad.kl:system/usr/keylayout/umts_begonia-keypad.kl \
+	device/motorola/begonia/keylayout/sholes-keypad.kl:system/usr/keylayout/sholes-keypad.kl
 
 #etc
 PRODUCT_COPY_FILES += \
