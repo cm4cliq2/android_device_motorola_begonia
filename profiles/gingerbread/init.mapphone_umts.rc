@@ -355,7 +355,8 @@ service gkisystem /system/bin/gkisystem
     socket gpshal_socket stream 660 radio system
     socket opprofdaemon stream 660 radio system
     socket gkilog_sock stream 660 radio radio
-    group radio system mot_accy mot_secclkd
+    #group radio system mot_accy mot_secclkd
+    group system radio
     onrestart exec /system/bin/gki_pd_notifier
 service rild_tcmd /system/bin/rild_tcmd
     class pre-zygote_services
