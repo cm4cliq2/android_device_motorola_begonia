@@ -1,0 +1,27 @@
+#!/bin/sh
+# XDA-Developer Tweek - Edited by DJGHOSTS3V3N
+for i in $(ls -1 /sys/block/stl*) $(ls -1 /sys/block/mmc*) $(ls -1 /sys/block/bml*) $(ls -1 /sys/block/tfsr*)
+do echo "0" > $i/queue/rotational
+echo "1" > $i/queue/iosched/low_latency
+echo "1" > $i/queue/iosched/back_seek_penalty
+echo "1000000000" > $i/queue/iosched/back_seek_max
+echo "3" > $i/queue/iosched/slice_idle
+done
+for k in $(busybox mount | grep relatime | cut -d " " -f3)
+do
+sync
+busybox mount -o remount,noatime $k
+done
+echo "0" > /proc/sys/vm/swappiness
+#echo "10" > /proc/sys/vm/dirty_ratio
+#echo "4096" > /proc/sys/vm/min_free_kbytes
+echo "18000000" > /proc/sys/kernel/sched_latency_ns
+echo "3000000" > /proc/sys/kernel/sched_wakeup_granularity_ns
+echo "1500000" > /proc/sys/kernel/sched_min_granularity_ns
+# Battery Tweeks
+echo "2000" > /proc/sys/vm/dirty_writeback_centisecs
+echo "1000" > /proc/sys/vm/dirty_expire_centisecs
+# Speed Tweeks - Created by DJGHOSTS3V3N
+#echo "1536,3072,4096,21000,23000,25000" > /sys/module/lowmemorykiller/parameters/minfree
+echo "1536,3072,4096,21000,23000,25000" > /sys/module/lowmemorykiller/parameters/minfree
+# echo "1536,3072,4096,21000,23000,25000" > /sys/module/lowmemorykiller/parameters/minfree
