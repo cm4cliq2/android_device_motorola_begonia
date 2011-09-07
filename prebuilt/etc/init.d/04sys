@@ -1,0 +1,2 @@
+#!/system/sbin/sh
+sysctl -p
