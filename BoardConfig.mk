@@ -55,6 +55,7 @@ WIFI_DRIVER_FW_AP_PATH      := "/system/etc/wifi/fw_tiwlan_ap.bin"
 # Camera
 USE_CAMERA_STUB := false
 BOARD_USE_FROYO_LIBCAMERA := true
+BORAD_BEGONIA_FROYO_LIBCAMERA_FIX := true
 # need to make sure if we should enable this define
 BOARD_USE_YUV422I_DEFAULT_COLORFORMAT := true
 
