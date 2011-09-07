@@ -30,7 +30,8 @@
 #include <sys/ioctl.h>
 #include <sys/types.h>
 
-#include <hardware/lights.h>
+//#include <hardware/lights.h>
+#include "lights.h"
 
 // taken from led-lm3530.h in kernel source, these are als modes
 #define MANUAL          0
@@ -141,32 +142,6 @@ set_light_backlight(struct light_device_t* dev,
     return err;
 }
 static int
-set_light_keyboard1(struct light_device_t* dev,
-        struct light_state_t const* state)
-{
-    int err = 0;
-    int on = is_lit(state);
-
-    pthread_mutex_lock(&g_lock);
-    err = write_int(KEYBOARD_FILE1, on ? 255:0);
-    pthread_mutex_unlock(&g_lock);
-
-    return err;
-}
-static int
-set_light_keyboard2(struct light_device_t* dev,
-        struct light_state_t const* state)
-{
-    int err = 0;
-    int on = is_lit(state);
-
-    pthread_mutex_lock(&g_lock);
-    err = write_int(KEYBOARD_FILE2, on ? 255:0);
-    pthread_mutex_unlock(&g_lock);
-
-    return err;
-}
-static int
 set_light_keyboard(struct light_device_t* dev,
         struct light_state_t const* state)
 {
@@ -177,6 +152,33 @@ set_light_keyboard(struct light_device_t* dev,
     err = write_int(KEYBOARD_FILE, on ? 255:0);
     pthread_mutex_unlock(&g_lock);
 
+    return err;
+}
+
+//e11641  06/16/2009 Motorola - Added for lighting up keyboard alpha segment
+static int
+set_light_keyboard_alpha_seg(struct light_device_t* dev,
+        struct light_state_t const* state)
+{
+    int err = 0;
+    int on = is_lit(state);
+    pthread_mutex_lock(&g_lock);
+    err = write_int("/sys/class/leds/keyboard1-backlight/brightness", on?255:0);
+    pthread_mutex_unlock(&g_lock);
+    return err;
+}
+
+
+//e11641  06/16/2009 Motorola - Added for lighting up keyboard symbols segment
+static int
+set_light_keyboard_symbols_seg(struct light_device_t* dev,
+        struct light_state_t const* state)
+{
+    int err = 0;
+    int on = is_lit(state);
+    pthread_mutex_lock(&g_lock);
+    err = write_int("/sys/class/leds/keyboard2-backlight/brightness", on?255:0);
+    pthread_mutex_unlock(&g_lock);
     return err;
 }
 
@@ -307,6 +309,12 @@ static int open_lights(const struct hw_module_t* module, char const* name,
     }
     else if (0 == strcmp(LIGHT_ID_ATTENTION, name)) {
         set_light = set_light_attention;
+    }
+    else if (0 == strcmp(LIGHT_ID_KEYBOARD_ALPHA_SEG, name)) {
+        set_light = set_light_keyboard_alpha_seg;
+    }
+    else if (0 == strcmp(LIGHT_ID_KEYBOARD_SYMBOLS_SEG, name)) {
+        set_light = set_light_keyboard_symbols_seg;
     }
     else {
         return -EINVAL;
