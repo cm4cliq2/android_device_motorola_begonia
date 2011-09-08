@@ -16,7 +16,7 @@ on post-fs
 
 # Create mountpoints and mount tmpfs
     mkdir /pds 0775 system system
-    mkdir /tmp 0777 root root
+    mkdir /tmp 0777 system system
     mount tmpfs tmpfs /tmp size=2m
 
 # Configure kernel options
@@ -78,7 +78,7 @@ on post-fs
     chmod 0755 /pds/scim
 # Mount preinstall partition
     mkdir /preinstall 0771 system system
-    exec /system/bin/logwrapper /system/bin/mount_ext3.sh preinstall /preinstall
+    #exec /system/bin/logwrapper /system/bin/mount_ext3.sh preinstall /preinstall
     chmod 0771 /preinstall
     chown system system /preinstall
 # Create basic filesystem structure
@@ -355,8 +355,7 @@ service gkisystem /system/bin/gkisystem
     socket gpshal_socket stream 660 radio system
     socket opprofdaemon stream 660 radio system
     socket gkilog_sock stream 660 radio radio
-    #group radio system mot_accy mot_secclkd
-    group system radio
+    group radio system mot_accy mot_secclkd
     onrestart exec /system/bin/gki_pd_notifier
 service rild_tcmd /system/bin/rild_tcmd
     class pre-zygote_services
@@ -443,11 +442,11 @@ service map /system/bin/sdptool add --channel=20 --network=1 MAP
 #    socket local_tcmd stream 0660 mot_tcmd mot_tcmd
 #    socket batch_socket stream 0600 mot_tcmd mot_tcmd
 #    oneshot
-#service tcmdhelp /system/bin/tcmdhelp
-#    class post-zygote_services
-#    socket tcmdhelp stream 0600 mot_tcmd mot_tcmd
-#    oneshot
-#    disabled
+service tcmdhelp /system/bin/tcmdhelp
+    class post-zygote_services
+    socket tcmdhelp stream 0600 mot_tcmd mot_tcmd
+    oneshot
+    disabled
 # turn on wifi for tcmd step one
 on property:tcmd.load_wlan=1
     insmod /system/lib/modules/tiwlan_drv.ko
@@ -485,14 +484,14 @@ on property:tcmd.bt_mod=1
 on property:tcmd.bt_mod=0
     exec /system/bin/rmmod wl127x_test
 #execute tcmdhelp
-#on property:tcmd.start_tcmdhelp=1
-#    start tcmdhelp
-#service panic_daemon /system/bin/panic_daemon
-#    class post-zygote_services
-#    user radio
-#    group log radio system graphics sdcard_rw
-#    socket panic_daemon stream 660 radio radio
-#    onrestart exec /system/bin/reboot
+on property:tcmd.start_tcmdhelp=1
+    start tcmdhelp
+service panic_daemon /system/bin/panic_daemon
+    class post-zygote_services
+    user radio
+    group log radio system graphics sdcard_rw
+    socket panic_daemon stream 660 radio radio
+    onrestart exec /system/bin/reboot
 # Ecompass daemon
 service akmd2 /system/bin/akmd2
     class post-zygote_services
