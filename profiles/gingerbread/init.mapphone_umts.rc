@@ -261,7 +261,7 @@ on boot
 # Enable panic on softlockup
     write /proc/sys/kernel/softlockup_panic 1
 # Load Authentec VPN kernel module
-#    insmod /system/lib/modules/vpnclient.ko
+    insmod /system/lib/modules/vpnclient.ko
 # Start services
     exec /system/bin/mot_boot_mode
 # Set core max size (2G)
