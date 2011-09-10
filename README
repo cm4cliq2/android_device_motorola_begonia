@@ -1,3 +1,33 @@
-device for motorola begonia(cliq2)
+Hello! Welcome to the Begonia (CLIQ2)'s Vendor Repo!
 
+Here are the current developers in this Project:
+
+Developers :
+============
+
+SunRain/wanggjghost - Original Developer
+DJGHOSTS3V3N - Code Cleaner/Tweek Adder
+
+
+Instructions:
+===============
+
+In order to help, you must build your Git environment. (No need for Linux or etc...)
+
+1. Download the Git program 
+  For Windows: http://help.github.com/win-set-up-git/
+	For Linux: http://help.github.com/linux-set-up-git/
+	For OSX: http://help.github.com/mac-set-up-git/)
+
+2. Set up your Git with Github (http://help.github.com/set-your-user-name-email-and-github-token/)
+
+3. Create a Repo, just for you to learn the basics. (http://help.github.com/create-a-repo/)
+
+4. Head to the repo, fork it. http://help.github.com/fork-a-repo/
+
+5. Download the device and proprietary files
+	git clone git://github.com/SunRain/android_device_motorola_begonia.git -b gingerbread
+	git clone git://github.com/SunRain/proprietary_vendor_motorola.git -b gingerbread
+
+6. Edit, when done, push to your repo finally make a pull request.
 
