@@ -1,0 +1,40 @@
+openCameraHardware
+__android_log_print
+open
+close
+_ZN7android16CameraHalSocImpl14createInstanceEv
+_ZN7android9CameraHal14createInstanceEv
+__aeabi_unwind_cpp_pr0
+log_buf
+log_buf_size
+_ZN7android9mBasetimeE
+_ZN7android11mFrameCountE
+_ZN7android11mNumSamplesE
+libui.so
+libutils.so
+libbinder.so
+liblog.so
+libcutils.so
+libdl.so
+libz.so
+libbayercamera.so
+libsoccamera.so
+libc.so
+libstdc++.so
+libm.so
+__exidx_start
+__exidx_end
+__data_start
+_edata
+__bss_start
+__bss_start__
+__bss_end__
+__end__
+_stack
+libcamera.so
+H)F"
+LibCommonCamera
+CameraCommonHal: openCameraHardware() 
+/dev/video3
+CameraCommon: Detected SOC device
+CameraCommon: Detected BAYER device
