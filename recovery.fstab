@@ -1,10 +1,10 @@
-# This file is used to build the different partitions
-# mount point   fstype      device
+# mount point	fstype    device    	[device2]
 
-/boot           yaffs2      /dev/block/mtdblock4
-/recovery	yaffs2	    /dev/block/mtdblock5
-/system         yaffs2      /dev/block/mtdblock7
-/cache          yaffs2      /dev/block/mtdblock8
-/data           yaffs2      /dev/block/mtdblock9
-
-
+/boot       mtd         boot
+/cache      yaffs2      cache
+/data       yaffs2      userdata
+/misc       mtd         misc
+/recovery   mtd         recovery
+/sdcard     vfat        /dev/block/mmcblk0p1        /dev/block/mmcblk0
+/system     yaffs2      system
+/sd-ext     auto        /dev/block/mmcblk0p2
