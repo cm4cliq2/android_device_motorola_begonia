@@ -1,3 +1,11 @@
+ui_print("*********************************************");
+ui_print(" UN-Official CM7 Port for the CLIQ2  Begonia ");
+ui_print("                                             ");
+ui_print("        *wanggjghost  DJGHOSTS3V3N*          ");
+ui_print("                                             ");
+ui_print("*********************************************");
+ui_print("*********************************************");
+ui_print("----- Starting install of awesomeness ------");
 package_extract_file("system/bin/backuptool.sh", "/tmp/backuptool.sh");
 package_extract_file("system/etc/custom_backup_list.txt","/system/etc/custom_backup_list.txt");
 set_perm(0, 0, 0777, "/tmp/backuptool.sh");
@@ -149,5 +157,11 @@ run_program("/tmp/install2ndInit.sh");
 #run_program("/tmp/modelid_cfg.sh");
 show_progress(0.100000, 5);
 delete("system/bin/fixDelSystem.sh", "system/bin/install2ndInit.sh");
-ui_print("Install complete!");
+ui_print("------ Finishing install of awesomeness ------");
+ui_print("*********************************************");
+ui_print(" UN-Official CM7 Port for the CLIQ2  Begonia ");
+ui_print("                                             ");
+ui_print("        *wanggjghost  DJGHOSTS3V3N*          ");
+ui_print("                                             ");
+ui_print("*********************************************");
 
