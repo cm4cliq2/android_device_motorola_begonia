@@ -21,6 +21,7 @@ show_progress(0.800000, 5);
 #show_progress(0.800000, 25);
 package_extract_dir("system", "/system");
 show_progress(0.100000, 5);
+ui_print("----- Starting make symbol links ------");
 symlink("busybox", "/system/xbin/[", "/system/xbin/[[",
         "/system/xbin/arp", "/system/xbin/ash", "/system/xbin/awk",
         "/system/xbin/base64", "/system/xbin/basename", "/system/xbin/bbconfig",
@@ -114,6 +115,8 @@ symlink("toolbox", "/system/bin/cat", "/system/bin/cmp",
 #symlink("bootmenu", "/system/bin/logwrapper");
 #symlink("/system/bin/logwrapper.bin","/system/xbin/logwrapper");
 #package_extract_file("system/bin/bootmenu", "/system/bootmenu/binary/bootmenu");
+show_progress(0.100000, 5);
+ui_print("----- Starting set permissions ------");
 set_perm_recursive(0, 0, 0755, 0644, "/system");
 #set_perm_recursive(0, 0, 0755, 0755, "/system/bootmenu/binary/");
 #set_perm_recursive(0, 0, 0755, 0755, "/system/bootmenu/script/");
@@ -146,6 +149,7 @@ set_perm(0, 0, 06755, "/system/xbin/su");
 set_perm(0, 0, 06755, "/system/xbin/tcpdump");
 set_perm(0, 0, 0755, "/system/etc/motorola/comm_drv/commdrv_fs.sh");
 show_progress(0.100000, 5);
+ui_print("----- Starting clean installation ------");
 package_extract_file("system/bin/backuptool.sh", "/tmp/backuptool.sh");
 set_perm(0, 0, 0777, "/tmp/backuptool.sh");
 run_program("/tmp/backuptool.sh", "restore");
