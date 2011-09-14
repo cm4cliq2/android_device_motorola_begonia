@@ -56,7 +56,7 @@ ro.product.use_charge_counter=1
 persist.input.multitouch_points=2
 
 # required for future java part (common omap3/4)
-com.ti.omap_enhancement=1
+# com.ti.omap_enhancement=1
 
 # Enable mute switch handling
 ro.config.ringerswitch = 1
