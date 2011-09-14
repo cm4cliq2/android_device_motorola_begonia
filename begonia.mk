@@ -109,10 +109,10 @@ PRODUCT_PACKAGES += \
 	hostapd.conf \
 	libhostapdcli \
 	bootmenu \
-	hijack_boot_2nd-init \
 	Usb \
 	su
 # libcamera \
+# hijack_boot_2nd-init \
 
 PRODUCT_PACKAGES += \
 	 libOMX.TI.AAC.decode \

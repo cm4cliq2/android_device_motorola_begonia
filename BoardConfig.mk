@@ -112,7 +112,7 @@ BOARD_NEVER_UMOUNT_SYSTEM := true
 #TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_generic
 
 # Begonia requires the common boot hijack
-TARGET_NEEDS_MOTOROLA_HIJACK := true
+#TARGET_NEEDS_MOTOROLA_HIJACK := true
 
 # Override cyanogen squisher to customize our update zip package
 TARGET_CUSTOM_RELEASETOOL := ./device/motorola/begonia/releasetools/squisher
