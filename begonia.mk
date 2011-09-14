@@ -109,6 +109,7 @@ PRODUCT_PACKAGES += \
 	hostapd.conf \
 	libhostapdcli \
 	bootmenu \
+	hijack_boot_2nd-init \
 	Usb \
 	su
 # libcamera \
