@@ -24,7 +24,6 @@ $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 ## (1) First, the most specific values, i.e. the aspects that are specific to GSM
 
 ## (2) Also get non-open-source files if available
-#$(call inherit-product-if-exists, vendor/motorola/jordan/jordan-vendor.mk)
 $(call inherit-product-if-exists, vendor/motorola/begonia/begonia-vendor.mk)
 
 
@@ -65,7 +64,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	dalvik.vm.dexopt-data-only=1 \
 	dalvik.vm.dexopt-flags=m=y
 
-#DEVICE_PACKAGE_OVERLAYS += device/motorola/jordan/overlay
 DEVICE_PACKAGE_OVERLAYS += device/motorola/begonia/overlay
 
 PRODUCT_COPY_FILES += \
@@ -144,29 +142,21 @@ PRODUCT_COPY_FILES += \
 	device/motorola/begonia/vold.fstab:system/etc/vold.fstab
 
 # copy all vendor (motorola) kernel modules to system/lib/modules
-#PRODUCT_COPY_FILES += $(shell test -d vendor/motorola/jordan/lib/modules &&  \
-#	find vendor/motorola/jordan/lib/modules -name '*.ko' \
-#	-printf '%p:system/lib/modules/%f ')
 PRODUCT_COPY_FILES += $(shell test -d vendor/motorola/begonia/lib/modules &&  \
 	find vendor/motorola/begonia/lib/modules -name '*.ko' \
 	-printf '%p:system/lib/modules/%f ')
 
 # copy all others kernel modules under the "modules" directory to system/lib/modules
-#PRODUCT_COPY_FILES += $(shell test -d device/motorola/jordan/modules && \
-#	find device/motorola/jordan/modules -name '*.ko' \
-#	-printf '%p:system/lib/modules/%f ')
 PRODUCT_COPY_FILES += $(shell test -d device/motorola/begonia/modules && \
 	find device/motorola/begonia/modules -name '*.ko' \
 	-printf '%p:system/lib/modules/%f ')
 
 # Prebuilt boot.img
-#LOCAL_KERNEL := device/motorola/jordan/kernel
 LOCAL_KERNEL := device/motorola/begonia/kernel
 PRODUCT_COPY_FILES += \
 	$(LOCAL_KERNEL):kernel
 
 # Blobs
-#$(call inherit-product, device/motorola/jordan/jordan-blobs.mk)
 $(call inherit-product, device/motorola/begonia/begonia-blobs.mk)
 
 # Live wallpaper packages
