@@ -1,2 +1,0 @@
-libcamera_client => libcameraservice => libcamera ，所以应该覆盖libcamera
-
