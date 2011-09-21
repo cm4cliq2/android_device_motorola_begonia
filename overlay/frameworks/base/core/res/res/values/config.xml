@@ -255,8 +255,7 @@
 
          Must be overridden in platform specific overlays -->
      <integer-array name="config_autoBrightnessLevels">
-	<item>15</item>
-	<item>100</item>
+	<item>50</item>
 	<item>3000</item>
 	<item>8000</item>
      </integer-array>
@@ -266,7 +265,6 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
       <integer-array name="config_autoBrightnessLcdBacklightValues">
-	<item>24</item>
 	<item>48</item>
 	<item>108</item>
 	<item>206</item>
@@ -308,12 +306,12 @@
          and should not be enabled for any others.  Hopefully in the future
          it will be removed when the lower-level touch driver generates better
          data. -->
-    <bool name="config_filterTouchEvents">false</bool>
+    <bool name="config_filterTouchEvents">true</bool>
 
     <!-- Enables special filtering code in the framework for raw touch events
          from the touch driver. This code exists for one particular device,
          and should not be enabled for any others. -->
-    <bool name="config_filterJumpyTouchEvents">false</bool>
+    <bool name="config_filterJumpyTouchEvents">true</bool>
     
     <!-- Component name of the default wallpaper. This will be ImageWallpaper if not 
          specified -->
