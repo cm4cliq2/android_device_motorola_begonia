@@ -25,7 +25,7 @@
 
     <!-- Full path to the sysfs toggle -->
 
-    <string name="flashDevice">/sys/class/leds/torch-flash/brightness</string>
+    <string name="flashDevice">/sys/class/leds/spotlight/brightness</string>
 
     <!-- Lowest setting -->
     <integer name="valueOn">100</integer>

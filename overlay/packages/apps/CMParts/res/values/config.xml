@@ -7,7 +7,7 @@
     <bool name="has_camera_button">true</bool>
 
     <!-- Notification LED can show any color -->
-    <bool name="has_rgb_notification_led">false</bool>
+    <bool name="has_rgb_notification_led">true</bool>
 
     <!-- Notification LED has single color only -->
     <bool name="has_single_notification_led">false</bool>
