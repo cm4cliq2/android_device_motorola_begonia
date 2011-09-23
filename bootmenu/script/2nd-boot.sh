@@ -14,6 +14,7 @@ export PATH=/sbin:/system/xbin:/system/bin
 #echo 0 > /sys/class/leds/red/brightness
 
 
+mount -o remount,rw /
 rm /*.rc
 cp -r -f /system/bootmenu/2nd-boot/* /
 chmod 755 /*.rc
@@ -41,7 +42,7 @@ done
 rm /sbin/busybox
 
 ## reduce lcd backlight to save battery
-#echo 18 > /sys/class/leds/lcd-backlight/brightness
+echo 18 > /sys/class/leds/lcd-backlight/brightness
 
 
 ######## Let's go

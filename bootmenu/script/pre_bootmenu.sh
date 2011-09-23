@@ -53,7 +53,7 @@ mkdir -p /cache
 #if [ -x /system/bin/mount_ext3.sh ]; then
 #  /system/bin/mount_ext3.sh cache /cache
 #else
-  mount -t yaffs2 -o nosuid,nodev,noatime,nodiratime,barrier=1 /dev/block/mtdblock8 /cache
+  mount -t yaffs2 -o nosuid,nodev,noatime,nodiratime /dev/block/mtdblock8 /cache
 #fi
 
 exit
