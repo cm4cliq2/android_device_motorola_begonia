@@ -1,0 +1,902 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 2.6.32.9-g40740d1 (xfn483@zbr05lnxdroid16) (gcc version 4.4.0 (GCC) ) #1 PREEMPT Wed Apr 6 12:29:56 BRT 2011
+<4>[    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c53c7f
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+<4>[    0.000000] Machine: mapphone_
+<4>[    0.000000] parse_tag_powerup_reason: powerup reason=0x00004000
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000402
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000403
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000404
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000405
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000406
+<6>[    0.000000] parse_tag_mbm_version: mbm_version=0x000061b0
+<6>[    0.000000] parse_tag_mbm_loader_version: mbm_loader_version=0x000061b0
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000409
+<6>[    0.000000] flat_dev_tree_address=0x9f090000, flat_dev_tree_size == 0x000020B1
+<4>[    0.000000] Ignoring unrecognised tag 0xf100040b
+<4>[    0.000000] Ignoring unrecognised tag 0xf100040c
+<4>[    0.000000] Ignoring unrecognised tag 0xf100040d
+<6>[    0.000000] parse_tag_battery_status_at_boot: battery_status_at_boot=0x00000001
+<4>[    0.000000] Ignoring unrecognised tag 0xf100040f
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000410
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000411
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000412
+<4>[    0.000000] Ignoring unrecognised tag 0xf1000413
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writeback
+<7>[    0.000000] On node 0 totalpages: 127488
+<7>[    0.000000] free_area_init_node: node 0, pgdat c05d2524, node_mem_map c06a2000
+<7>[    0.000000]   Normal zone: 996 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 126492 pages, LIFO batch:31
+<6>[    0.000000] OMAP3630 ES1.1 (l2cache iva sgx neon isp )
+<6>[    0.000000] SRAM: Mapped pa 0x40200000 to va 0xfe400000 size: 0x100000
+<6>[    0.000000] Reserving 4194304 bytes SDRAM for VRAM
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 126492
+<5>[    0.000000] Kernel command line: console=/dev/null rw mem=498M@0x80C00000 init=/init ip=off brdrev=P1 androidboot.bootloader=0x0000 mtdparts=omap2-nand.0:3m@2176k(pds),384k@6016k(cid),640k@9600k(logo),384k(misc),8m(boot)ro,8m@23936k(recovery),13952k(cdrom),404096k@46464k(system),234624k@450944k(cache),350m(userdata),4m(kpanic) androidboot.mode=reboot 
+<6>[    0.000000] boot_mode=reboot
+<6>[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.000000] Memory: 498MB = 498MB total
+<5>[    0.000000] Memory: 487808KB available (5172K code, 1231K data, 180K init, 0K highmem)
+<6>[    0.000000] Hierarchical RCU implementation.
+<6>[    0.000000] NR_IRQS:368
+<6>[    0.000000] get_omap3630_revision_id: Default omap3630-variant 0x36301000
+<6>[    0.000000] Clocking rate (Crystal/Core/MPU): 26.0/400/1000 MHz
+<6>[    0.000000] Reprogramming SDRC clock to 400000000 Hz
+<6>[    0.000000] GPMC revision 5.0
+<6>[    0.000000] IRQ: Found an INTC at 0xfa200000 (revision 4.0) with 96 interrupts
+<6>[    0.000000] Total of 96 interrupts on 1 active controller
+<6>[    0.000000] OMAP GPIO hardware version 2.5
+<6>[    0.000000] OMAP clockevent source: GPTIMER1 at 32768 Hz
+<6>[    0.000000] Calibrating delay loop... 998.84 BogoMIPS (lpj=3899392)
+<4>[    0.000000] Mount-cache hash table entries: 512
+<6>[    0.000000] Initializing cgroup subsys cpuacct
+<6>[    0.000000] CPU: Testing write buffer coherency: ok
+<6>[    0.000000] regulator: core version 0.5
+<6>[    0.000000] NET: Registered protocol family 16
+<6>[    0.000000] Device tree prop padinit override done
+<6>[    0.000000] Device tree prop padwkupsinit override done
+<6>[    0.000000] Device tree prop offmodeinit override done
+<6>[    0.000000] Device tree prop offmodewkupsinit override done
+<6>[    0.000000] GPIO mapping write: pin = 93, name = lm3530_reset
+<6>[    0.000000] GPIO mapping write: pin = 92, name = lm3530_int
+<6>[    0.000000] GPIO mapping write: pin = 28, name = akm8975_reset
+<6>[    0.000000] GPIO mapping write: pin = 175, name = akm8975_int
+<6>[    0.000000] GPIO mapping write: pin = 179, name = bt_reset_b
+<6>[    0.000000] GPIO mapping write: pin = 8, name = bt_wake_b
+<6>[    0.000000] GPIO mapping write: pin = 178, name = bt_host_wake_b
+<6>[    0.000000] GPIO mapping write: pin = 65, name = wlan_host_wake
+<6>[    0.000000] GPIO mapping write: pin = 180, name = als_int
+<6>[    0.000000] GPIO mapping write: pin = 186, name = wlan_reset
+<6>[    0.000000] GPIO mapping write: pin = 109, name = touch_panel_int
+<6>[    0.000000] GPIO mapping write: pin = 164, name = touch_panel_rst
+<6>[    0.000000] GPIO mapping write: pin = 110, name = silence_data
+<6>[    0.000000] GPIO mapping write: pin = 25, name = adp5588_reset_b
+<6>[    0.000000] GPIO mapping write: pin = 26, name = adp5588_int_b
+<6>[    0.000000] GPIO mapping write: pin = 41, name = lcd_panel_sd
+<6>[    0.000000] GPIO mapping write: pin = 27, name = lcd_panel_reset
+<6>[    0.000000] GPIO mapping write: pin = 21, name = mtv_reg_en
+<6>[    0.000000] GPIO mapping write: pin = 34, name = tta_chrg_cntr
+<6>[    0.000000] GPIO mapping write: pin = 36, name = flash_ready
+<6>[    0.000000] GPIO mapping write: pin = 59, name = gps_reset
+<6>[    0.000000] GPIO mapping write: pin = 160, name = gps_interrupt
+<6>[    0.000000] GPIO mapping write: pin = 176, name = power_off
+<6>[    0.000000] GPIO mapping write: pin = 181, name = glohap_pwm_omap
+<6>[    0.000000] GPIO mapping write: pin = 9, name = glohap_en_omap
+<6>[    0.000000] GPIO mapping write: pin = 21, name = mtv_reg_en
+<6>[    0.000000] GPIO mapping write: pin = 22, name = accel1_int
+<6>[    0.000000] GPIO mapping write: pin = 23, name = gps_standby
+<6>[    0.000000] GPIO mapping write: pin = 98, name = gpio_cam_reset
+<6>[    0.000000] GPIO mapping write: pin = 64, name = gpio_cam_pwdn
+<6>[    0.000000] DT overwrite GPIO Mapping done!
+<6>[    0.000000] GPIO Mapping init done!
+<6>[    0.000000] ram_console: got buffer at 8e000000, size 20000
+<6>[    0.000000] ram_console: uncorrectable error in header
+<6>[    0.000000] ram_console: no valid data in buffer (sig = 0x2b5c356a)
+<6>[    0.000000] console [ram-1] enabled
+<6>[    0.000000] Modem0 is 0x00000000
+<6>[    0.000000] CPCAP: using default bus_num 1
+<6>[    0.000000] cpcap init size = 4
+<6>[    0.000000] CPCAP: Overwrite reg [46] setting!
+<6>[    0.000000] CPCAP: Overwrite reg [54] setting!
+<6>[    0.000000] CPCAP: Overwrite reg [55] setting!
+<6>[    0.000000] CPCAP: Add new reg [156] setting!
+<6>[    0.000000] cpcap init size = 7
+<6>[    0.000000] CPCAP: Overwrite regulator init [2]!
+<6>[    0.000000] CPCAP: Overwrite regulator init [4]!
+<6>[    0.000000] CPCAP: Overwrite regulator init [9]!
+<6>[    0.000000] CPCAP: Overwrite regulator init [10]!
+<6>[    0.000000] CPCAP: Overwrite regulator init [11]!
+<6>[    0.000000] CPCAP: Overwrite regulator init [14]!
+<6>[    0.000000] CPCAP: Overwrite regulator init [15]!
+<6>[    0.000000] cpcap init size = 7
+<6>[    0.000000] CPCAP: Overwrite regulator mode [2]!
+<6>[    0.000000] CPCAP: Overwrite regulator mode [4]!
+<6>[    0.000000] CPCAP: Overwrite regulator mode [9]!
+<6>[    0.000000] CPCAP: Overwrite regulator mode [10]!
+<6>[    0.000000] CPCAP: Overwrite regulator mode [11]!
+<6>[    0.000000] CPCAP: Overwrite regulator mode [18]!
+<6>[    0.000000] CPCAP: Overwrite regulator mode [6]!
+<6>[    0.000000] cpcap init size = 1
+<6>[    0.000000] CPCAP: Overwrite regulator off mode [2]!
+<3>[    0.000000] Read property analog_downlink error!
+<3>[    0.000000] Read property mic3 error!
+<3>[    0.000000] Read property i2s_bp error!
+<3>[    0.000000] Read property mb_bias error!
+<6>[    0.000000] CPCAP: delaying cpcap_usb probe
+<6>[    0.000000] CPCAP: delaying cpcap_usb_det probe
+<6>[    0.000000] CPCAP: delaying cpcap_audio probe
+<6>[    0.000000] CPCAP: delaying cpcap_3mm5 probe
+<6>[    0.000000] CPCAP: delaying af-led probe
+<6>[    0.000000] CPCAP: delaying bd7885 probe
+<3>[    0.000000] Read property button_register2 error!
+<6>[    0.000000] CPCAP: delaying ld-button-backlight probe
+<6>[    0.000000] CPCAP: delaying flash-torch probe
+<6>[    0.000000] CPCAP: delaying notification-led probe
+<3>[    0.000000] Unable to get gpio pin num for ipc_bpwake_strobe
+<6>[    0.000000] mapphone_als_init:Initializing
+<3>[    0.000000] mapphone_isl29030_init - opened node /System@0/I2C@0/Proximity@0 from device tree
+<6>[    0.000000] mapphone_isl29030_init - unable to read regulator from device tree
+<3>[    0.000000] Unable to get gpio pin num for adp8870_reset
+<3>[    0.000000] adp8870_reset not in device_tree
+<6>[    0.000000] feature_mipi_cam 1
+<3>[    0.000000] Unable to get gpio pin num for cam_avdd_en
+<6>[    0.000000] Regulators for device: vcam
+<6>[    0.000000] Adding vcam to camera 						regulator list
+<6>[    0.000000] mapphone_camera_init: MIPI camera
+<3>[    0.000000] Unable to get gpio pin num for touch_pwr_en
+<3>[    0.000000] Unable to get gpio pin num for ipc_apwake_trigger
+<3>[    0.000000] Read property usb_pids error!
+<6>[    0.000000] SIM device enabled.
+<3>[    0.000000] omap_init_mbox: platform not supported
+<6>[    0.000000] Enabling MIPI DLI Test
+<6>[    0.000000] I2C-1 devices: qtouch-obp-ts,isl29030_als_ir
+<6>[    0.000000] qtouch-obp-ts -> I2C bus-1
+<6>[    0.000000] isl29030_als_ir -> I2C bus-1
+<6>[    0.000000] I2C-2 devices: akm8975,kxtf9,lm3530_led
+<6>[    0.000000] akm8975 -> I2C bus-2
+<6>[    0.000000] kxtf9 -> I2C bus-2
+<6>[    0.000000] lm3530_led -> I2C bus-2
+<6>[    0.000000] I2C-3 devices: HP_GEN_LENS,ov5650,lm3554_led,sholes-keypad
+<6>[    0.000000] HP_GEN_LENS -> I2C bus-3
+<6>[    0.000000] ov5650 -> I2C bus-3
+<6>[    0.000000] lm3554_led -> I2C bus-3
+<6>[    0.000000] sholes-keypad -> I2C bus-3
+<6>[    8.308990] OMAP DMA hardware revision 5.0
+<6>[    8.309173] Reserving DMA channels 0 and 1 for HS ROM code
+<4>[    8.323760] bio: create slab <bio-0> at 0
+<3>[    8.324768] Invalid Console Name
+<4>[    8.324920] Invalid console paramter. UART Library Init Failed!
+<6>[    8.325012] !!!!!!!! Unable to recongnize Console UART........
+<6>[    8.325195] omap-uart.1: ttyS0 at MMIO 0x4806a000 (irq = 72) is a OMAP UART1
+<3>[    8.325469] Invalid Console Name
+<4>[    8.325622] Invalid console paramter. UART Library Init Failed!
+<6>[    8.325714] !!!!!!!! Unable to recongnize Console UART........
+<6>[    8.325866] omap-uart.2: ttyS1 at MMIO 0x4806c000 (irq = 73) is a OMAP UART2
+<3>[    8.326141] Invalid Console Name
+<4>[    8.326293] Invalid console paramter. UART Library Init Failed!
+<6>[    8.326385] !!!!!!!! Unable to recongnize Console UART........
+<6>[    8.326568] omap-uart.3: ttyS2 at MMIO 0x49020000 (irq = 74) is a OMAP UART3
+<6>[    8.330505] regulator: sw5: 5050 mV 
+<6>[    8.332000] regulator: vusb: 3300 mV 
+<6>[    8.332946] regulator: vcam: 2900 mV 
+<6>[    8.334808] regulator: vcsi: 1800 mV 
+<6>[    8.335815] regulator: vdac: 1800 mV 
+<6>[    8.337707] regulator: vdig: 1875 mV 
+<6>[    8.338134] regulator: vfuse: 1500 <--> 3150 mV 
+<6>[    8.339782] regulator: vhvio: 2775 mV 
+<6>[    8.340698] regulator: vsdio: 2900 mV 
+<6>[    8.341735] regulator: vpll: 1800 mV 
+<6>[    8.343322] regulator: vrf1: 2775 mV 
+<6>[    8.344848] regulator: vrf2: 2775 mV 
+<6>[    8.345855] regulator: vrfref: 2775 mV 
+<6>[    8.346496] regulator: vwlan1: 1800 <--> 1900 mV 
+<6>[    8.347442] regulator: vwlan2: 3000 mV 
+<6>[    8.347900] regulator: vsim: 1800 <--> 2900 mV 
+<6>[    8.348449] regulator: vsimcard: 1800 <--> 2900 mV 
+<6>[    8.348876] regulator: vvib: 1300 <--> 3000 mV 
+<6>[    8.350463] regulator: vaudio: 2775 mV normal standby
+<6>[    8.351226] cpcap_uc cpcap_uc: firmware: using built-in firmware cpcap/firmware_0_2x.fw
+<6>[    8.351379] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0018
+<6>[    8.359649] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0038
+<6>[    8.367736] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0058
+<6>[    8.375671] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0078
+<6>[    8.383636] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0098
+<6>[    8.391510] cpcap_uc cpcap_uc: Loading 4 word(s) at 0x00b8
+<6>[    8.395690] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0120
+<6>[    8.403564] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0140
+<6>[    8.411529] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0160
+<6>[    8.419403] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0180
+<6>[    8.427368] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x01a0
+<6>[    8.435241] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x01c0
+<6>[    8.443206] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x01e0
+<6>[    8.451080] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0200
+<6>[    8.459045] cpcap_uc cpcap_uc: Loading 8 word(s) at 0x0220
+<6>[    8.464080] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0230
+<6>[    8.472045] cpcap_uc cpcap_uc: Loading 6 word(s) at 0x0250
+<6>[    8.476165] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0269
+<6>[    8.484130] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0289
+<6>[    8.492004] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x02a9
+<6>[    8.499969] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x02c9
+<6>[    8.507843] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x02e9
+<6>[    8.515808] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0309
+<6>[    8.523681] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0329
+<6>[    8.531555] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0349
+<6>[    8.539428] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0369
+<6>[    8.547302] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0389
+<6>[    8.555267] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x03a9
+<6>[    8.563140] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x03c9
+<6>[    8.571105] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x03e9
+<6>[    8.578979] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0409
+<6>[    8.586944] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0429
+<6>[    8.594818] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0449
+<6>[    8.602783] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0469
+<6>[    8.610656] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0489
+<6>[    8.618621] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x04a9
+<6>[    8.626495] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x04c9
+<6>[    8.634460] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x04e9
+<6>[    8.642333] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0509
+<6>[    8.650299] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0529
+<6>[    8.658172] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0549
+<6>[    8.666137] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0569
+<6>[    8.674011] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0589
+<6>[    8.681976] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x05a9
+<6>[    8.689849] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x05c9
+<6>[    8.697814] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x05e9
+<6>[    8.705718] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0609
+<6>[    8.713684] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0629
+<6>[    8.721588] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0649
+<6>[    8.729553] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0669
+<6>[    8.737457] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0689
+<6>[    8.745422] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x06a9
+<6>[    8.753295] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x06c9
+<6>[    8.761260] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x06e9
+<6>[    8.769134] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0709
+<6>[    8.777099] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0729
+<6>[    8.784973] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0749
+<6>[    8.792938] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0769
+<6>[    8.800811] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0789
+<6>[    8.808776] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x07a9
+<6>[    8.816650] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x07c9
+<6>[    8.824615] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x07e9
+<6>[    8.832489] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0809
+<6>[    8.840454] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0829
+<6>[    8.848327] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0849
+<6>[    8.856292] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0869
+<6>[    8.864166] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0889
+<6>[    8.872131] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x08a9
+<6>[    8.880004] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x08c9
+<6>[    8.887969] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x08e9
+<6>[    8.895843] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0909
+<6>[    8.903808] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0929
+<6>[    8.911682] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0949
+<6>[    8.919647] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0969
+<6>[    8.927520] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0989
+<6>[    8.935485] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x09a9
+<6>[    8.943359] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x09c9
+<6>[    8.951324] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x09e9
+<6>[    8.959197] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0a09
+<6>[    8.967163] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0a29
+<6>[    8.975036] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0a49
+<6>[    8.983001] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0a69
+<6>[    8.990875] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0a89
+<6>[    8.998840] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0aa9
+<6>[    9.006713] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0ac9
+<6>[    9.014678] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0ae9
+<6>[    9.022552] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0b09
+<6>[    9.030548] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0b29
+<6>[    9.038421] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0b49
+<6>[    9.046295] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0b69
+<6>[    9.054260] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0b89
+<6>[    9.062133] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0ba9
+<6>[    9.070098] cpcap_uc cpcap_uc: Loading 16 word(s) at 0x0bc9
+<6>[    9.077972] cpcap_uc cpcap_uc: Loading 2 word(s) at 0x0be9
+<6>[    9.084289] cpcap_uc cpcap_uc: Loaded Sec SPI Init = 1: 0
+<6>[    9.084411] cpcap_uc cpcap_uc: Started macro 4: 0
+<6>[    9.096466] cpcap_adc cpcap_adc: CPCAP ADC device probed
+<6>[    9.096984] cpcap spi1.0: Probing CPCAP device cpcap_usb
+<6>[    9.097290] cpcap spi1.0: Probing CPCAP device cpcap_usb_det
+<6>[    9.097503] cpcap spi1.0: Probing CPCAP device cpcap_audio
+<6>[    9.097808] cpcap spi1.0: Probing CPCAP device cpcap_3mm5
+<6>[    9.098022] cpcap spi1.0: Probing CPCAP device af-led
+<6>[    9.098297] cpcap spi1.0: Probing CPCAP device bd7885
+<6>[    9.098541] cpcap spi1.0: Probing CPCAP device ld-button-backlight
+<6>[    9.098815] cpcap spi1.0: Probing CPCAP device flash-torch
+<6>[    9.099060] cpcap spi1.0: Probing CPCAP device notification-led
+<6>[    9.100219] cpcap_usb cpcap_usb: Initialized CPCAP USB module
+<6>[    9.100769] usbcore: registered new interface driver usbfs
+<6>[    9.101196] usbcore: registered new interface driver hub
+<6>[    9.101470] usbcore: registered new device driver usb
+<6>[    9.101959] i2c_omap i2c_omap.1: bus 1 rev4.0 at 400 kHz
+<6>[    9.112060] i2c_omap i2c_omap.2: bus 2 rev4.0 at 400 kHz
+<6>[    9.127563] i2c_omap i2c_omap.3: bus 3 rev4.0 at 400 kHz
+<6>[    9.131408] Bluetooth: Core ver 2.15
+<6>[    9.131683] NET: Registered protocol family 31
+<6>[    9.131835] Bluetooth: HCI device and connection manager initialized
+<6>[    9.131927] Bluetooth: HCI socket layer initialized
+<6>[    9.132385] Switching to clocksource 32k_counter
+<6>[    9.133911] musb_hdrc: version 6.0, musb-dma, peripheral, debug=0
+<7>[    9.134185] musb_hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine (X), bulk split (X), HB-ISO Rx, HB-ISO Tx, SoftConn)
+<7>[    9.134368] musb_hdrc: MHDRC RTL version 1.800 
+<7>[    9.134460] musb_hdrc: setup fifo_mode 4
+<7>[    9.134552] musb_hdrc: 28/31 max ep, 14536/16384 memory
+<6>[    9.134735] musb_hdrc: USB Peripheral mode controller at fa0ab000 using DMA, IRQ 92
+<6>[    9.135253] NET: Registered protocol family 2
+<6>[    9.135772] IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[    9.136230] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+<6>[    9.136535] TCP bind hash table entries: 16384 (order: 4, 65536 bytes)
+<6>[    9.136810] TCP: Hash tables configured (established 16384 bind 16384)
+<6>[    9.136901] TCP reno registered
+<6>[    9.137176] NET: Registered protocol family 1
+<6>[    9.137420] Trying to unpack rootfs image as initramfs...
+<6>[    9.146575] Freeing initrd memory: 164K
+<6>[    9.148925] dspbridge_init: 600000 bytes @ 81b00000
+<6>[    9.149200] mapphone_dt_adp5588_init: Keypad device is ADP5588
+<4>[    9.149719] mapphone_wifi_init: start
+<6>[    9.149963] gpio_dev_size = 11
+<6>[    9.150054] GPIODev: Overwrite device [gps_reset] setting!
+<6>[    9.150238] GPIODev: Overwrite device [gps_standby] setting!
+<6>[    9.150329] GPIODev: Overwrite device [gps_interrupt] setting!
+<6>[    9.150482] GPIODev: Add new device [bt_reset_b] setting!
+<6>[    9.150573] GPIODev: Add new device [bt_wake_b] setting!
+<6>[    9.150726] GPIODev: Add new device [lcd_panel_reset] setting!
+<6>[    9.150817] GPIODev: Add new device [mtv_reg_en] setting!
+<6>[    9.150970] GPIODev: Add new device [mtv_int] setting!
+<6>[    9.151062] GPIODev: Add new device [mtv_pwdn] setting!
+<6>[    9.151214] GPIODev: Add new device [mtv_reset_n] setting!
+<6>[    9.151306] GPIODev: Add new device [tta_chrg_cntr] setting!
+<6>[    9.151855] omap-iommu omap-iommu.0: isp registered
+<6>[    9.164337] ashmem: initialized
+<5>[    9.164764] VFS: Disk quotas dquot_6.5.2
+<4>[    9.164978] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+<4>[    9.165954] yaffs Apr  6 2011 12:29:30 Installing. 
+<6>[    9.166137] msgmni has been set to 953
+<6>[    9.168670] alg: No test for stdrng (krng)
+<6>[    9.168792] io scheduler noop registered
+<6>[    9.169036] io scheduler cfq registered (default)
+<6>[    9.172973] GPIODev init successfully 
+<3>[    9.174102] sr_recalibrate: 2:1 autocomp was disabled
+<6>[    9.182678] brd: module loaded
+<6>[    9.186340] loop: module loaded
+<6>[    9.234680] Android kernel panic handler initialized (bind=kpanic)
+<6>[    9.235931] AK8975 compass driver: init
+<6>[    9.236419] input: compass as /devices/virtual/input/input0
+<6>[    9.237121] <6>LIS331DLH accelerometer driver
+<6>[    9.237396] kxtf9 accelerometer driver
+<6>[    9.382965] input: accelerometer as /devices/virtual/input/input1
+<6>[    9.383453] kxtf9 2-000f: kxtf9 probed
+<6>[    9.386627] ts27010 mux registered
+<3>[    9.387084] vib-pwm: vib_pwm_init
+<1>[    9.388763] vib-pwm probed
+<3>[    9.389099] apanic: kpanic partition not on eMMC
+<6>[    9.389312] Android kernel panic mmc handler initialized
+<6>[    9.390350] Syspanic cannot get wrigley mbox
+<6>[    9.390563] Loaded SysPanic device driver
+<6>[    9.390777] Driver for moto tcmd related part - init.
+<6>[    9.392028] input: cpcap-key as /devices/virtual/input/input2
+<6>[    9.392242] cpcap_key cpcap_key: CPCAP key device probed
+<3>[    9.392883] regulator_check_voltage: operation not allowed for vaudio
+<6>[    9.393951] cpcap spi1.0: Headset key event: old=0, new=0
+<6>[    9.394134] cpcap spi1.0: New headset state: 0
+<6>[    9.394805] omap2-nand driver initializing
+<3>[    9.395019] omap2-nand: irqstatus set on cmd entry ff
+<6>[    9.395141] NAND device: Manufacturer ID: 0x98, Chip ID: 0xb3 (Toshiba NAND 1GiB 1,8V 16-bit)
+<5>[    9.395324] 11 cmdlinepart partitions found on MTD device omap2-nand.0
+<5>[    9.395507] Creating 11 MTD partitions on "omap2-nand.0":
+<5>[    9.395629] 0x000000220000-0x000000520000 : "pds"
+<5>[    9.397705] 0x0000005e0000-0x000000640000 : "cid"
+<5>[    9.399291] 0x000000960000-0x000000a00000 : "logo"
+<5>[    9.400421] 0x000000a00000-0x000000a60000 : "misc"
+<5>[    9.401306] 0x000000a60000-0x000001260000 : "boot"
+<5>[    9.403991] 0x000001760000-0x000001f60000 : "recovery"
+<5>[    9.406890] 0x000001f60000-0x000002d00000 : "cdrom"
+<5>[    9.410858] 0x000002d60000-0x00001b800000 : "system"
+<5>[    9.502929] 0x00001b860000-0x000029d80000 : "cache"
+<5>[    9.556427] 0x000029d80000-0x00003fb80000 : "userdata"
+<5>[    9.637603] 0x00003fb80000-0x00003ff80000 : "kpanic"
+<6>[    9.640563] apanic: Bound to mtd partition 'kpanic'
+<6>[    9.640655] apanic: No panic data available
+<7>[    9.698364] apanic: kpanic partition erased
+<6>[    9.698760] PPP generic driver version 2.4.2
+<6>[    9.699401] PPP Deflate Compression module registered
+<6>[    9.699493] PPP BSD Compression module registered
+<6>[    9.700378] PPP MPPE Compression module registered
+<6>[    9.700592] NET: Registered protocol family 24
+<5>[    9.700714] usbmon: debugfs is not available
+<6>[    9.700897] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<4>[    9.701110] IRQ 78/usbtll: IRQF_DISABLED is not guaranteed on shared IRQs
+<6>[    9.701507] ehci-omap ehci-omap.0: OMAP-EHCI Host Controller
+<6>[    9.701782] ehci-omap ehci-omap.0: new USB bus registered, assigned bus number 1
+<6>[    9.702270] ehci-omap ehci-omap.0: irq 77, io mem 0x48064800
+<6>[    9.710815] ehci-omap ehci-omap.0: USB 2.0 started, EHCI 1.00
+<6>[    9.711761] usb usb1: configuration #1 chosen from 1 choice
+<6>[    9.712249] hub 1-0:1.0: USB hub found
+<6>[    9.712524] hub 1-0:1.0: 3 ports detected
+<6>[    9.713409] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+<6>[    9.714202] usbcore: registered new interface driver cdc_acm
+<6>[    9.714324] cdc_acm: v0.26:USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    9.715057] usbcore: registered new interface driver usbserial
+<6>[    9.715148] usbserial: USB Serial Driver core
+<6>[    9.715576] USB Serial support registered for moto-modem
+<6>[    9.715881] usbcore: registered new interface driver moto-modem
+<6>[    9.716308] USB Serial support registered for QSC 6085 Modem Driver
+<6>[    9.716644] usbcore: registered new interface driver cdma-modem
+<6>[    9.717041] USB Serial support registered for moto-flashqsc
+<6>[    9.717285] usbcore: registered new interface driver moto-flashqsc
+<6>[    9.717712] usbcore: registered new interface driver usb_ipc_data
+<6>[    9.717834] android init
+<6>[    9.718017] android_probe pdata: c057ce28
+<6>[    9.718322] android_bind
+<7>[    9.718444] android_bind_config
+<6>[    9.718719] android_usb gadget: android_usb ready
+<6>[    9.719390] f_usbnet init
+<6>[    9.719512] android_register_function usbnet
+<6>[    9.719696] f_adb init
+<6>[    9.719787] android_register_function adb
+<6>[    9.719909] f_mass_storage init
+<6>[    9.720001] android_register_function usb_mass_storage
+<6>[    9.720184] f_mtp init
+<6>[    9.720306] android_register_function mtp
+<6>[    9.720397] f_acm init
+<6>[    9.720581] android_register_function acm
+<6>[    9.720672] f_rndis init
+<6>[    9.721038] android_register_function rndis
+<6>[    9.721252] Gadget Usb: ACM Bind Config 
+<6>[    9.721862] Gadget USB: usbnet_bind_config
+<6>[    9.722961] Gadget Usb: mtp_bind_config
+<6>[    9.723663] rndis_function_bind_config MAC: 02:04:30:32:44:46
+<4>[    9.723815] android_usb gadget: using random self ethernet address
+<4>[    9.723999] android_usb gadget: using random host ethernet address
+<6>[    9.724578] usb1: MAC 32:92:fd:a7:46:f6
+<6>[    9.724792] usb1: HOST MAC 16:d5:d2:7f:b7:d5
+<6>[    9.725097] Gadget Usb: mass_storage_bind_config
+<6>[    9.725524] fsg_probe pdata: c057ce50
+<6>[    9.726318] android_usb gadget: Number of LUNs=1
+<6>[    9.726654] Gadget Usb: adb_bind_config
+<6>[    9.728637] qtouch_force_reset: Forcing HW reset
+<3>[    9.728851] Unable to get gpio pin num for touch_pwr_en
+<6>[    9.844207] qtouch_process_info_block: Build version is 0x17
+<6>[    9.844848] qtouch_process_info_block: Object 5 @ 0x00f2 (9) insts 1 rep_ids 0
+<6>[    9.845397] qtouch_process_info_block: Object 6 @ 0x00fb (6) insts 1 rep_ids 1
+<6>[    9.846038] qtouch_process_info_block: Object 38 @ 0x0101 (8) insts 1 rep_ids 0
+<4>[    9.846221] qtouch_process_info_block: Unknown object type (38) encountered
+<6>[    9.846771] qtouch_process_info_block: Object 7 @ 0x0109 (3) insts 1 rep_ids 0
+<6>[    9.847412] qtouch_process_info_block: Object 8 @ 0x010c (8) insts 1 rep_ids 0
+<6>[    9.848022] qtouch_process_info_block: Object 9 @ 0x0114 (31) insts 1 rep_ids 10
+<6>[    9.848571] qtouch_process_info_block: Object 15 @ 0x0133 (11) insts 1 rep_ids 1
+<6>[    9.849182] qtouch_process_info_block: Object 18 @ 0x013e (2) insts 1 rep_ids 0
+<6>[    9.849822] qtouch_process_info_block: Object 19 @ 0x0140 (16) insts 1 rep_ids 1
+<6>[    9.850341] qtouch_process_info_block: Object 20 @ 0x0150 (12) insts 1 rep_ids 1
+<6>[    9.850952] qtouch_process_info_block: Object 22 @ 0x015c (17) insts 1 rep_ids 1
+<6>[    9.851501] qtouch_process_info_block: Object 23 @ 0x016d (15) insts 1 rep_ids 1
+<6>[    9.852050] qtouch_process_info_block: Object 24 @ 0x017c (19) insts 1 rep_ids 4
+<6>[    9.852661] qtouch_process_info_block: Object 25 @ 0x018f (14) insts 1 rep_ids 1
+<6>[    9.853210] qtouch_process_info_block: Object 27 @ 0x019d (7) insts 1 rep_ids 1
+<6>[    9.853851] qtouch_process_info_block: Object 28 @ 0x01a4 (6) insts 1 rep_ids 1
+<6>[    9.854492] qtouch_process_info_block: Object 37 @ 0x0070 (130) insts 1 rep_ids 0
+<4>[    9.854919] qtouch_process_info_block: Checksum mismatch (0x0000a9aa != 0x00dd9495)
+<6>[    9.855133] qtouch_process_info_block: qtouch-obp-ts found. family 0x80, variant 0x3, ver 0x17, build 0xaa, matrix 19x11, 17 objects.
+<6>[    9.855316] qtouch_ts_probe: FW version is 0x17 Build 0xAA
+<6>[    9.855499] qtouch_ts_probe: Chip type matched
+<6>[    9.855621] qtouch_ts_probe: Reflash not needed
+<6>[    9.856262] input: qtouch-touchscreen as /devices/virtual/input/input3
+<6>[    9.857269] GPIO Input Driver: Start gpio inputs for sholes-keypad in interrupt mode
+<6>[    9.857727] qtouch_hw_init: Doing hw init
+<6>[    9.858093] input: sholes-keypad as /devices/virtual/input/input4
+<6>[    9.860168] adp5588_probe: ADP5588: RESET_GPIO=25 INT_GPIO=26
+<6>[    9.860290] adp5588_reset: ADP5588: RESET asserted
+<6>[    9.871032] qtouch_force_calibration: Forcing calibration
+<6>[    9.890472] adp5588_reset: ADP5588: RESET deasserted
+<6>[   10.109313] adp5588_probe: ADP5588 Keypad DevID=0x4, Name=sholes-keypad
+<6>[   10.109497] ADP5588 : Start keypad sholes-keypad in polling mode irq 0 
+<6>[   10.125030] adp5588_probe: RINGER/SILENT switch is OFF
+<6>[   10.126586] input: proximity as /devices/virtual/input/input5
+<6>[   10.127288] input: als as /devices/virtual/input/input6
+<6>[   10.132690] usb 1-3: new high speed USB device using ehci-omap and address 2
+<6>[   10.141937] using input dev sholes-keypad for key reset
+<6>[   10.143493] using rtc device, cpcap_rtc, for alarms
+<6>[   10.143737] cpcap_rtc cpcap_rtc: rtc core: registered cpcap_rtc as rtc0
+<6>[   10.145538] i2c /dev entries driver
+<6>[   10.146667] Linux video capture interface: v2.00
+<6>[   10.147003] mt9p012 driver loading
+<3>[   10.147644] MIPI DLI tester probe is finished.
+<6>[   10.149139] hp3a hp3a-omap: Registered hp3a driver.
+<6>[   10.149536] omap-iommu omap-iommu.0: isp: version 1.1
+<6>[   10.149749] isp_tmp_buf_alloc: allocating 16777216 bytes
+<6>[   10.256713] omap3isp omap3isp: Revision 15.0 found
+<3>[   10.258605] tda19989 register/probe failed (-19)
+<6>[   10.261352] Driver for 1-wire Dallas network protocol.
+<6>[   10.262329] omap_hdq omap_hdq.0: OMAP HDQ Hardware Rev 0.5. Driver in Interrupt mode
+<6>[   10.345733] usb 1-3: configuration #1 chosen from 1 choice
+<6>[   10.346740] IPC DMA: ch5 for read, ch4 for write
+<6>[   10.374969] qtouch_force_reset: Forcing HW reset
+<3>[   10.375091] Unable to get gpio pin num for touch_pwr_en
+<3>[   10.453063] omap_hdq omap_hdq.0: break wait elapsed
+<6>[   10.455322] OMAP Watchdog Timer Rev 0x31: initial timeout 60 sec
+<6>[   10.456146] Watchdog auto-pet enabled at 45 sec intervals
+<6>[   10.456665] device-mapper: uevent: version 1.0.3
+<6>[   10.457244] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: dm-devel@redhat.com
+<6>[   10.457519] Bluetooth: HCI UART driver ver 2.2
+<6>[   10.457702] Bluetooth: HCI H4 protocol initialized
+<6>[   10.457794] Bluetooth: HCILL protocol initialized
+<6>[   10.458312] cpuidle: using governor ladder
+<6>[   10.458496] cpuidle: using governor menu
+<6>[   10.459594] cpcap_bd7885_probe:CPCAP Probe enter
+<6>[   10.459808] cpcap_bd7885_probe:CPCAP probe exit
+<6>[   10.460418] BU9847 i2c driver : init is completed.
+<6>[   10.460906] Registered led device: af-led
+<6>[   10.461547] Registered led device: button-backlight
+<6>[   10.462036] Registered led device: red
+<6>[   10.462341] Registered led device: green
+<6>[   10.462677] Registered led device: blue
+<6>[   10.463348] Registered led device: keyboard-backlight
+<6>[   10.463714] Registered led device: keyboard1-backlight
+<6>[   10.463989] Registered led device: keyboard2-backlight
+<6>[   10.465850] Registered led device: lcd-backlight
+<6>[   10.466247] cpcap_lm3554_probe:CPCAP Probe enter
+<6>[   10.472961] Registered led device: torch-flash
+<6>[   10.473327] Registered led device: spotlight
+<6>[   10.473449] LM3554 torch initialized
+<6>[   10.473663] cpcap_lm3554_probe:CPCAP torch probe exit
+<6>[   10.475433] usbcore: registered new interface driver usbhid
+<6>[   10.475555] usbhid: v2.6:USB HID core driver
+<6>[   10.476562] logger: created 64K log 'log_main'
+<6>[   10.476898] logger: created 256K log 'log_events'
+<6>[   10.477294] logger: created 64K log 'log_radio'
+<6>[   10.477569] logger: created 64K log 'log_system'
+<4>[   10.480621] Netfilter messages via NETLINK v0.30.
+<4>[   10.480895] nf_conntrack version 0.5.0 (7631 buckets, 30524 max)
+<4>[   10.481262] CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Please use
+<4>[   10.481445] nf_conntrack.acct=1 kernel parameter, acct=1 nf_conntrack module option or
+<4>[   10.481628] sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+<4>[   10.481842] ctnetlink v0.93: registering with nfnetlink.
+<6>[   10.482147] xt_time: kernel timezone is -0000
+<6>[   10.482452] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[   10.482666] arp_tables: (C) 2002 David S. Miller
+<6>[   10.482940] TCP cubic registered
+<6>[   10.483062] Initializing XFRM netlink socket
+<6>[   10.483489] NET: Registered protocol family 10
+<6>[   10.484100] lo: Disabled Privacy Extensions
+<6>[   10.484893] Mobile IPv6
+<6>[   10.485076] IPv6 over IPv4 tunneling driver
+<6>[   10.485961] sit0: Disabled Privacy Extensions
+<6>[   10.486663] ip6tnl0: Disabled Privacy Extensions
+<6>[   10.486938] NET: Registered protocol family 17
+<6>[   10.487091] NET: Registered protocol family 15
+<6>[   10.487213] Bluetooth: L2CAP ver 2.14
+<6>[   10.487396] Bluetooth: L2CAP socket layer initialized
+<6>[   10.487518] Bluetooth: SCO (Voice Link) ver 0.6
+<6>[   10.487701] Bluetooth: SCO socket layer initialized
+<6>[   10.487976] Bluetooth: RFCOMM TTY layer initialized
+<6>[   10.488098] Bluetooth: RFCOMM socket layer initialized
+<6>[   10.488281] Bluetooth: RFCOMM ver 1.11
+<6>[   10.488372] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[   10.488586] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[   10.489410] OMAP DSS rev 2.0
+<6>[   10.489685] OMAP DISPC rev 3.0
+<6>[   10.489959] OMAP DSI rev 1.0
+<6>[   10.492675] do_cmd_proc_msg:EEPROM checksum mismatch 0x  16DE75
+<6>[   10.492889] qtouch_hw_init: Doing hw init
+<6>[   10.499816] qtouch_force_calibration: Forcing calibration
+<7>[   10.648437] DT: width= 480 height= 854
+<7>[   10.648620] DT: hfp=0 hsw=2 hbp=2 vfp=0 vsw=1 vbp=1
+<7>[   10.648742] DT: clk_lane=1 clk_pos=0  data1_lane=2 data1_pos=0
+<7>[   10.648925] DT: data2_lane= 3 data2_pos= 0 xfer_mode= 0 
+<7>[   10.649017] DT: gpio_reset=136 panel_id=0x1a0001 te_scan_line=0x300
+<7>[   10.649230] DT: regn=13 regm=170 regm3=5 regm4=5 lp_clk_div=7 lck_div=1 pck_div=4 
+<6>[   10.694702] te_scan_line is set = 768 
+<4>[   10.707122] mmc0: host does not support reading read-only switch. assuming write-enable.
+<6>[   10.707244] mmc0: new high speed SDHC card at address 1234
+<6>[   10.707946] mmcblk0: mmc0:1234 SA04G 3.67 GiB 
+<6>[   10.708343]  mmcblk0: p1
+<6>[   10.710815] done EDISCO CTRL ENABLE
+<3>[   10.930480] failed dispsw register/probe -19
+<4>[   10.932556] plane 1, # of overlays: 3
+<4>[   10.933776] plane 2, # of overlays: 3
+<2>[   10.935150] omap_is_SEC: fab_id = 1, it is UMC OMAP3630 Silicon
+<3>[   10.935272] Power Management for TI OMAP3.
+<6>[   10.940704] 
+<6>[   10.940704] MAPPHONE PMIC SR init...
+<6>[   10.940979] SR1 : Fused Nvalues for 4 OPP
+<6>[   10.941101] VDD1 - OPP4 -  1G Nvalue = 0xAA9087
+<6>[   10.941284] VDD1 - OPP3 - 800 Nvalue = 0xAACAB7
+<6>[   10.941375] VDD1 - OPP2 - 600 Nvalue = 0xAAF2DC
+<6>[   10.941589] VDD1 - OPP1 - 300 Nvalue = 0x99B1A3
+<6>[   10.941864] SR2 : Fused Nvalues for 2 OPP
+<6>[   10.941986] VDD2 - OPP2 - 200 Nvalue = 0x9A8AF7
+<6>[   10.942169] VDD2 - OPP1 - 100 Nvalue = 0x99F0DA
+<4>[   10.942382] SR: debugfs_create_file failed
+<6>[   10.942565] SmartReflex driver initialized
+<7>[   10.942687] Disabling unused clock "sr2_fck"
+<7>[   10.942810] Disabling unused clock "sr1_fck"
+<7>[   10.942993] Disabling unused clock "gpt2_ick"
+<7>[   10.943115] Disabling unused clock "gpt3_ick"
+<7>[   10.943206] Disabling unused clock "gpt4_ick"
+<7>[   10.943420] Disabling unused clock "gpt5_ick"
+<7>[   10.943511] Disabling unused clock "gpt6_ick"
+<7>[   10.943695] Disabling unused clock "gpt7_ick"
+<7>[   10.943817] Disabling unused clock "gpt8_ick"
+<7>[   10.943908] Disabling unused clock "gpt9_ick"
+<7>[   10.944122] Disabling unused clock "gpio2_dbck"
+<7>[   10.944244] Disabling unused clock "gpio3_dbck"
+<7>[   10.944427] Disabling unused clock "gpio4_dbck"
+<7>[   10.944519] Disabling unused clock "gpio5_dbck"
+<7>[   10.944641] Disabling unused clock "gpio6_dbck"
+<7>[   10.944824] Disabling unused clock "gpt9_fck"
+<7>[   10.944946] Disabling unused clock "gpt8_fck"
+<7>[   10.945159] Disabling unused clock "gpt7_fck"
+<7>[   10.945281] Disabling unused clock "gpt6_fck"
+<7>[   10.945373] Disabling unused clock "gpt5_fck"
+<7>[   10.945587] Disabling unused clock "gpt4_fck"
+<7>[   10.945678] Disabling unused clock "gpt3_fck"
+<7>[   10.945800] Disabling unused clock "gpt2_fck"
+<7>[   10.945983] Disabling unused clock "gpt12_ick"
+<7>[   10.946105] Disabling unused clock "wdt1_ick"
+<7>[   10.946289] Disabling unused clock "usim_ick"
+<7>[   10.946411] Disabling unused clock "gpio1_dbck"
+<7>[   10.946502] Disabling unused clock "usim_fck"
+<7>[   10.946716] Disabling unused clock "rng_ick"
+<7>[   10.946807] Disabling unused clock "ssi_ick"
+<7>[   10.946929] Disabling unused clock "mcbsp_ick"
+<7>[   10.947113] Disabling unused clock "mcbsp_ick"
+<7>[   10.947235] Disabling unused clock "gpt10_ick"
+<7>[   10.947418] Disabling unused clock "mspro_ick"
+<7>[   10.947540] Disabling unused clock "des2_ick"
+<7>[   10.947631] Disabling unused clock "sha12_ick"
+<7>[   10.947845] Disabling unused clock "aes2_ick"
+<7>[   10.947937] Disabling unused clock "icr_ick"
+<7>[   10.948150] Disabling unused clock "ssi_ssr_fck"
+<7>[   10.948242] Disabling unused clock "mcbsp_fck"
+<7>[   10.948364] Disabling unused clock "mcbsp_fck"
+<7>[   10.948547] Disabling unused clock "mspro_fck"
+<7>[   10.948669] Disabling unused clock "gpt10_fck"
+<7>[   10.948883] Disabling unused clock "modem_fck"
+<7>[   10.948974] Disabling unused clock "dpll4_m6x2_ck"
+<7>[   10.949096] Disabling unused clock "dpll3_m3x2_ck"
+<7>[   10.949310] Disabling unused clock "sys_clkout1"
+<3>[   10.949829] sr_recalibrate: 2:2 autocomp was disabled
+<6>[   10.950195] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+<3>[   10.952087] regulator_check_voltage: operation not allowed for vusb
+<6>[   10.952789] cpcap_usb_det cpcap_usb_det: CPCAP USB detection device probed
+<6>[   10.957305] cpcap_rtc cpcap_rtc: setting system clock to 2011-09-23 17:22:29 UTC (1316798549)
+<7>[   10.957611] ov5650_sensor_power_set: power on
+<7>[   10.961090] ov5650_sensor_power_set_standby: power on
+<6>[   10.961181] cam_reset_gpio 98
+<6>[   10.961273] cam_standby_gpio 64
+<6>[   10.961486] mapphone_camera_reg_power - enable vcam
+<6>[   11.008300] qtouch_force_calibration: Forcing calibration
+<6>[   11.008850] do_cmd_proc_msg: Reset done.
+<6>[   11.008941] do_cmd_proc_msg: Self-calibration started.
+<6>[   11.042999] qtouch_hw_init: Doing hw init
+<6>[   11.061676] qtouch_force_calibration: Forcing calibration
+<6>[   11.097137] ov5650 Chip version 0x1e detected
+<7>[   11.097351] ov5650_sensor_power_set_standby: power off
+<6>[   11.109619] video4linux video0: video0 is now omap3/ov5650//
+<6>[   11.110839] HP_GEN_LENS 3-0004: lens probe called....
+<6>[   11.111022] video4linux video0: video0 is now omap3/ov5650/hplens/
+<3>[   11.111114] Registered hplens as V4L2 device.
+<6>[   11.111633] Freeing init memory: 180K
+<4>[   11.111755] Warning: unable to open an initial console.
+<6>[   11.172119] cpcap spi1.0: notify_accy: accy=3
+<6>[   11.214996] keychord: using input dev sholes-keypad for fevent
+<6>[   11.216491] yaffs: dev is 32505863 name is "mtdblock7"
+<6>[   11.216583] yaffs: passed flags ""
+<4>[   11.216674] yaffs: Attempting MTD mount on 31.7, "mtdblock7"
+<4>[   11.244232] yaffs: restored from checkpoint
+<4>[   11.244659] yaffs_read_super: isCheckpointed 1
+<6>[   11.245513] yaffs: dev is 32505865 name is "mtdblock9"
+<6>[   11.245605] yaffs: passed flags ""
+<4>[   11.245697] yaffs: Attempting MTD mount on 31.9, "mtdblock9"
+<4>[   11.259887] yaffs: restored from checkpoint
+<4>[   11.260833] yaffs_read_super: isCheckpointed 1
+<6>[   11.570617] qtouch_force_reset: Forcing HW reset
+<3>[   11.570739] Unable to get gpio pin num for touch_pwr_en
+<6>[   11.723266] qtouch_force_calibration: Forcing calibration
+<6>[   11.723754] do_cmd_proc_msg: Reset done.
+<6>[   11.723846] do_cmd_proc_msg: Self-calibration started.
+<6>[   11.725585] yaffs: dev is 32505864 name is "mtdblock8"
+<6>[   11.725677] yaffs: passed flags ""
+<4>[   11.725769] yaffs: Attempting MTD mount on 31.8, "mtdblock8"
+<4>[   11.728515] yaffs: restored from checkpoint
+<4>[   11.728637] yaffs_read_super: isCheckpointed 1
+<6>[   11.785186] do_cmd_proc_msg: Self-calibration started.
+<6>[   11.911621] qtouch_handle_msg: No handler defined for message from object type 22, report_id 15
+<4>[   13.366180] save exit: isCheckpointed 1
+<4>[   13.388275] save exit: isCheckpointed 1
+<4>[   13.453063] save exit: isCheckpointed 1
+<4>[   13.468719] save exit: isCheckpointed 1
+<6>[   14.077819] yaffs: dev is 32505865 name is "mtdblock9"
+<6>[   14.078033] yaffs: passed flags ""
+<4>[   14.078125] yaffs: Attempting MTD mount on 31.9, "mtdblock9"
+<4>[   14.091979] yaffs: restored from checkpoint
+<4>[   14.092926] yaffs_read_super: isCheckpointed 1
+<6>[   14.093170] yaffs: dev is 32505864 name is "mtdblock8"
+<6>[   14.093353] yaffs: passed flags ""
+<4>[   14.093444] yaffs: Attempting MTD mount on 31.8, "mtdblock8"
+<4>[   14.096191] yaffs: restored from checkpoint
+<4>[   14.096313] yaffs_read_super: isCheckpointed 1
+<6>[   14.096679] yaffs: dev is 32505862 name is "mtdblock6"
+<6>[   14.096832] yaffs: passed flags ""
+<4>[   14.096923] yaffs: Attempting MTD mount on 31.6, "mtdblock6"
+<4>[   14.248962] yaffs_read_super: isCheckpointed 0
+<6>[   14.249206] yaffs: dev is 32505856 name is "mtdblock0"
+<6>[   14.249298] yaffs: passed flags "no-checkpoint"
+<4>[   14.249481] yaffs: Attempting MTD mount on 31.0, "mtdblock0"
+<4>[   14.278717] yaffs_read_super: isCheckpointed 0
+<6>[   14.313842] CPUFREQ: Per core ondemand sysfs interface is deprecated - up_threshold
+<6>[   14.313964] CPUFREQ: Per core ondemand sysfs interface is deprecated - sampling_rate
+<6>[   14.314178] sr_vdd1_autocomp: Already set to 1 
+<4>[   14.998474] overclock: Unknown symbol lookup_symbol_address
+<4>[   14.998901] overclock: Unknown symbol cpufreq_stats_freq_update
+<6>[   15.015136] symsearch: found kallsyms_lookup_name on 0xc00939c4.
+<4>[   15.071289] save exit: isCheckpointed 1
+<4>[   15.077087] save exit: isCheckpointed 1
+<4>[   15.077301] save exit: isCheckpointed 0
+<6>[   15.146057] Running NetMUX
+<6>[   15.156311] Inserting sec module
+<6>[   15.163146] tun: Universal TUN/TAP device driver, 1.6
+<6>[   15.163330] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<4>[   15.166229] slow_work: module license 'unspecified' taints kernel.
+<4>[   15.166412] Disabling lock debugging due to kernel taint
+<5>[   15.194915] Slow work thread pool: Starting up
+<5>[   15.195281] Slow work thread pool: Ready
+<6>[   15.203125] cpcap spi1.0: Probing CPCAP device cpcap_usbled
+<6>[   15.208496] Registered led device: usb
+<6>[   15.220458] VPNClient built on Apr  6 2011 12:33:13
+<4>[   15.220611] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   15.221038] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   15.221343] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<6>[   15.684478] rmnet0: Disabled Privacy Extensions
+<6>[   15.686523] rmnet1: Disabled Privacy Extensions
+<6>[   15.688476] rmnet2: Disabled Privacy Extensions
+<6>[   15.690490] rmnet3: Disabled Privacy Extensions
+<6>[   15.692321] rmnet4: Disabled Privacy Extensions
+<6>[   15.694335] psd_data10: Disabled Privacy Extensions
+<4>[   15.736114] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   15.736450] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   15.736846] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<6>[   15.737670] muxtest_net: Disabled Privacy Extensions
+<4>[   16.009582] save exit: isCheckpointed 1
+<4>[   16.328277] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   16.329315] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   16.330322] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   17.023529] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   17.024566] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   17.025543] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   17.820404] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   17.821411] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   17.822418] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   18.718841] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   18.719879] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   18.721099] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   19.718750] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   19.719757] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   19.720977] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   20.718841] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   20.719879] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   20.721099] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   21.718841] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   21.719848] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   21.721069] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   22.718841] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   22.719848] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   22.721038] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:396: Hook magic failed, could not find a suitable device
+<4>[   23.718841] /localrepo/xfn483/BEGONIA_BUILDS_2.5/platform/vendor/authentec/safenet/vpndriver/linux_hook_magic.c:804: ssh_hook_magic_init exits with return value -3
+<3>[   24.225616] init: untracked pid 1104 exited
+<3>[   24.313476] init: service 'console' requires console
+<3>[   24.314941] init: cannot find '/system/bin/dbvc_atvc_property_set', disabling 'atvc'
+<3>[   24.315155] init: cannot find '/system/bin/telnetd', disabling 'telnet'
+<3>[   24.317657] init: cannot find '/system/bin/ssmgrd', disabling 'ssmgrd'
+<6>[   24.337066] enabling adb
+<6>[   24.416351] adb_open
+<6>[   24.529907] warning: `gkisystem' uses 32-bit capabilities (legacy support in use)
+<6>[   24.558593] cpcap spi1.0: CPCAP uC: open status:0
+<3>[   25.662658] init: untracked pid 1941 exited
+<7>[   26.009338] --------Audio Platform Config-------
+<7>[   26.009338] Analog Downlink: false
+<7>[   26.009338] Independent BT bus: false
+<7>[   26.009338] I2S BP: false
+<7>[   26.009338] 19Mhz BP: false
+<7>[   26.009338] Mic3: false
+<7>[   26.009338] MB_BIAS_R: 0
+<7>[   26.009338] Stereo Loudspeaker: true
+<7>[   26.010589] --------CPCAP register dump---------
+<7>[   26.010681]  0x200 (512) = 0x75
+<7>[   26.010681]  0x201 (513) = 0x0
+<7>[   26.010711]  0x202 (514) = 0x0
+<7>[   26.010711]  0x203 (515) = 0x0
+<7>[   26.010711]  0x204 (516) = 0x0
+<7>[   26.010711]  0x205 (517) = 0x0
+<7>[   26.010711]  0x206 (518) = 0x0
+<7>[   26.010711]  0x207 (519) = 0x0
+<7>[   26.010711]  0x208 (520) = 0x0
+<7>[   26.010711]  0x209 (521) = 0x0
+<7>[   26.010711]  0x20A (522) = 0x0
+<7>[   26.010711]  0x20B (523) = 0x0
+<7>[   26.010742]  0x20C (524) = 0x0
+<7>[   26.010742]  0x20D (525) = 0x30
+<7>[   26.012237] -------End Audio Driver Dump--------
+<6>[   26.012451] AUDIO_DRIVER:spkr1 = 0x0, spkr2 = 0x0
+<7>[   26.045379] turning off regulator
+<7>[   26.057128] turning off regulator
+<7>[   26.070190] turning off regulator
+<7>[   26.075073] turning off regulator
+<7>[   26.080047] turning off regulator
+<6>[   30.517852] Panel is turned on 
+<7>[   34.829223] turning off regulator
+<6>[   34.961120] TIWLAN: driver init
+<6>[   34.961212] TIWLAN SDIO init
+<4>[   34.961425] in sdio_init() sdcnum= 2 
+<4>[   34.981903] in sdioDrv_init(), before platform_driver_register(&sdioDrv_struct)
+<6>[   34.982208] TIWLAN SDIO probe: initializing mmc2 device
+<4>[   34.982391] Configuring SDIO DMA registers!!!
+<4>[   34.982482] pdev->id is 1!!!
+<4>[   35.005157] hPlatform_Wlan_Hardware_Init
+<4>[   35.005249] wifi_add_dev
+<4>[   35.005554] wifi_probe
+<4>[   35.006683] wifi_set_power = 0
+<4>[   35.006835] mapphone_wifi_power: 0
+<4>[   35.023406] drv->irq = 225, 2
+<6>[   35.428222] request_suspend_state: wakeup (3->0) at 27326965387 (2011-09-23 17:22:53.970916748 UTC)
+<4>[   35.703552] wlanDrvIf_Open
+<4>[   35.703643] wlanDrvIf_Start
+<6>[   36.336090] TIWLAN: 256.630848: pInitParams->RoamingScanning_2_4G_enable 0 
+<4>[   36.336730] wifi_set_power = 1
+<4>[   36.336822] mapphone_wifi_power: 1
+<4>[   36.367034] wifi_set_power = 0
+<4>[   36.367156] mapphone_wifi_power: 0
+<4>[   36.390686] wifi_set_power = 1
+<4>[   36.390808] mapphone_wifi_power: 1
+<6>[   36.470092] TIWLAN SDIO sdioDrv_InitHw()!!SDIO clock Configuration is now set to 24Mhz
+<6>[   36.470916] TIWLAN: 256.765705: CHIP VERSION... set 1273 chip top registers
+<6>[   36.471771] TIWLAN: 256.766559: Working on a 1273 PG 2.0 board.
+<6>[   36.476440] TIWLAN: 256.771229: Starting to process NVS...
+<6>[   36.476531] TIWLAN: 256.771320: NVS found, EEPROM Image addr=0xd73dc000, EEPROM Len=0x0x1d4
+<6>[   36.483398] TIWLAN: 256.778156: Chip ID is 0x4030111.
+<6>[   36.483856] TIWLAN: 256.778644: FEM Type 1 
+<6>[   36.484466] TIWLAN: 256.779224: Starting to download firmware...
+<6>[   36.524597] TIWLAN: 256.819355: Starting to download firmware...
+<6>[   36.547424] TIWLAN: 256.842212: Starting to download firmware...
+<6>[   36.547637] TIWLAN: 256.842426: Starting to download firmware...
+<6>[   36.555145] TIWLAN: 256.849933: Starting to download firmware...
+<6>[   36.557373] TIWLAN: 256.852161: Starting to download firmware...
+<6>[   36.564697] TIWLAN: 256.859455: Finished downloading firmware.
+<6>[   36.565063] TIWLAN: 256.859821: Firmware running.
+<6>[   36.615447] ADDRCONF(NETDEV_UP): tiwlan0: link is not ready
+<6>[   36.617218] TIWLAN: 256.911976: 
+<6>[   36.626403] TIWLAN: 256.921161: --------------------------------------------------------------------
+<6>[   36.626495] TIWLAN: 256.921283: Driver Version  : WiLink_Driver_6.1.0.0.131
+<6>[   36.626678] TIWLAN: 256.921467: Firmware Version: Rev 6.151.5.44.22
+<6>[   36.626831] TIWLAN: 256.921619: Station ID      : 40-FC-89-DD-5B-8B
+<6>[   36.626922] TIWLAN: 256.921711: --------------------------------------------------------------------
+<6>[   36.627075] TIWLAN: 256.921863: 
+<6>[   36.677032] TIWLAN: 256.971821: Interrogate TX/RX parameters
+<6>[   37.707092] DisableChannel: ackType = 42,   			     channel = 19, host = 1, client = 1 
+<7>[   38.491607] turning off regulator
+<6>[   38.990356] ADDRCONF(NETDEV_CHANGE): tiwlan0: link becomes ready
+<6>[   39.147277] TIWLAN: 259.442035: connInfra               , CONSOLE:************ NEW CONNECTION ************
+<6>[   39.147583] TIWLAN: 259.442371: ************ NEW CONNECTION ************
+<6>[   39.147766] TIWLAN: 259.442554: siteMgr                 , CONSOLE:-- BSSID = 40-16-9f-af-f1-d6
+<6>[   39.147979] TIWLAN: 259.442768: -- SSID  = MERCURY_AFF1D6 
+<6>[   39.148162] TIWLAN: 259.442951: -- BSSID = 40-16-9f-af-f1-d6
+<6>[   39.148529] TIWLAN: 259.443317: connInfra               , CONSOLE:****************************************
+<6>[   39.148773] TIWLAN: 259.443561: ****************************************
+<6>[   39.417877] tiwlan0: IPv6 duplicate address fe80::42fc:89ff:fedd:5b8b detected!
+<6>[   45.796783] DisableChannel: ackType = 42,   			     channel = 19, host = 1, client = 1 
+<7>[   46.334716] turning off regulator
+<6>[   98.191619] cpcap spi1.0: notify_accy: accy=0
+<6>[   98.202636] musb_pullup - Disabling USB Pullups 
+<6>[   98.217498] musb_pullup - Disabling USB Pullups 
+<6>[   98.320281] musb_pullup - Enabling USB Pullups 
+<6>[   98.429779] device_mode_change_write - Successfully enabled function - charge_adb 
+<6>[   98.609466] MUSB BUS RESET as b_idle
+<6>[   98.723907] MUSB BUS RESET as b_peripheral
+<6>[   98.742492] android_usb gadget: high speed config #1: android
+<6>[   99.245788] MUSB BUS RESET as b_peripheral
+<6>[   99.245910] usbnet_disable
+<7>[   99.246093] mtp_function_disable(): disabled
+<6>[   99.246429] adb_release
+<6>[   99.248168] adb_open
+<6>[   99.357482] MUSB BUS RESET as b_peripheral
+<6>[   99.378509] android_usb gadget: high speed config #1: android
