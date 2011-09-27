@@ -185,7 +185,7 @@ on post-fs
     insmod /system/lib/modules/slow-work.ko
     insmod /system/lib/modules/cifs.ko
     insmod /system/lib/modules/symsearch.ko
-    insmod /system/lib/modules/usbled.ko
+    #insmod /system/lib/modules/usbled.ko
     insmod /system/lib/modules/xt_multiport.ko
     # Load Authentec VPN kernel module
     insmod /system/lib/modules/vpnclient.ko
