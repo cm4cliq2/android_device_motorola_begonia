@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
 	device/motorola/begonia/bootmenu/recovery/sbin/nandroid-md5.sh:system/bootmenu/recovery/sbin/nandroid-md5.sh \
 	device/motorola/begonia/bootmenu/recovery/sbin/parted:system/bootmenu/recovery/sbin/parted \
 	device/motorola/begonia/bootmenu/recovery/sbin/postrecoveryboot.sh:system/bootmenu/recovery/sbin/postrecoveryboot.sh \
-	device/motorola/begonia/bootmenu/recovery/sbin/recovery:system/bootmenu/recovery/sbin/recovery_stable \
+	device/motorola/begonia/bootmenu/recovery/sbin/recovery_stable:system/bootmenu/recovery/sbin/recovery_stable \
 	device/motorola/begonia/bootmenu/recovery/sbin/resize2fs:system/bootmenu/recovery/sbin/resize2fs \
 	device/motorola/begonia/bootmenu/recovery/sbin/sdparted:system/bootmenu/recovery/sbin/sdparted \
 	device/motorola/begonia/bootmenu/recovery/sbin/mke2fs:system/bootmenu/recovery/sbin/mke2fs \

@@ -89,7 +89,7 @@ echo 0 > /sys/class/leds/blue/brightness
 echo 1 > /sys/class/leds/button-backlight/brightness
 
 
-/sbin/recovery
+/sbin/recovery_stable
 
 
 # Post Recovery (back to bootmenu)
