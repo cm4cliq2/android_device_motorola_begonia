@@ -3,7 +3,7 @@
 # load multitouch module
 
 # Module location
-MODULE="/system/lib/modules/multitouch_begonia.ko"
+MODULE="/system/lib/modules/defy_more.ko"
 
 # Max number of fingers
 MAX_TOUCH=`getprop persist.sys.multitouch`
@@ -15,3 +15,4 @@ if [ -n "$MAX_TOUCH" ]; then
     insmod $MODULE touch_num=$MAX_TOUCH
   fi
 fi
+
