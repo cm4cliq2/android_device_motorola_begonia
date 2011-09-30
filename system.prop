@@ -16,6 +16,7 @@ ro.telephony.default_network=3
 # The interfaces to get DNS data from when using mobile data
 # Comma-separated
 mobiledata.interfaces=rmnet0,rmnet1,rmnet2,rmnet3,rmnet4,gannet0
+
 wifi.interface = tiwlan0
 # Time between scans in seconds. Keep it high to minimize battery drain.
 # This only affects the case in which there are remembered access points,
@@ -24,6 +25,7 @@ wifi.supplicant_scan_interval = 95
 
 # Use TI hotspot code
 wifi.hotspot.ti = 1
+
 # The OpenGL ES API level that is natively supported by this device.
 # This is a 16.16 fixed point number
 ro.opengles.version = 131072
@@ -34,6 +36,7 @@ jpeg.libskiahw.decoder.thresh=300000
 
 # Disable Jpeg HW encoder
 jpeg.libskiahw.encoder.enable=0
+
 # This is a high density device with more memory, so larger vm heaps for it.
 dalvik.vm.heapsize=40m
 
@@ -53,7 +56,7 @@ ro.mtp_available=0
 ro.product.use_charge_counter=1
 
 # use default multitouch configuration
-persist.input.multitouch_points=2
+persist.sys.multitouch=2
 
 # required for future java part (common omap3/4)
 # com.ti.omap_enhancement=1

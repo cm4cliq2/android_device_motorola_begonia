@@ -129,3 +129,4 @@ PRODUCT_COPY_FILES += \
 	device/motorola/begonia/bootmenu/ext/modules/cpufreq_userspace.ko:system/bootmenu/ext/modules/cpufreq_userspace.ko \
 	device/motorola/begonia/bootmenu/ext/modules/overclock_defy.ko:system/bootmenu/ext/modules/overclock_defy.ko \
 	device/motorola/begonia/bootmenu/ext/modules/symsearch.ko:system/bootmenu/ext/modules/symsearch.ko
+

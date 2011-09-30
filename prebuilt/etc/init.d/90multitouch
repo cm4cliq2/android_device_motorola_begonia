@@ -3,19 +3,15 @@
 # load multitouch module
 
 # Module location
-
-# no multi touch modules for cliq2 now, so exit it
-exit 0
-
-MODULE="/system/lib/modules/defy_more.ko"
+MODULE="/system/lib/modules/multitouch_begonia.ko"
 
 # Max number of fingers
-MAX_TOUCH=`getprop persist.input.multitouch_points`
+MAX_TOUCH=`getprop persist.sys.multitouch`
 
 # Load the module if MAX_TOUCH > 2
 if [ -n "$MAX_TOUCH" ]; then
+  modprobe -r $MODULE 2>/dev/null
   if [ $MAX_TOUCH -gt 2 ]; then
     insmod $MODULE touch_num=$MAX_TOUCH
   fi
 fi
-
