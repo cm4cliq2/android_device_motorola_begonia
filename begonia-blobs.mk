@@ -119,14 +119,14 @@ PRODUCT_COPY_FILES += \
 	device/motorola/begonia/bootmenu/script/reboot_command.sh:system/bootmenu/script/reboot_command.sh \
 	device/motorola/begonia/bootmenu/script/recovery.sh:system/bootmenu/script/recovery.sh \
 	device/motorola/begonia/bootmenu/script/recovery_stable.sh:system/bootmenu/script/recovery_stable.sh \
-	device/motorola/begonia/bootmenu/script/recoveryexit.sh:system/bootmenu/script/recoveryexit.sh \
-	device/motorola/begonia/bootmenu/ext/modules/cpufreq_conservative.ko:system/bootmenu/ext/modules/cpufreq_conservative.ko \
-	device/motorola/begonia/bootmenu/ext/modules/cpufreq_interactive.ko:system/bootmenu/ext/modules/cpufreq_interactive.ko \
-	device/motorola/begonia/bootmenu/ext/modules/cpufreq_ondemand.ko:system/bootmenu/ext/modules/cpufreq_ondemand.ko \
-	device/motorola/begonia/bootmenu/ext/modules/cpufreq_performance.ko:system/bootmenu/ext/modules/cpufreq_performance.ko \
-	device/motorola/begonia/bootmenu/ext/modules/cpufreq_powersave.ko:system/bootmenu/ext/modules/cpufreq_powersave.ko \
-	device/motorola/begonia/bootmenu/ext/modules/cpufreq_smartass.ko:system/bootmenu/ext/modules/cpufreq_smartass.ko \
-	device/motorola/begonia/bootmenu/ext/modules/cpufreq_userspace.ko:system/bootmenu/ext/modules/cpufreq_userspace.ko \
-	device/motorola/begonia/bootmenu/ext/modules/overclock_defy.ko:system/bootmenu/ext/modules/overclock_defy.ko \
-	device/motorola/begonia/bootmenu/ext/modules/symsearch.ko:system/bootmenu/ext/modules/symsearch.ko
+	device/motorola/begonia/bootmenu/script/recoveryexit.sh:system/bootmenu/script/recoveryexit.sh 
+	#device/motorola/begonia/bootmenu/ext/modules/cpufreq_conservative.ko:system/bootmenu/ext/modules/cpufreq_conservative.ko \
+	#device/motorola/begonia/bootmenu/ext/modules/cpufreq_interactive.ko:system/bootmenu/ext/modules/cpufreq_interactive.ko \
+	#device/motorola/begonia/bootmenu/ext/modules/cpufreq_ondemand.ko:system/bootmenu/ext/modules/cpufreq_ondemand.ko \
+	#device/motorola/begonia/bootmenu/ext/modules/cpufreq_performance.ko:system/bootmenu/ext/modules/cpufreq_performance.ko \
+	#device/motorola/begonia/bootmenu/ext/modules/cpufreq_powersave.ko:system/bootmenu/ext/modules/cpufreq_powersave.ko \
+	#device/motorola/begonia/bootmenu/ext/modules/cpufreq_smartass.ko:system/bootmenu/ext/modules/cpufreq_smartass.ko \
+	#device/motorola/begonia/bootmenu/ext/modules/cpufreq_userspace.ko:system/bootmenu/ext/modules/cpufreq_userspace.ko \
+	#device/motorola/begonia/bootmenu/ext/modules/overclock_defy.ko:system/bootmenu/ext/modules/overclock_defy.ko \
+	#device/motorola/begonia/bootmenu/ext/modules/symsearch.ko:system/bootmenu/ext/modules/symsearch.ko
 
