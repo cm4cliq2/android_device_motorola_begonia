@@ -120,5 +120,5 @@
     <bool name="has_in_call_noise_suppression">true</bool>
 
     <!--CrystalTalk-->
-    <bool name="crystaltalk_enabled">true</bool>
+    <!--bool name="crystaltalk_enabled">true</bool-->
 </resources>
