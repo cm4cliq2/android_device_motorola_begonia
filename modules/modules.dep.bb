@@ -47,5 +47,5 @@ vpnclient.ko
 
 wl127x_test.ko platform:wl127x_test
 
-multitouch_begonia.ko
+defy_more.ko
 
