@@ -61,6 +61,9 @@ persist.sys.multitouch=2
 # required for future java part (common omap3/4)
 # com.ti.omap_enhancement=1
 
+# Shutter sound enabled
+persist.sys.camera-mute=1
+
 # Enable mute switch handling
 ro.config.ringerswitch = 1
 
