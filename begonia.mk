@@ -94,9 +94,7 @@ PRODUCT_PACKAGES += \
 	libOMX.TI.AAC.encode \
 	libOMX.TI.AMR.encode \
 	libOMX.TI.WBAMR.encode \
-	libOMX.TI.MP3.decode \
 	libOMX.TI.JPEG.Encoder \
-	libOMX.TI.Video.Decoder \
 	libOMX.TI.Video.encoder \
 	libVendor_ti_omx \
 	libLCML \
@@ -119,6 +117,8 @@ PRODUCT_PACKAGES += \
 	 libOMX.TI.AMR.decode \
 	 libOMX.TI.WBAMR.decode \
 	 libOMX.TI.WMA.decode \
+	 libOMX.TI.MP3.decode \
+	 libOMX.TI.Video.Decoder \
 	 libOMX.TI.VPP 
 
 # for jpeg hw encoder/decoder
