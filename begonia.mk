@@ -94,7 +94,6 @@ PRODUCT_PACKAGES += \
 	libOMX.TI.AAC.encode \
 	libOMX.TI.AMR.encode \
 	libOMX.TI.WBAMR.encode \
-	libOMX.TI.JPEG.Encoder \
 	libOMX.TI.Video.encoder \
 	libVendor_ti_omx \
 	libLCML \
@@ -109,6 +108,7 @@ PRODUCT_PACKAGES += \
 	bootmenu \
 	Usb \
 	su
+#	libOMX.TI.JPEG.Encoder \
 # libcamera \
 # hijack_boot_2nd-init \
 
