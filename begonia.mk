@@ -33,8 +33,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.media.capture.flash=led \
 	ro.media.capture.flashIntensity=45 \
 	ro.media.capture.torchIntensity=45 \
-	ro.media.capture.classification=classG \
-	ro.media.capture.flip=verticalandhorizontal \
+	ro.media.capture.classification=classH \
+	ro.media.capture.flip=horizontalandvertical \
 	ro.media.capture.flashMinV=3500000 \
 	ro.media.capture.fast.fps=4 \
 	ro.media.capture.slow.fps=60 \
@@ -95,6 +95,7 @@ PRODUCT_PACKAGES += \
 	libOMX.TI.AMR.encode \
 	libOMX.TI.WBAMR.encode \
 	libOMX.TI.Video.encoder \
+	libOMX.TI.JPEG.Encoder \
 	libVendor_ti_omx \
 	libLCML \
 	libOMX_Core \
@@ -108,7 +109,7 @@ PRODUCT_PACKAGES += \
 	bootmenu \
 	Usb \
 	su
-#	libOMX.TI.JPEG.Encoder \
+#	
 # libcamera \
 # hijack_boot_2nd-init \
 
