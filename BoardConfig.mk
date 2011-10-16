@@ -38,6 +38,12 @@ TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a8
 #COMMON_GLOBAL_CFLAGS += -DOMAP_ENHANCEMENT
 #COMMON_GLOBAL_CFLAGS += -DTARGET_OMAP3
 
+# This define is for moto defy
+# Commit see here https://github.com/CyanogenDefy/android_hardware_ti_omap3-compat/commit/31a0928f5459738151581a3618d87691874b1388
+# Though it is for moto defy, but we(cliq2) should use it
+# This should be removed after they change the build flag
+COMMON_GLOBAL_CFLAGS += -DMOTO_FORCE_RECOVERY
+
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := CUSTOM
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := libCustomWifi
