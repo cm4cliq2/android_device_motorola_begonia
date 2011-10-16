@@ -53,6 +53,17 @@ endif
 #PRODUCT_COPY_FILES += \
 #	device/motorola/begonia/prebuilt/app/basebandswitcherV4.0.apk:system/app/basebandswitcherV4.0.apk
 
+# Google framework & market & sync
+PRODUCT_COPY_FILES += \
+	device/motorola/begonia/prebuilt/app/GoogleContactsSyncAdapter.apk:/system/app/GoogleContactsSyncAdapter.apk \
+	device/motorola/begonia/prebuilt/app/GoogleServicesFramework.apk:/system/app/GoogleServicesFramework.apk \
+	device/motorola/begonia/prebuilt/app/MarketUpdater.apk:/system/app/MarketUpdater.apk \
+	device/motorola/begonia/prebuilt/app/Vending.apk:/system/app/Vending.apk \
+	device/motorola/begonia/prebuilt/etc/permissions/com.google.android.maps.xml:/system/etc/permissions/com.google.android.maps.xml \
+	device/motorola/begonia/prebuilt/etc/permissions/features.xml:/system/etc/permissions/features.xml \
+	device/motorola/begonia/prebuilt/framework/com.google.android.maps.jar:/system/framework/com.google.android.maps.jar \
+	device/motorola/begonia/prebuilt/lib/libvoicesearch.so:/system/lib/libvoicesearch.so
+
 #Bootmenu
 PRODUCT_COPY_FILES += \
 	device/motorola/begonia/profiles/cm7_release_files/init.rc:system/bootmenu/2nd-init/init.rc \
