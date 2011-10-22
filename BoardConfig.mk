@@ -44,6 +44,9 @@ TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a8
 # This should be removed after they change the build flag
 # COMMON_GLOBAL_CFLAGS += -DMOTO_FORCE_RECOVERY // change to below
 TARGET_USE_OMX_RECOVERY := true
+# hack for WVGA records 
+COMMON_GLOBAL_CFLAGS += -DINCREASE_WVGA_BUFSIZE
+
 
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := CUSTOM
