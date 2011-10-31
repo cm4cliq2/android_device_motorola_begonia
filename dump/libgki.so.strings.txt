@@ -1,0 +1,1312 @@
+DlEmmiInitSerialPort
+DlSpalInitialise
+DlSpalPortRouting
+DlSpalOpenPortFor
+assertfail
+DlSpalSetSpecToDefault
+DlSpalPortConfiguration
+DlSpalEnableRxDataReadyInt
+DlSpalEnableStatusEventInt
+DLEmmiGlobalVariable
+EmmiRxInterrupt
+EmmiTxInterrupt
+__aeabi_unwind_cpp_pr0
+EmmiHighSendEvent
+Linux_KiOsSetEventGroup
+emmioshiGlobals
+EmmiDmaResetRxBuffer
+DlSpalDisableRxDataReadyInt
+DlSpalResetRxBuffer
+EmmiDmaCheckForTxData
+DlSpalDisableTxBufferReadyInt
+DlSpalTxFromBuffer
+DlSpalEnableTxBufferReadyInt
+EmmiDmaWriteByte
+EmmiUartStartByteTransmit
+EmmiFailedReceive
+EmmiTxProcess
+checkDevParam
+KiOsGetSignalBlock
+KiOsSendSignalBlock
+EmmiReceivedBlock
+AbortTransmission
+dlDisableIrq
+dlEnableIrq
+EmmiReceivedNak
+DlSpalSetNextRxInterruptStep
+KiOsStopTimer
+KiOsThisTask
+KiOsStartTimer
+__aeabi_unwind_cpp_pr1
+EmmiReceivedAck
+EmmiRxProcess
+EmmiDmaCheckForRxData
+DlSpalDisableRxBufferIntOnly
+DlSpalGetCurrentRxDataLocation
+DlSpalRxIntoBuffer
+DlSpalEnableRxBufferIntOnly
+EmmiHighPriTask
+millisecondsToTicks
+Linux_KiOsWaitEventGroup
+DlSpalSetNextRxInterrupt
+KiOsDestroySignalBlock
+KiOsDequeueBlock
+memcpy
+KiTtiProcessCommsRx
+KiOsEnqueueBlock
+EmmiLowPriTask
+memset
+KiOsReceiveSignalBlock
+kiNullUnitQueue
+KiOsSystemIsInitialised
+GlobalKiostimGetTimTaskInitialised
+KiOsProcessStartup
+KiInitialiseProcess
+KiInitialiseTasks
+KiOsReset
+DlSpalPreConfiguration
+KiInitialiseOs
+KiInitialiseStatistics
+LinuxOsGkiResetComplete
+KiOsIsMemorySignal
+KiOsDisableInterrupts
+KiOsEnableInterrupts
+KmMemoryFree
+KiDestroyLoggingBlock
+KiOsGlobalVariable
+kiDynamicMemoryAllocated
+kiDynamicMemoryBlockCount
+kiDynamicMemoryPool
+KiSysSendSignal
+KiSysReceiveSignal
+KmMemoryGet
+KmMemoryGetFail
+kiPeakDynamicMemoryAllocated
+kiPeakDynamicMemoryBlockCount
+KiExamineMemoryCell
+kiTaskSetIndexes
+kiTaskIndexesToInitIndex
+KiInitialiseMemoryPools
+KmMemoryCreatePool
+KiOsSetMemoryCaller
+KmMemoryGetSize
+KiOsFreeMemory
+KiOsResizeMemory
+KmMemoryReSize
+KiOsAllocPollMemory
+KiOsRequestMemoryEx
+KiOsRerequestMemoryEx
+KiOsAllocMemoryEx
+KiOsReallocMemoryEx
+KiOsAllocZeroMemoryEx
+KiRetrieveGlobalMemoryOffset
+KiGetSharedMemoryAddress
+KiCreateGlobalMemoryOffset
+KiOsNumOnQueue
+KiOsOnQueue
+KiOsEnqueue
+kiNullBuffer
+KiOsDequeue
+KiOsFlushQueue
+KiOsDestroySignal
+KiOsFlushBlockQueue
+KiOsPollSemaphore
+LinuxOsPollSemaphore
+kiInitSemCount
+kiSemDefTable
+KiOsWaitSemaphore
+LinuxOsWaitSemaphore
+KiOsIncIntSemaphore
+LinuxOsSetSemaphoreInt
+KiOsIncSemaphore
+LinuxOsSetSemaphore
+KiInitialiseSemaphores
+sprintf
+LinuxOsCreateSemaphore
+KiOsSignalLength
+KiOsDestroyIntSignal
+KiOsLogSignal
+KiTtiFilterLogSignal
+kiSysInterruptNestLevel
+KiOsRequestSignal
+KiOsRequestZeroSignal
+KiOsCreateIntSignal
+KiOsCreateSignal
+KiOsCreateZeroSignal
+KiOsSendIntSignal
+KiSysSendSignalInt
+KiOsSendSignal
+AndroidOsSecurityCheck
+__android_log_print
+securityFlagChecked
+androidLogAllowed
+KiOsReceiveSignalPoll
+KiSysReceiveSignalPoll
+KiTtiProcessReceivedSignal
+KiOsReceiveSignal
+KiFillStatisticsInd
+kiMaximumNumberOfTimers
+kiNumberOfTimers
+KiCalcOneFreeStackSpace
+KiSendStatisticsInd
+KiStatFillInDynamicMemUsageCnf
+KiReportDynamicMemUsage
+KiSendDynamicMemUsageCnf
+KiSendDevCheckInd
+KiOsGetRelativeTime
+strncpy
+KiSendDevAssertInd
+KiSendDevFailInd
+KiHandleDumpMemReq
+KiSendDumpMemReq
+KiOsDetachGki
+kiFillProcessGlobalInfo
+taskProcessTable
+processList
+taskEntryPointTable
+taskIdTaskTable
+kiNumProcesses
+kiNumThreads
+kiNumTasksInProcessTable
+LinuxOsCreateTask
+dlAcquireProcessLocalLock
+LinuxOsAttachPseudoProcess
+LinuxOsIsLeaderProcess
+KiSysGlobalsInitialise
+dlReleaseProcessLocalLock
+KiOsAttachGki
+LinuxOsThisTask
+KiGetErrnoAddr
+kiTaskInitTable
+kiTaskIndexesToIds
+KiOsTimerGlobalVariable
+GlobalKiostimSetTimTaskInitialised
+__aeabi_uidiv
+ticksToMilliseconds
+KiLockTimerAccess
+KiOsMaximumSleep
+KiOsGetCurrentTime
+Linux_QueryCurrentTime
+Linux_QueryRelativeTime
+KiOsTick
+KiOsTimersStartedOrStopped
+KiUnlockTimerAccess
+KiOsGetRemainingTime
+Linux_QueryTimerStatus
+GlobalKiOSTimInialisationGlobalData
+KiTimTaskInitialise
+Linux_StartTickManager
+KiTimerTask
+Linux_UpdateTimerStatus
+KiOsIsSignalInFilter
+KiOsTtiGlobalVariable
+KiTtiGetNextLoggedSignal
+KiTtiGetFirstLoggedSignal
+KiOsLogSignalStruct
+KiOsEnableLogging
+KiOsDisableLogging
+__aeabi_idiv
+gettimeofday
+localtime
+last_sync_time
+KiTtiInitialise
+strcpy
+KiTestTask
+gki_open_log
+getpid
+fopen
+printf
+fputs
+fflush
+__stack_chk_fail
+__stack_chk_guard
+__sF
+remove_gki_path
+strrchr
+gki_print_into_stdout
+strlen
+vsnprintf
+fprintf
+KiPrintf
+vsprintf
+kiTaskStackPool0
+kiTaskQueues
+writen
+KiOsWakeLock
+KiSysInitInputQueue_QID
+KiGetContextDataPointerOffset
+KiOsContextDataPointersGlobalVariable
+KiSetContextDataPointerOffset
+LinuxGetSharedMemoryAddress
+open
+LinuxInitialiseGlobalVariables
+KiOsKernelGlobalVariable
+KmMemoryWalk
+KmMemoryWalkStart
+KiOsValidateDynMemory
+di_displayLine
+di_initialise
+di_control
+write
+socketpair
+pthread_attr_init
+pthread_attr_setdetachstate
+pthread_create
+pthread_attr_destroy
+ioctl
+__errno
+pthread_mutex_lock
+pthread_mutex_unlock
+SetLinuxPriority
+sched_get_priority_min
+sched_get_priority_max
+pthread_getschedparam
+pthread_setschedparam
+pthread_self
+exit
+select
+pthread_exit
+read
+LinuxThList
+DumpGKISharedMemUsageInfo
+property_get
+gettid
+moto_panic
+__assert2
+LinuxFatalError
+write_to_file
+fclose
+sem_post
+sem_wait
+Linux_KiOsCreateEventGroup
+sem_init
+pthread_mutexattr_init
+pthread_mutexattr_setpshared
+pthread_mutex_init
+proc_local_mutex
+ReleaseExclusiveAccess
+dlReenableIrq
+GetExclusiveAccess
+LinuxSendFileDescriptor
+sendmsg
+perror
+LinuxReceiveFileDescriptor
+recvmsg
+close
+LinuxOpenPseudoSocket
+unlink
+socket
+connect
+sleep
+bind
+listen
+sem_trywait
+LinuxOsGetSemaphore
+sem_getvalue
+KiLinuxShutdownShm
+ashmem_create_region
+dup2
+mmap
+g_shm_fd
+LinuxOsPostStartProcessInitialisation
+LinuxOsInitialiseProcess
+LinuxOsThisProcessRunsGki
+LinuxOsNonGkiAction
+strcmp
+pthread_equal
+LinuxSignalHandler
+LinuxOsStartTask
+pthread_attr_setschedpolicy
+accept
+LinuxExit
+LinuxOsProcessStart
+fork
+execvp
+prog1_argv
+ProcessIdNameMappingStore
+LinuxOsPreStartProcessInitialisation
+sched_getparam
+sched_setscheduler
+sem_open
+AndroidOsPreStartProcessInitialisation
+strtol
+getppid
+lseek
+log_file_open
+log_file_fp
+Log_Mutex
+DlSpalOverrideForLogging
+DlSpalQuerySupportedBuffering
+g_dlspalGlobals
+DlSpalGetRts
+DlSpalClearDsr
+DlSpalSetDsr
+DlSpalClearDcd
+DlSpalSetDcd
+DlSpalClearRi
+DlSpalSetRi
+DlSpalDisableStatusEventInt
+DlSpalRxByte
+DlSpalTxByte
+DlSpalGetDtr
+DlSpalClearCts
+DlSpalSetCts
+DlSpalDisableDtrInt
+DlSpalEnableDtrInt
+linuxSpalDisableRxInterrupts
+linuxSpalEnableRxInterrupts
+linuxSpalDisableTxInterrupts
+DlSpalClosePort
+linuxSpalEnableTxInterrupts
+DlSpalRxIntoCircularBuffer
+spalCircularCopyFromUartFifo
+spalCircularCopyFromDmaBuffer
+spalCopyFromUartFifo
+spalCopyFromDmaBuffer
+spalCopyToUartFifo
+spalCopyIntoDmaBuffer
+spalSetDmaRxNotify
+LinuxSpalGetCurrentRxDataLocation
+spalResetDmaRxBuffer
+spalDmaInitialisation
+spalConfigurePort
+spalConfigureInterrupts
+spalConfigureBuffer
+DlSpalForceInitialise
+spalInitDmaBufferStructure
+spalSetDmaBufferAddresses
+linuxSpalInitConfigurePorts
+spalInitialiseDeviceDrivers
+LinuxEnableTxInterrupts
+LinuxDisableTxInterrupts
+LinuxEnableRxInterrupts
+LinuxDisableRxInterrupts
+LinuxSpalCopyFromDmaBuffer
+LinuxSpalCopyIntoDmaBuffer
+LinuxSpalSetNotifyTrigger
+LinuxSpalConfigurePort
+puts
+LinuxSpalResetDmaRxBuffer
+pthread_cond_signal
+epoll_ctl
+setsockopt
+pthread_cond_wait
+send
+getsockname
+memcmp
+recv
+epoll_wait
+strlcpy
+getenv
+epoll_create
+pthread_cond_init
+__cxa_finalize
+__dso_handle
+__INIT_ARRAY__
+__FINI_ARRAY__
+__exidx_start
+__exidx_end
+__data_start
+_edata
+__bss_start
+__bss_start__
+_bss_end__
+__bss_end__
+__end__
+_end
+_stack
+libc.so
+liblog.so
+libcutils.so
+libstdc++.so
+libmotodbgutils.so
+libm.so
+libgki.so
+(H|D%X
+0p+h
+3yDzD
+ N(F	
+=0s`
+&\Y%h
+.p!h
+G M!H}D!JU
+#cpG
+Y,hS
+]K^J{D-
+/Pein
+ 9FBF
+J{D-
+KxD{D
+K	J{D
+#L$J{D
+2FyD
+KKLJ{Dp
+0&X@
+A"L{D
+Y,hS
+/h8x	
++h1FO
+##pcp
+{DzD
+FuHxD
+FFHxD
+F2HxD
+!!p/
+NxD~D
+F^J{D,h
+r}XI
+ XJ@
+yDzD
+244444
+"{DxD
+?H@K
+xD{D
+7K8H{D
+.H/KxD{D
+ *JO
+syDzD
+$H$KxD{D
+yDzD
+%K&J{D
+KKLJp
+"`Zi
+ )J@
+f#yDzD
+k(J!
+&K'H{D
+ K H{D
+JyDzD
+syDzD
+KxD{D
+"{DxD
+" %d
++#yDzD
+%cj k
+cj"kXxE
+(0Cj
+O[aj
+"`MO
+EsxD
+ Xacj
+>0CM
+FxDO
+Su~D
+bjQx
+ajJx
+~HaO
+xDzD
+pbb>
+!D"#L(F
+!H|D&X
+.}Dc
+xD{D
+{D!F
+J1FzD
+C*L+K
+FAF:F
+#JQ!;F
+pcX8h
+)O)N
+|t31
+xDzD#F
+#9JyDzD
+xDzD
+"(K@
+ J1FzD
+IxDyD
+h}D8
+#BJyDzD
+(s=J
+xDzD
+yDBF
+F,HxD
+BI FBJ@
+b#yDzD
+k#<J
+xDzD
+zDIF
+F1HxD
+0H9FBF+X
+{D:F
+ 5JO
+syDzD
+zDAF
+F&HxD
+#yDzD
+zDAF
+F,HxD
+p8h*
+ `$h
+xDyD
+AF:FT
+BF{D
+!IgXT
+ `$h
+@`Bh
+hA`Y
+JyDzD
+F&I~D
+F*hpX
+yD+h
+d`ah
+zD3F
+ h(`"h
+`#`|
+F H{D
+Ih[h
+2FyD
+#`b`
+ FiF
+ F)F
+yD5#
+yD5#
+xDyD5#
+yD5#
+F`X*h
+F	HxD
+JLJI
+uuxD
+{D*F
+F!HxD
+J9FzD
+#3`s`
+HLHI
+9H:JxDzD
+zD3F
+F!HxD
+J9FzD
+#+`k`
+,}D#h
+FaI|D
+BFyD
+FWHxD
+9FzD
+FLHxD
+yDBF
+F8HxD
+(`j` F
+2F`h
+(,(Fp
+FII|D
+xDyD
+!<H<J
+xDzD9F
++sBF
+yDSF
+"BaP
+*`h`
+FMI|D
+BFyD
+FDHxD
+	 Sh
+9FzD
+F9HxD
+yDSF
+ "HT
+`"XcX
++`j`
+*F`h
+F"hXX
+"{DxD
+xDzD
+!!`a`>
+F0I|D
+F*h`X
+:FyD
+F'HxD
+(h!K
+yD2F
+JyDzD
+9F0F
+!)`i`
+F-I}D
+2FyD
+F%HxD
+)FzD
+&`e`
+zD1F
+F,I}D
+2FyD
+F$HxD
+ehCh
+2FyD
+%`f`
+yD*F
+(FiF
+J{Dp
+!#px"
+ F)F2F
+J{Ds
+FlFjF
+(FiF
+F{XjF
+YciF
+ FiF
+ FiF
+FjF@
+ FiF
+K	J{Dp
+|D$h
+#yDzD
+J{D-
+S#yDzD
+xDyDA
+KhX{D
+I{DXX
+D(pG
+@J{D
+%I\X
+SKTJ{D-
++J{D
+5(.F
+ 9F|D
+-N}D@
+F-I|D-O
+0I|D0N`X
+ yD*
+|cEB
+WI|DWN`X
+SIBFyD
+F?HxD
+O` F
+H|D#X
+JyDzD
+8L8K|D
+3W)r
+H%X+h
+|D%OO
+	`0h
+G$L%J
+A6L7I|DfX0h
+F|DT
+DOEI
+p8hBhQ
+A`;h
+`C`2h
+KxD{D
+`B`3h
+KxD{D
+	I}DhX
+BFHF
+F!F:F
+jF+F
+`+`5hhh8
+JyDzD
+`0hAhJ
+B`3h
+.F/F
+AcPJ
+xDzDX#
+kc+J
+xDzD\#
+P#hXh
+F	){D
+ j!F
+"McY
+(F)F
+ F!F
+ {D!F
+!0M F
+/K}D
+zq`h}D
+F	HxD
+F#H|D
+D0cE
+2drd
+(F9F
+"YmZe+h
+15eT
+rJ}D
+eHz!eK@
++[E	
+@F4eU
+(hiF
+AEL|D
+I{DlFZX
+T!jF@
+T!jF
+@CYf`j
+FzHxD
+ QFO
+GszD
+ M J
+}D L
+X|D#h
+yDzD
+I0FyD
+H1FxD
+H1FxD
+H!hxD
+O.L.O
++h*M}DC
+Wh)h
+yD0F
+I(h2FyD
+#L#J
+2F9F(F
+hiF 
+i)Q+Y
+:F8F
+F%IS
+hX"\
+0Fl`
+GkLlJ
+UJ0FyD
+0SIO
+NI0FDJyD
+DIyD0F
+=I0F1JyD
+H}D+XO
+!p`U
+A%L&J
+ NhF
+I(FBF3FyD
+1F("8F
+yD(F;F
+DZKO
+,X"W
+irQpY
+	IXX
+L|D#hc
+JyDzD
+qL|D
+#pJyDzD
+bE9`
+r2`bX
+DX:h
+p9hM`;h
+L0:h
+P08h
+@AMe
+XP8h
+E`2h
+`)F3h
+0h)F
+syDzD
+syDzD
+xDyD#F
+s`eh
+q`ch
+j}!!(}
+A";N)F
+"CF~D
+A"1K)F
+xD{D2F
+E!*K
+xD{D1F
+!"eu&u
+k"HK
+xD{D
+chC`bh
+2"`b`Q
+0;`B
+0`p`
+`(F!F
+IxDyD
+!FCh
++F2F
+OEJ{D
+xD)F|D
+ 9F2F@
+(F9F
+3yI*F
+xDyD;F
+xD{Dqh
+*F;F
+! "i
+31J9F
+xDzD
+0Fc`
+x#F1F
+2(`j`
+8F)F"F
+b#yDzD
+e#yDzD
+!FzD
+L|Dch
+IyDHh
+syDzD
+IzDPhjF
+L|Dch
+IyDHh
+#yDzD
+IzDPhjF
+(M(L}D|Dkh
+h`$IyDHh
+ #J@
+'#yDzD
+IzDPhjF
+!hJ`
+	I F	J@
+yDzD
+#yDzD+
+#yDzD"
+0FiF*F
+#yDzD
+0F!F*F
+#yDzD
+L*h|D
+#yDzD
+xLxO|D
+nNeI~D
+#yDzD=
+LIMJ
+ yD@
+JHxD
+:F0hG
+e2"8F
+	!FHF
+I FyD
+J)FxDzD
+wH3X8F
+pIyD 
+jIBFyD
+cI;FyD
+_Ijh
+hyD 
+SI*iyD 
+iyD 
+"yD 
+gF<M
+:F)F
+:FIF
+f@FZIyD
+FtJ|D
+fHFPIyD
+8F}D
+9FSF
+!xD{D
+ F{D
+0F)F
+F}DY
+xDyD#F
+#yDzD
+JN#yDzD
+J-#yDzD
++h1F
+5h@F
+1FxD
+BF(F;F
+"(F1F
+{D)F
+AMMNI
+n"hX
+HHxD
+h>HxD
+#!FxD
+ F1Fn"
+)HxD
+!@FzD
+1Fn"
+h!HxD
+ K{D
+8F1F
+#yDzD
+#yDzD
+#yDzD
+(F!F
+J}#yDzD
+J[#yDzD
+J:#yDzD
+!$LxD
+syDzD
+I#X(F
+yDzD
+A;L<M
+F|D$h}D
+7H1FxD
+zD F
+'+K"FxD
+$"JxD
+(FzD
+!F:h+F,F
+xpGNa
+ pGpG
+|D\"mF`X
+JxDzD
+IhFyD
+&|D5F
+HhIF
+D`h8`
+CQMRI
+isyDzD
+KIyD
+ AJO
+nsyDzD
+ H IxDyD
+IJFyD
+8h{D
++FbX1F
+ (J@
+U3yDzD
+IxDyD
+ F;h
+!FzD
+ JJO
+-syDO
+h6HxD
+ IFRFO
+8F"F
+]#!F
+CLCH
+&H&IxDyD
+#I:F+FyD
+yDzD
+MdY h!F
+yDzD
+IyDF
+L|D F
+#yDzD
+	IyD
+9L9M
+|D9NbY~D
+6IcX
+#yDzD
+"iF(FnF
+ IyD
+(FiF
+I|DcX
+rA`K
+tAtAa
+){D	
+){D	
+){D$
+yDzD
+yDzD
+yDzD
+yDzD
+IsyDzD
+MsyDzD
+*{D;
+-IXX
+c!JyDzD
+  J@
+cyDzD
+cyDzD
+0xD@
+|D"FyD
+ "FyD@
+ 0JO
+syDzD
+#F1F
+syDzD
+JyDzD
+!0	+
+xD"F
+ (J@
+yDzD
+s|D"FyD
+ "FyDO
+yD	#
+$ F>
+0xD@
+aAJ;F
+xDzD1F
+ F)F
+4)F;F`h
+3 F*F
+lC"F
+xD"F
+F~DB
+ F)F
+. F*F
+	x(F
+yD*F
+J)FS
+xD)F
+*{D'
+TsyDzD
+3yDzD
+Ms F
+F{D*
+F JO
+bsyDzD
+gs!F
+*{D 
+>syD
+ FAF
+ CJ@
+#yDzD
+xD"F
+OxD_N
+ 4	#
+!{DO
+yDzD
+yDzD
+yDzD
+"yDxD{D
+1F(F
+!F(F
+yDzD
+"{DZ`pG
+{DZi
+1F"F
+CyDzD
+%"F)FkF
+2yDLhJ`
+h"FkF
+C:M;I
+hX1F8L
+"1FCF
+h2FCF
+(L|D
+hIFO
+6N7O
+)IyDHh
+$"HF
+M|D}D
+1L1J
++H+J1FxDzD
+0)JyDzD
+ 'J3FyDzD
+jF(F
+F 3ui
+>M>J
+}}D=L
+!3pO
+3K!FO
+! FO
+L|D 
+*F{DXh
+xDyD
+3K4I{D-
+OXX2N
+2M~D
+h|D}D
+30hQF
+(``-
+0``#
+n!JF
+0"yD
+J)F3FzD8F
+J)FCFzD8F
+!*+,0247
+i73M
+checkDevParam
+checkDevParam
+assertfail
+assertfail
+LinuxFatalError
+LinuxFatalError
+spalCircularCopyFromUartFifo
+ANDROID_SOCKET_
+(DLEmmiGlobalVariable->emmiPortHandle) != SPAL_NUM_PORTS
+DLEMMIHI
+EMMI Invalid Tx State
+EMMIOSHI
+emmiGlobals->emmiDmaBlockAddedToFifo != (1)
+emmiGlobals->rxInterruptBlocks[emmiGlobals->emmiCurrentRxBlock].empty == (0)
+((&(emmiGlobals->emmiRetransTimer)))->myTaskId != UNKNOWN_TASK_ID && ((&(emmiGlobals->emmiRetransTimer)))->myTaskId != PASS_THRU_TASK_ID
+((&(emmiGlobals->emmiDmaRxPollTimer)))->myTaskId != UNKNOWN_TASK_ID && ((&(emmiGlobals->emmiDmaRxPollTimer)))->myTaskId != PASS_THRU_TASK_ID
+((&(emmiGlobals->emmiAckTimer)))->myTaskId != UNKNOWN_TASK_ID && ((&(emmiGlobals->emmiAckTimer)))->myTaskId != PASS_THRU_TASK_ID
+Illegal Event
+(Int8)(state->exRxSeqNum + 1) == data[seqByte]
+EMMIOSLO
+Sig with no format
+emmiRxBlockInd->blockIx <= (2)
+state->rxInterruptBlock->empty == (0)
+((KiSignalBaseId)((state->rxBlock->signal.record.id) & 0xFFFFFF00)) <= (((NUM_SIGNAL_BASES + 1) << 8) - 1)
+Shouldn't get here
+((KiSignalBaseId)((state->rxBlock->loggedSignal.record.id) & 0xFFFFFF00)) <= (((NUM_SIGNAL_BASES + 1) << 8) - 1)
+Illegal format
+Can't do that
+((KiSignalBaseId)((state->signalFromTarget->loggedSignal.record.id) & 0xFFFFFF00)) <= (((NUM_SIGNAL_BASES + 1) << 8) - 1)
+((KiSignalBaseId)((state->signalFromTarget->signal.record.id) & 0xFFFFFF00)) <= (((NUM_SIGNAL_BASES + 1) << 8) - 1)
+Cant send a command
+Queueing failure
+state->signalFromTarget->header.format == KI_LOGGED_SIGNAL_FORMAT
+newEntry->next == ((void *)0)
+timer user-id is bad
+(state->rxInterruptBlock->data[0] == 0) || (state->rxInterruptBlock->data[0] == 255)
+state->rxInterruptBlock != ((void *)0)
+Copyright 1997-2008 TTPCom Ltd. Licensed to TTPCom Development
+(((KiOsGlobalVariable->kiDynamicMemoryRequested)) >= theSignal->signal.record.length)
+KIOSLOW
+eRRORcODE == KM_ERR_OK
+KIOSMEM
+*buffer != ((void *) 0)
+(block->header.genHeader.priority == KI_REQUEST_MEMORY) || (block->header.genHeader.priority == KI_ALLOC_MEMORY)
+(((KiOsGlobalVariable->kiDynamicMemoryRequested)) >= block->header.length)
+(Int32)block->header.length <= size
+buffer != ((void *) 0)
+block->header.genHeader.pool == KI_DYNAMIC_MEM_POOL
+*buffer == ((void *) 0)
+(eRRORcODE == KM_ERR_OK) || (eRRORcODE == KM_ERR_ALLOCATION_FAILED)
+queue->count != 0
+KIOSQ
+buffer->type != kiNullBuffer.type
+realStruct->header.format == KI_SIGNAL_FORMAT
+queue->head != ((void *) 0)
+buffer->type == kiNullBuffer.type && buffer->sig == kiNullBuffer.sig
+kiSemId < KI_NUM_SEMAPHORES
+KIOSSEM
+kiInitSemCount[kiSemId] >= 0
+S%03d
+signal->type != kiNullBuffer.type
+KIOSSIG
+signal->sig != kiNullBuffer.sig
+(((KiOsGlobalVariable->kiDynamicMemoryRequested)) >= block->record.length)
+block != ((void *) 0)
+signal->type == kiNullBuffer.type
+signal->sig == kiNullBuffer.sig
+*signal->type <= (((NUM_SIGNAL_BASES + 1) << 8) - 1)
+GKISIG, %d, %d, %d
+LinuxOsIsLeaderProcess() == (0)
+KIOSTASK
+taskIndex < maxTasks
+thisTask < KI_MAX_TASK_ID
+KIOSTIM
+(KiOsTimerGlobalVariable->kiTimFreeListHead) != ((1 << 7) - 1)
+KiOsTimerGlobalVariable
+length < (49152 / sizeof(KiBaseLogType))
+KIOSTTI
+(KiBaseLogType *) (*theSignal) <= &(KiOsTtiGlobalVariable->theLog)[(49152 / sizeof(KiBaseLogType)) - 1]
+theSignal->header.genHeader.pool == KI_POOL_LOGGING
+(KiOsTtiGlobalVariable->kiTtiPendingSignalCount) > 0
+logMemFullBlock != ((void *)0)
+logMemFreeBlock != ((void *)0)
+%02d-%02d %02d:%02d:%02d.%02d
+(((sizeof (KiTtiSignalCounter)) + 7) / 8) <= (signalData->matrixSize - ((signalData->numSets * 4) + (signalData->numBases * 4)))
+TGT: gki_glibc_linux GKI for Linux Mar  1 2011, 14:48:27, DEVELOP: OFF, ASSERTS: ON
+((&timer))->myTaskId != UNKNOWN_TASK_ID && ((&timer))->myTaskId != PASS_THRU_TASK_ID
+sBlock->record.directives.dest != TEST_TASK_ID
+%s%d
+/data/gki/LOG_GKI
+*** fopen() failed for logging file %s ***
+*** fopen() successful for logging file %s ***
+****** START LOGGING ******
+GKI - INFO :
+GKI - INFO : %s: %s(): line=%d:
+KIPRINTF
+KISYS
+GKI_LOCK_TIMER_1 %ld
+GKI_LOCK_TIMER_0
+GKI_LOCK_TIMER_0 %ld
+GKI_LOCK_TIMER_1
+%s%s
+GKI_LOCK_
+motorola/modem/umts/src/mapal/gki.mod/pub/src/kisysglobals.c
+((void *)0) != kiShmBaseAddress
+((void *)0) != shm_addr
+/sys/power/wake_lock
+KiOsWakeLock.kiWakeLockFD != -1
+/sys/power/wake_unlock
+KiOsWakeLock.kiWakeUnLockFD != -1
+valueToCheck != 0
+KMDYNMEM
+l2Index < (1 << 5)
+l1Index < memInfo->numL1Ranges
+(freeBlock->header.prevGlobal != 0xFFFFFFFF) && (freeBlock->header.nextGlobal != 0xFFFFFFFF)
+memInfo->magicNumber == (0x2E49)
+Memory corruption Detected
+motorola/modem/umts/src/mapal/gki.mod/pub/src/kmdynmem.c
+memInfo->level1[l1Index].l2AvailBitmap != 0
+spareMem >= allocSize
+socketpair(1, 1, 0, socketPairFd) == 0
+KILINUX
+/dev/wakeup_timer
+fd_rtc > 0
+/dev/clock_32k
+fd_wt > 0
+0 < write(socketPairFd[1], & token, 1)
+Invalid policy value when determing minimum priority
+Invalid policy value when determing maximum priority
+pthread_getschedparam failed
+pthread_setschedparam failed
+Failed setting priority
+Cannot set rtc timer!
+select() failed!
+GKI_ASSERT
+gsm.version.baseband
+pid:  %d, tid: %d  
+  CRASHED GKI TASKID: %d, --> %s <-- 
+    FREE MEMORY             : %ld	
+    FREE BLOCK COUNT        : %hd	
+    MAX FREE BLOCK SIZE     : %ld
+    TOTAL MEM ALLOCATED     : %ld	
+    TOTAL MEM BLOCK COUNT   : %hd
+    REQUEST MEM ALLOCATED   : %ld	
+    REQUEST MEM BLOCK COUNT : %hd
+    MEM POOL OVERHEAD       : %ld
+    NUM TASK USING MEM      : %hd
+         GKITASKID[%d]  : - %d -	
+TASK_MEMORY_USAGE[%d]   : %ld	
+TASK_BLOCK_COUNT[%d]    : %hd
+[ID=%x,PID=%d,TID=%d,GKI_TID=%d,GKI_T=%s] %s [%d-%d-%d]
+[ID=%x,PID=%d,TID=%d,GKI_TID=%d,GKI_T=%s] [%d-%d-%d]
+motorola/modem/umts/src/mapal/gki.mod/pub/src/linux/kilinuxassert.c
+[ID=%x,PID=%d,TID=%d,GKI_TID=%d,GKI_T=%s] %s
+[ID=%x,PID=%d,TID=%d,GKI_TID=%d,GKI_T=%s] 
+/data/gki/gki_assert_file
+unable to open file
+pEvents!=0
+KILINUXEVENT
+sem_post failed!
+sem_wait failed!
+sem_init failed!
+sendmsg
+KILINUXFDSHARE
+/tmp/commdrv/gki_pseudo_socket
+socket
+connect
+bind
+listen
+sem_trywait failed!
+KILINUXSEMAPHORE
+sem_getvalue failed!
+motorola/modem/umts/src/mapal/gki.mod/pub/src/linux/kilinuxshm.c
+0 <= returnVal
+gki_shared_memory
+tmp_fd>=0
+g_shm_fd>=0
+ro.sys.atvc_allow_gki_log
+Entry Point equal to NULL
+KILINUXTASK
+Error setting thread priority
+/data/gki/gkitasks_current_powerup.txt
+GKITask    :	  PID: %i,  TID: %i,  GKI_TASKID: %d,  GKI_TASK_NAME: %s 
+GKI thread creation failed
+PseudoTask :	  PID: %i,  TID: %i,  GKI_TASKID: %d,  GKI_TASK_NAME: %s 
+accept
+g_shm_fd != -1
+returnVal!=0
+Created Process= %s: Pid= %i, Parentpid = %i 
+fork failed!
+exec failed!
+gkisystem
+/GKIinit
+sem_open failed!
+/tmp/commdrv/gki_leader_file
+fd != -1
+0x%08x
+DLSPALIF
+Example only
+DTR route out of range
+DTR route
+DTR route undefined.
+Port closed had invalid UART
+Port failed to close
+stack < SPAL_NUM_STACKS
+port < SPAL_NUM_PORTS
+dlspalGlobals->spalPort[ port ].valid
+Port opened has invalid UART
+Port failed to open
+(dataPtr <= bufEnd) && (dataPtr >= bufStart)
+FIFO Int posn is fixed
+Req posn within h/w FIFO
+Unable to set trigger in FIFO
+Port Type
+Unexpected buffer mode
+motorola/modem/umts/src/mapal/spal.mod/pub/src/linux/dlspal_linux.c
+spalCircularCopyFromDmaBuffer not implemented
+spalCopyFromUartFifo not implemented
+%s +%d: %s() Enter >>>
+spalCopyToUartFifo not implemented
+LinuxSpalConfigurePort failed
+ Failed shuffling
+LINUXCOMMS
+ro.blan.interface
+GKI USB Interface : Failed to get USB interface name from ro.blan.interface property
+GKI USB Interface : Got usb interface name as %s from property 
+(g_RxHoldingBufferFillLevel <= (512))
+gkilog_sock
