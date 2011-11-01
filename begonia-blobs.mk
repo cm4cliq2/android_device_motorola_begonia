@@ -66,11 +66,11 @@ PRODUCT_COPY_FILES += \
 
 #Bootmenu
 PRODUCT_COPY_FILES += \
-	device/motorola/begonia/profiles/cm7_release_files/init.rc:system/bootmenu/2nd-init/init.rc \
-	device/motorola/begonia/profiles/cm7_release_files/init.mapphone_umts.rc:system/bootmenu/2nd-init/init.mapphone_umts.rc \
-	device/motorola/begonia/profiles/cm7_release_files/ueventd.rc:system/bootmenu/2nd-init/ueventd.rc \
-	device/motorola/begonia/profiles/cm7_release_files/init:system/bootmenu/2nd-init/init \
-	device/motorola/begonia/profiles/cm7_release_files/sbin/ueventd:system/bootmenu/2nd-init/sbin/ueventd \
+	device/motorola/begonia/bootmenu/profiles/cm7_release_files/init.rc:system/bootmenu/2nd-init/init.rc \
+	device/motorola/begonia/bootmenu/profiles/cm7_release_files/init.mapphone_umts.rc:system/bootmenu/2nd-init/init.mapphone_umts.rc \
+	device/motorola/begonia/bootmenu/profiles/cm7_release_files/ueventd.rc:system/bootmenu/2nd-init/ueventd.rc \
+	device/motorola/begonia/bootmenu/profiles/cm7_release_files/init:system/bootmenu/2nd-init/init \
+	device/motorola/begonia/bootmenu/profiles/cm7_release_files/sbin/ueventd:system/bootmenu/2nd-init/sbin/ueventd \
 	device/motorola/begonia/bootmenu/binary/adbd:system/bootmenu/binary/adbd \
 	device/motorola/begonia/bootmenu/binary/logwrapper.bin:system/bootmenu/binary/logwrapper.bin \
 	device/motorola/begonia/bootmenu/binary/logwrapper.bin:system/bin/logwrapper.bin \

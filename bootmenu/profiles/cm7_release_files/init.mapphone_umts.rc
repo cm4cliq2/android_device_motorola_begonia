@@ -214,16 +214,16 @@ on boot
 # Overwrite what init.rc selected for the memory killer params to match above.
     write /sys/module/lowmemorykiller/parameters/minfree 2464,3712,5632,7392,8608,9856
 # Define Motorola DBVC ATVC Property defaults (failsafe properties)
-#    setprop ro.sys.atvc_allow_netmon_usb 0
-#    setprop ro.sys.atvc_allow_netmon_ih 0
-#    setprop ro.sys.atvc_allow_res_core 0
-#    setprop ro.sys.atvc_allow_res_panic 0
-#    setprop ro.sys.atvc_allow_all_adb 0
-#    setprop ro.sys.atvc_allow_all_core 0
-#    setprop ro.sys.atvc_allow_efem 0
-#    setprop ro.sys.atvc_allow_bp_log 0
-#    setprop ro.sys.atvc_allow_ap_mot_log 0
-#    setprop ro.sys.atvc_allow_gki_log 0
+    setprop ro.sys.atvc_allow_netmon_usb 0
+    setprop ro.sys.atvc_allow_netmon_ih 0
+    setprop ro.sys.atvc_allow_res_core 0
+    setprop ro.sys.atvc_allow_res_panic 0
+    setprop ro.sys.atvc_allow_all_adb 0
+    setprop ro.sys.atvc_allow_all_core 0
+    setprop ro.sys.atvc_allow_efem 0
+    setprop ro.sys.atvc_allow_bp_log 0
+    setprop ro.sys.atvc_allow_ap_mot_log 0
+    setprop ro.sys.atvc_allow_gki_log 0
 # Change the ownership of led files.
    chown system system /sys/class/leds/lcd-backlight/als
    chown system system /sys/class/leds/lcd-backlight/pwm_mode
@@ -303,10 +303,10 @@ on property:tcmd.suspend=2
 #start console for userdebug and eng builds
 #on property:ro.debuggable=1
 #    start console
-#on property:ro.sys.atvc_allow_gki_log=1
-#    start gkilogd
-#on property:ro.sys.atvc_allow_gki_log=0
-#    stop gkilogd
+on property:ro.sys.atvc_allow_gki_log=1
+    start gkilogd
+on property:ro.sys.atvc_allow_gki_log=0
+    stop gkilogd
 # Moto safe power down
 on property:sys.reboot=1
     stop ssmgrd
@@ -338,7 +338,7 @@ service atvc /system/bin/dbvc_atvc_property_set
     oneshot
 #service watchdogd /system/bin/watchdogd
 # class pre-zygote_services
-service telnet /system/bin/telnetd
+service telnet /system/xbin/telnetd
     class pre-zygote_services
     oneshot
 service usbd /system/bin/usbd
@@ -445,12 +445,12 @@ service map /system/bin/sdptool add --channel=20 --network=1 MAP
     group bluetooth net_bt_admin
     disabled
     oneshot
-#service tcmd /system/bin/tcmd
-#    class post-zygote_services
-#    group mot_tcmd radio mot_pwric input system log camera graphics mot_accy sdcard_rw audio inet bluetooth wifi compass net_bt_admin mot_tombstone mot_tpapi mount net_raw net_admin
-#    socket local_tcmd stream 0660 mot_tcmd mot_tcmd
-#    socket batch_socket stream 0600 mot_tcmd mot_tcmd
-#    oneshot
+service tcmd /system/bin/tcmd
+    class post-zygote_services
+    group mot_tcmd radio mot_pwric input system log camera graphics mot_accy sdcard_rw audio inet bluetooth wifi compass net_bt_admin mot_tombstone mot_tpapi mount net_raw net_admin
+    socket local_tcmd stream 0660 mot_tcmd mot_tcmd
+    socket batch_socket stream 0600 mot_tcmd mot_tcmd
+    oneshot
 service tcmdhelp /system/bin/tcmdhelp
     class post-zygote_services
     socket tcmdhelp stream 0600 mot_tcmd mot_tcmd
@@ -554,9 +554,9 @@ service locDrv /system/bin/brcm_guci_drv -config /system/etc/gpsconfig.xml
 #service pm_init /system/bin/sh /system/usr/bin/pm_init.sh
 #    class post-zygote_services
 #    oneshot
-#service modemlog /system/bin/modemlog
-#   class pre-zygote_services
-#   oneshot
+service modemlog /system/bin/modemlog
+   class pre-zygote_services
+   oneshot
 # aplogd is controlled by the persist.service.aplogd.enable system property
 #service aplogd /system/bin/aplogd
 #    class post-zygote_services
@@ -617,18 +617,18 @@ service fmradio /system/bin/fmradioserver
 #    stop usbd
 #    start usbd
 #start Authentec VPN service
-#service vpnclientpm /system/bin/vpnclientpm
-#    class post-zygote_services
-#    oneshot
-#    user root
+service vpnclientpm /system/bin/vpnclientpm
+    class post-zygote_services
+    oneshot
+    user root
 #service loadpreinstalls /system/bin/logwrapper /system/bin/loadpreinstalls.sh
 #    disabled
 #    oneshot
 #IKCBS-229 start RescueStarter for MobileRescue
-#service RescueStarter /system/bin/RescueStarter
-#    user nobody
-#    group input graphics
-#    class post-zygote_services
+service RescueStarter /system/bin/RescueStarter
+    user nobody
+    group input graphics
+    class post-zygote_services
 	
 
 #Check available storage space to execute device encryption or decryprion

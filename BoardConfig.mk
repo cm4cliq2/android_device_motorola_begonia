@@ -33,20 +33,10 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_GLOBAL_CFLAGS += -mtune=cortex-a8
 TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a8
-#TARGET_OMAP3 := true
-#OMAP_ENHANCEMENT := true
-#COMMON_GLOBAL_CFLAGS += -DOMAP_ENHANCEMENT
-#COMMON_GLOBAL_CFLAGS += -DTARGET_OMAP3
-
-# This define is for moto defy
-# Commit see here https://github.com/CyanogenDefy/android_hardware_ti_omap3-compat/commit/31a0928f5459738151581a3618d87691874b1388
-# Though it is for moto defy, but we(cliq2) should use it
-# This should be removed after they change the build flag
-# COMMON_GLOBAL_CFLAGS += -DMOTO_FORCE_RECOVERY // change to below
-TARGET_USE_OMX_RECOVERY := true
+TARGET_OMAP3 := true
+COMMON_GLOBAL_CFLAGS += -DTARGET_OMAP3 -DOMAP_COMPAT
 # hack for WVGA records 
 COMMON_GLOBAL_CFLAGS += -DINCREASE_WVGA_BUFSIZE
-
 
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := CUSTOM
@@ -62,23 +52,25 @@ WIFI_DRIVER_FW_STA_PATH     := "/system/etc/wifi/fw_wlan1271.bin"
 WIFI_DRIVER_FW_AP_PATH      := "/system/etc/wifi/fw_tiwlan_ap.bin"
 #PRODUCT_WIRELESS_TOOLS      := true
 
+# omap3 compat global
+HARDWARE_OMX := true
+TARGET_USE_OMX_RECOVERY := true
+TARGET_USE_OMAP_COMPAT  := true
+
 # Camera
 USE_CAMERA_STUB := false
 BOARD_USE_FROYO_LIBCAMERA := true
-# need to make sure if we should enable this define
 BOARD_USE_YUV422I_DEFAULT_COLORFORMAT := true
 
 # Audio
 BOARD_USES_GENERIC_AUDIO := false
-HARDWARE_OMX := true
 BUILD_WITH_TI_AUDIO := 1
 
 # Graphics
 BOARD_EGL_CFG := device/motorola/begonia/egl.cfg
 BOARD_NO_RGBX_8888 := true
 BUILD_PV_VIDEO_ENCODERS := 1	
-#BUILD_JPEG_DECODER := 1
-#BUILD_JPEG_ENCODER := 1
+BOARD_USE_KINETO_COMPATIBILITY := true
 
 # Blue Tooth
 BOARD_HAVE_BLUETOOTH := true
